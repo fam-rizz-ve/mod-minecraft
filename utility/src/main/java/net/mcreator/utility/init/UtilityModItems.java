@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.mcreator.utility.item.OverwordkeyItem;
 import net.mcreator.utility.item.NightelmetItem;
 import net.mcreator.utility.item.NetherkeyItem;
+import net.mcreator.utility.item.LimbokeyItem;
 import net.mcreator.utility.item.FlatkeyItem;
 import net.mcreator.utility.item.EndkeyItem;
 import net.mcreator.utility.UtilityMod;
@@ -24,6 +25,7 @@ public class UtilityModItems {
 	public static final RegistryObject<Item> OVERWORDKEY = REGISTRY.register("overwordkey", () -> new OverwordkeyItem());
 	public static final RegistryObject<Item> NETHERKEY = REGISTRY.register("netherkey", () -> new NetherkeyItem());
 	public static final RegistryObject<Item> ENDKEY = REGISTRY.register("endkey", () -> new EndkeyItem());
+	public static final RegistryObject<Item> LIMBOKEY = REGISTRY.register("limbokey", () -> new LimbokeyItem());
 	// Start of user code block custom items
 	// End of user code block custom items
 }

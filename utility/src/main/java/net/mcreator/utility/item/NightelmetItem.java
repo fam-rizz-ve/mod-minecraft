@@ -1,21 +1,15 @@
 
 package net.mcreator.utility.item;
 
-import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundEvent;
-
-import net.mcreator.utility.procedures.NightelmetHelmetTickEventProcedure;
-
-import com.google.common.collect.Iterables;
 
 public abstract class NightelmetItem extends ArmorItem {
 	public NightelmetItem(ArmorItem.Type type, Item.Properties properties) {
@@ -70,14 +64,6 @@ public abstract class NightelmetItem extends ArmorItem {
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "utility:textures/models/armor/night_helmet_layer_1.png";
-		}
-
-		@Override
-		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
-			super.inventoryTick(itemstack, world, entity, slot, selected);
-			if (entity instanceof Player player && Iterables.contains(player.getArmorSlots(), itemstack)) {
-				NightelmetHelmetTickEventProcedure.execute(entity);
-			}
 		}
 	}
 }

@@ -135,6 +135,12 @@ public class EndKeyRightclickedOnBlockProcedure {
 					capability.syncPlayerVariables(entity);
 				});
 			}
+		} else if (((entity.getCapability(UtilityModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new UtilityModVariables.PlayerVariables())).last_key).equals("limbo key")) {
+			if (entity instanceof Player _player) {
+				ItemStack _setstack = new ItemStack(UtilityModItems.LIMBOKEY.get()).copy();
+				_setstack.setCount(1);
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
 		}
 		{
 			String _setval = "end key";

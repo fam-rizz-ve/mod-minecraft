@@ -10,9 +10,6 @@
     "textureLeggings": "",
     "enableBoots": false,
     "textureBoots": "",
-    "onHelmetTick": {
-      "name": "NightelmetHelmetTickEvent"
-    },
     "creativeTabs": [
       {
         "value": "CUSTOM:Utility"

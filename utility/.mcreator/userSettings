@@ -5,7 +5,12 @@
   "projectBrowserSplitPos": 0,
   "projectBrowserState": {
     "expandedPaths": [
-      "[, utility]"
+      "[, utility]",
+      "[, utility, Source (Gradle)]",
+      "[, utility, Source (Gradle), C:\\Users\\Andrea\\Documents\\GitHub\\mod-minecraft\\utility\\src\\main\\java\\net]",
+      "[, utility, Source (Gradle), C:\\Users\\Andrea\\Documents\\GitHub\\mod-minecraft\\utility\\src\\main\\java\\net, C:\\Users\\Andrea\\Documents\\GitHub\\mod-minecraft\\utility\\src\\main\\java\\net\\mcreator]",
+      "[, utility, Source (Gradle), C:\\Users\\Andrea\\Documents\\GitHub\\mod-minecraft\\utility\\src\\main\\java\\net, C:\\Users\\Andrea\\Documents\\GitHub\\mod-minecraft\\utility\\src\\main\\java\\net\\mcreator, C:\\Users\\Andrea\\Documents\\GitHub\\mod-minecraft\\utility\\src\\main\\java\\net\\mcreator\\utility]",
+      "[, utility, Source (Gradle), C:\\Users\\Andrea\\Documents\\GitHub\\mod-minecraft\\utility\\src\\main\\java\\net, C:\\Users\\Andrea\\Documents\\GitHub\\mod-minecraft\\utility\\src\\main\\java\\net\\mcreator, C:\\Users\\Andrea\\Documents\\GitHub\\mod-minecraft\\utility\\src\\main\\java\\net\\mcreator\\utility, C:\\Users\\Andrea\\Documents\\GitHub\\mod-minecraft\\utility\\src\\main\\java\\net\\mcreator\\utility\\procedures]"
     ]
   }
 }

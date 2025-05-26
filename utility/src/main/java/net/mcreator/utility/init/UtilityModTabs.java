@@ -23,5 +23,6 @@ public class UtilityModTabs {
 				tabData.accept(UtilityModItems.OVERWORDKEY.get());
 				tabData.accept(UtilityModItems.NETHERKEY.get());
 				tabData.accept(UtilityModItems.ENDKEY.get());
+				tabData.accept(UtilityModItems.LIMBOKEY.get());
 			}).build());
 }
