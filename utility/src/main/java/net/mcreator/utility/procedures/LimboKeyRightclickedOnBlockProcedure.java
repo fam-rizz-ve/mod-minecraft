@@ -158,7 +158,7 @@ public class LimboKeyRightclickedOnBlockProcedure {
 				_serverPlayer.connection.teleport(0, 0, 0, _ent.getYRot(), _ent.getXRot());
 		}
 		if (entity instanceof ServerPlayer _player && !_player.level().isClientSide()) {
-			ResourceKey<Level> destinationType = ResourceKey.create(Registries.DIMENSION, new ResourceLocation("utility:limbo"));
+			ResourceKey<Level> destinationType = ResourceKey.create(Registries.DIMENSION, new ResourceLocation("utility:deleted_mod_element"));
 			if (_player.level().dimension() == destinationType)
 				return;
 			ServerLevel nextLevel = _player.server.getLevel(destinationType);

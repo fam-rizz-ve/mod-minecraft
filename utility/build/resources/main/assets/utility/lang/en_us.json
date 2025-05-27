@@ -1,7 +1,5 @@
 {
   "item.utility.endkey": "end key",
-  "item.utility.overwordkey": "Overword key",
-  "item.utility.netherkey": "nether key",
   "item.utility.flatkey": "Flat key",
   "item.utility.limbokey.description_0": "When you grip it, you feel the weight of a thousand whispers that do not belong to this world. Use it only if you have the courage to face the eternal void… for those who enter the Limbo rarely find their way back.",
   "item.utility.limbokey": "Limbo key",
@@ -9,5 +7,7 @@
   "biome.utility.flat_biom": "Flat_biom",
   "key.utility.attivadisattivanighthelmet": "enable/disabilite night vision",
   "biome.utility.void_biom": "Void Biom",
+  "item.utility.overwordkey": "Overword key",
+  "item.utility.netherkey": "nether key",
   "item_group.utility.utility": "Utility"
 }
