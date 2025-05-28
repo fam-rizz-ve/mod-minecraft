@@ -42,7 +42,7 @@
     "maxMonsterSpawnLightLimit": 7,
     "monsterSpawnBlockLightLimit": 0,
     "portalFrame": {
-      "value": "Blocks.GRASS_PATH"
+      "value": "Blocks.MOB_SPAWNER"
     },
     "portalParticles": {
       "value": "PORTAL"

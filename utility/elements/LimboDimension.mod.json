@@ -12,15 +12,15 @@
       "value": "Blocks.DIRT#0"
     },
     "fluidBlock": {
-      "value": "Blocks.DIRT#0"
+      "value": "Blocks.FLOWING_WATER"
     },
-    "seaLevel": 63,
+    "seaLevel": -100,
     "generateOreVeins": false,
     "generateAquifers": false,
     "horizontalNoiseSize": 1,
     "verticalNoiseSize": 2,
     "defaultEffects": "overworld",
-    "useCustomEffects": false,
+    "useCustomEffects": true,
     "hasClouds": true,
     "cloudHeight": 192.0,
     "skyType": "NONE",
@@ -33,7 +33,7 @@
     "fixedTimeValue": 0,
     "coordinateScale": 1.0,
     "infiniburnTag": "minecraft:infiniburn_overworld",
-    "bedWorks": true,
+    "bedWorks": false,
     "hasSkyLight": true,
     "imitateOverworldBehaviour": true,
     "piglinSafe": false,
@@ -42,7 +42,7 @@
     "maxMonsterSpawnLightLimit": 7,
     "monsterSpawnBlockLightLimit": 0,
     "portalFrame": {
-      "value": "Blocks.GRASS_PATH"
+      "value": ""
     },
     "portalParticles": {
       "value": "PORTAL"
@@ -51,8 +51,8 @@
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "enableIgniter": false,
-    "igniterName": "Flatdimention Portal Igniter",
+    "enableIgniter": true,
+    "igniterName": "Limbo Dimension Portal Igniter",
     "igniterRarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
@@ -63,7 +63,7 @@
       }
     ],
     "texture": "",
-    "portalTexture": "flat_portal",
+    "portalTexture": "",
     "enablePortal": false
   }
 }
