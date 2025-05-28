@@ -318,18 +318,31 @@
       "path": "~/dimension/limbo"
     },
     {
-      "name": "Poweressence",
+      "name": "PowerEssence",
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "poweressence",
+      "registry_name": "power_essence",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/utility/item/PoweressenceItem.java",
-          "src/main/resources/assets/utility/models/item/poweressence.json"
+          "src/main/java/net/mcreator/utility/item/PowerEssenceItem.java",
+          "src/main/resources/assets/utility/models/item/power_essence.json"
         ]
       },
       "path": "~/enchantment/Power_essence"
+    },
+    {
+      "name": "Gravity",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/potion/GravityMobEffect.java"
+        ]
+      },
+      "path": "~/Potion/New_effect"
     }
   ],
   "variable_elements": [
@@ -429,16 +442,17 @@
   "language_map": {
     "en_us": {
       "item.utility.endkey": "end key",
-      "item.utility.poweressence": "Power essence",
       "item.utility.overwordkey": "Overword key",
       "item.utility.netherkey": "nether key",
       "item.utility.flatkey": "Flat key",
+      "item.utility.power_essence": "Power Essence",
       "item.utility.limbokey.description_0": "When you grip it, you feel the weight of a thousand whispers that do not belong to this world. Use it only if you have the courage to face the eternal void… for those who enter the Limbo rarely find their way back.",
       "item.utility.limbokey": "Limbo key",
       "item.utility.nightelmet_helmet": "Night Helmet",
       "biome.utility.flat_biom": "Flat_biom",
       "key.utility.attivadisattivanighthelmet": "enable/disabilite night vision",
       "biome.utility.void_biom": "Void Biom",
+      "effect.utility.gravity": "Gravity",
       "item_group.utility.utility": "Utility"
     }
   },
@@ -488,6 +502,19 @@
           },
           {
             "name": "Enchantment variant",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Potion",
+        "children": [
+          {
+            "name": "New_effect",
+            "children": []
+          },
+          {
+            "name": "Effect_on_tool",
             "children": []
           }
         ]

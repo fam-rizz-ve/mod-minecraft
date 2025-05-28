@@ -8,8 +8,8 @@
       "registry_name": "nightelmet",
       "metadata": {
         "files": [
-          "src/main/resources/assets/utility/models/item/nightelmet_helmet.json",
-          "src/main/java/net/mcreator/utility/item/NightelmetItem.java"
+          "src/main/java/net/mcreator/utility/item/NightelmetItem.java",
+          "src/main/resources/assets/utility/models/item/nightelmet_helmet.json"
         ]
       },
       "path": "~/night_helmet"
@@ -66,8 +66,8 @@
       "registry_name": "overwordkey",
       "metadata": {
         "files": [
-          "src/main/resources/assets/utility/models/item/overwordkey.json",
-          "src/main/java/net/mcreator/utility/item/OverwordkeyItem.java"
+          "src/main/java/net/mcreator/utility/item/OverwordkeyItem.java",
+          "src/main/resources/assets/utility/models/item/overwordkey.json"
         ]
       },
       "path": "~/key/item"
@@ -99,8 +99,8 @@
       "registry_name": "netherkey",
       "metadata": {
         "files": [
-          "src/main/resources/assets/utility/models/item/netherkey.json",
-          "src/main/java/net/mcreator/utility/item/NetherkeyItem.java"
+          "src/main/java/net/mcreator/utility/item/NetherkeyItem.java",
+          "src/main/resources/assets/utility/models/item/netherkey.json"
         ]
       },
       "path": "~/key/item"
@@ -127,9 +127,9 @@
       "registry_name": "flat_biom",
       "metadata": {
         "files": [
-          "src/main/resources/data/utility/worldgen/biome/flat_biom.json",
+          "src/main/resources/data/utility/worldgen/configured_feature/flat_biom_tree.json",
           "src/main/resources/data/utility/worldgen/placed_feature/flat_biom_tree.json",
-          "src/main/resources/data/utility/worldgen/configured_feature/flat_biom_tree.json"
+          "src/main/resources/data/utility/worldgen/biome/flat_biom.json"
         ]
       },
       "path": "~/dimension/flat"
@@ -291,19 +291,6 @@
       "path": "~/key/procedure"
     },
     {
-      "name": "VoidBiom",
-      "type": "biome",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "void_biom",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/utility/worldgen/biome/void_biom.json"
-        ]
-      },
-      "path": "~/dimension/limbo"
-    },
-    {
       "name": "LimboDimension",
       "type": "dimension",
       "compiles": true,
@@ -316,6 +303,46 @@
         ]
       },
       "path": "~/dimension/limbo"
+    },
+    {
+      "name": "PowerEssence",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_essence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/item/PowerEssenceItem.java",
+          "src/main/resources/assets/utility/models/item/power_essence.json"
+        ]
+      },
+      "path": "~/enchantment/Power_essence"
+    },
+    {
+      "name": "Gravity",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/potion/GravityMobEffect.java"
+        ]
+      },
+      "path": "~/Potion/New_effect"
+    },
+    {
+      "name": "Poweresscrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poweresscrafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/recipes/power_crafting.json"
+        ]
+      },
+      "path": "~/enchantment/Power_essence"
     }
   ],
   "variable_elements": [
@@ -405,25 +432,22 @@
     }
   ],
   "sound_elements": [],
-  "tag_elements": {
-    "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~Blocks.GRASS_PATH",
-      "~Blocks.DIRT#0"
-    ]
-  },
+  "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "item.utility.endkey": "end key",
+      "item.utility.overwordkey": "Overword key",
+      "item.utility.netherkey": "nether key",
       "item.utility.flatkey": "Flat key",
+      "item.utility.power_essence": "Power Essence",
       "item.utility.limbokey.description_0": "When you grip it, you feel the weight of a thousand whispers that do not belong to this world. Use it only if you have the courage to face the eternal void… for those who enter the Limbo rarely find their way back.",
       "item.utility.limbokey": "Limbo key",
       "item.utility.nightelmet_helmet": "Night Helmet",
       "biome.utility.flat_biom": "Flat_biom",
       "key.utility.attivadisattivanighthelmet": "enable/disabilite night vision",
       "biome.utility.void_biom": "Void Biom",
-      "item.utility.overwordkey": "Overword key",
-      "item.utility.netherkey": "nether key",
+      "effect.utility.gravity": "Gravity",
       "item_group.utility.utility": "Utility"
     }
   },
@@ -473,6 +497,19 @@
           },
           {
             "name": "Enchantment variant",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Potion",
+        "children": [
+          {
+            "name": "New_effect",
+            "children": []
+          },
+          {
+            "name": "Effect_on_tool",
             "children": []
           }
         ]
