@@ -319,7 +319,6 @@
       "path": "~/enchantment/Power_essence"
     },
     {
-<<<<<<<< HEAD:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250528_185659
       "name": "Gravity",
       "type": "potioneffect",
       "compiles": true,
@@ -333,8 +332,6 @@
       "path": "~/Potion/New_effect"
     },
     {
-========
->>>>>>>> 0cc72d7d5fc5ff516ac24ca258c9bca3d0624f4e:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250528_190445
       "name": "Poweresscrafting",
       "type": "recipe",
       "compiles": true,
@@ -489,10 +486,7 @@
       "biome.utility.flat_biom": "Flat_biom",
       "key.utility.attivadisattivanighthelmet": "enable/disabilite night vision",
       "biome.utility.void_biom": "Void Biom",
-<<<<<<<< HEAD:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250528_185659
       "effect.utility.gravity": "Gravity",
-========
->>>>>>>> 0cc72d7d5fc5ff516ac24ca258c9bca3d0624f4e:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250528_190445
       "gui.utility.ancent_anvi.label_ancent_anvil": "Ancent Anvil",
       "item_group.utility.utility": "Utility"
     }

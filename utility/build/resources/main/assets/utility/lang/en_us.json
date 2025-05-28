@@ -11,7 +11,10 @@
   "biome.utility.flat_biom": "Flat_biom",
   "key.utility.attivadisattivanighthelmet": "enable/disabilite night vision",
   "biome.utility.void_biom": "Void Biom",
+<<<<<<< HEAD
   "effect.utility.gravity": "Gravity",
+=======
+>>>>>>> 0cc72d7d5fc5ff516ac24ca258c9bca3d0624f4e
   "gui.utility.ancent_anvi.label_ancent_anvil": "Ancent Anvil",
   "item_group.utility.utility": "Utility"
 }
