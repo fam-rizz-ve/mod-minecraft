@@ -258,21 +258,6 @@
       "path": "~/night_helmet"
     },
     {
-      "name": "Limbo",
-      "type": "dimension",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "limbo",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/utility/dimension_type/limbo.json",
-          "src/main/resources/data/utility/dimension/limbo.json",
-          "src/main/java/net/mcreator/utility/world/dimension/LimboDimension.java"
-        ]
-      },
-      "path": "~/dimension/limbo"
-    },
-    {
       "name": "Limbokey",
       "type": "item",
       "compiles": true,
@@ -317,6 +302,53 @@
         ]
       },
       "path": "~/dimension/limbo"
+    },
+    {
+      "name": "LimboDimension",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "limbo_dimension",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/dimension_type/limbo_dimension.json",
+          "src/main/resources/data/utility/dimension/limbo_dimension.json"
+        ]
+      },
+      "path": "~/dimension/limbo"
+    },
+    {
+      "name": "PowerEssenceHasItemGlowingEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_essence_has_item_glowing_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/procedures/PowerEssenceHasItemGlowingEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/enchantment/Power_essence"
+    },
+    {
+      "name": "PowerEssence",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_essence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/item/PowerEssenceItem.java",
+          "src/main/resources/assets/utility/models/item/power_essence.json"
+        ]
+      },
+      "path": "~/enchantment/Power_essence"
     }
   ],
   "variable_elements": [
@@ -408,9 +440,6 @@
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~Blocks.AIR",
-      "~Blocks.STONE#5",
-      "~Blocks.POLISHED_ANDESITE_SLAB",
       "~Blocks.GRASS_PATH",
       "~Blocks.DIRT#0"
     ]
@@ -419,15 +448,16 @@
   "language_map": {
     "en_us": {
       "item.utility.endkey": "end key",
+      "item.utility.overwordkey": "Overword key",
+      "item.utility.netherkey": "nether key",
       "item.utility.flatkey": "Flat key",
+      "item.utility.power_essence": "Power Essence",
       "item.utility.limbokey.description_0": "When you grip it, you feel the weight of a thousand whispers that do not belong to this world. Use it only if you have the courage to face the eternal void… for those who enter the Limbo rarely find their way back.",
       "item.utility.limbokey": "Limbo key",
       "item.utility.nightelmet_helmet": "Night Helmet",
       "biome.utility.flat_biom": "Flat_biom",
       "key.utility.attivadisattivanighthelmet": "enable/disabilite night vision",
       "biome.utility.void_biom": "Void Biom",
-      "item.utility.overwordkey": "Overword key",
-      "item.utility.netherkey": "nether key",
       "item_group.utility.utility": "Utility"
     }
   },
@@ -460,6 +490,36 @@
           },
           {
             "name": "limbo",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "enchantment",
+        "children": [
+          {
+            "name": "Power_essence",
+            "children": []
+          },
+          {
+            "name": "Powerfull_enchantment ",
+            "children": []
+          },
+          {
+            "name": "Enchantment variant",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Potion",
+        "children": [
+          {
+            "name": "New_effect",
+            "children": []
+          },
+          {
+            "name": "Effect_on_tool",
             "children": []
           }
         ]

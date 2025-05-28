@@ -316,6 +316,25 @@
         ]
       },
       "path": "~/dimension/limbo"
+    },
+    {
+      "name": "PowerEssenceHasItemGlowingEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_essence_has_item_glowing_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/procedures/PowerEssenceHasItemGlowingEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/enchantment/Power_essence"
     }
   ],
   "variable_elements": [
@@ -415,6 +434,8 @@
   "language_map": {
     "en_us": {
       "item.utility.endkey": "end key",
+      "item.utility.overwordkey": "Overword key",
+      "item.utility.netherkey": "nether key",
       "item.utility.flatkey": "Flat key",
       "item.utility.limbokey.description_0": "When you grip it, you feel the weight of a thousand whispers that do not belong to this world. Use it only if you have the courage to face the eternal void… for those who enter the Limbo rarely find their way back.",
       "item.utility.limbokey": "Limbo key",
@@ -422,8 +443,6 @@
       "biome.utility.flat_biom": "Flat_biom",
       "key.utility.attivadisattivanighthelmet": "enable/disabilite night vision",
       "biome.utility.void_biom": "Void Biom",
-      "item.utility.overwordkey": "Overword key",
-      "item.utility.netherkey": "nether key",
       "item_group.utility.utility": "Utility"
     }
   },
@@ -456,6 +475,23 @@
           },
           {
             "name": "limbo",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "enchantment",
+        "children": [
+          {
+            "name": "Power_essence",
+            "children": []
+          },
+          {
+            "name": "Powerfull_enchantment ",
+            "children": []
+          },
+          {
+            "name": "Enchantment variant",
             "children": []
           }
         ]

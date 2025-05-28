@@ -258,21 +258,6 @@
       "path": "~/night_helmet"
     },
     {
-      "name": "Limbo",
-      "type": "dimension",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "limbo",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/utility/dimension_type/limbo.json",
-          "src/main/resources/data/utility/dimension/limbo.json",
-          "src/main/java/net/mcreator/utility/world/dimension/LimboDimension.java"
-        ]
-      },
-      "path": "~/dimension/limbo"
-    },
-    {
       "name": "Limbokey",
       "type": "item",
       "compiles": true,
@@ -317,6 +302,34 @@
         ]
       },
       "path": "~/dimension/limbo"
+    },
+    {
+      "name": "LimboDimension",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "limbo_dimension",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/dimension_type/limbo_dimension.json",
+          "src/main/resources/data/utility/dimension/limbo_dimension.json"
+        ]
+      },
+      "path": "~/dimension/limbo"
+    },
+    {
+      "name": "Poweressence",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poweressence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/item/PoweressenceItem.java",
+          "src/main/resources/assets/utility/models/item/poweressence.json"
+        ]
+      },
+      "path": "~/enchantment/Power_essence"
     }
   ],
   "variable_elements": [
@@ -408,9 +421,6 @@
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~Blocks.AIR",
-      "~Blocks.STONE#5",
-      "~Blocks.POLISHED_ANDESITE_SLAB",
       "~Blocks.GRASS_PATH",
       "~Blocks.DIRT#0"
     ]
@@ -419,6 +429,7 @@
   "language_map": {
     "en_us": {
       "item.utility.endkey": "end key",
+      "item.utility.poweressence": "Power essence",
       "item.utility.overwordkey": "Overword key",
       "item.utility.netherkey": "nether key",
       "item.utility.flatkey": "Flat key",
@@ -460,6 +471,23 @@
           },
           {
             "name": "limbo",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "enchantment",
+        "children": [
+          {
+            "name": "Power_essence",
+            "children": []
+          },
+          {
+            "name": "Powerfull_enchantment ",
+            "children": []
+          },
+          {
+            "name": "Enchantment variant",
             "children": []
           }
         ]

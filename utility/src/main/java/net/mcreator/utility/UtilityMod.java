@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.utility.init.UtilityModTabs;
+import net.mcreator.utility.init.UtilityModMobEffects;
 import net.mcreator.utility.init.UtilityModItems;
 import net.mcreator.utility.init.UtilityModBlocks;
 
@@ -46,6 +47,8 @@ public class UtilityMod {
 		UtilityModItems.REGISTRY.register(bus);
 
 		UtilityModTabs.REGISTRY.register(bus);
+
+		UtilityModMobEffects.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

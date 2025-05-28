@@ -459,6 +459,23 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "enchantment",
+        "children": [
+          {
+            "name": "Power_essence",
+            "children": []
+          },
+          {
+            "name": "Powerfull_enchantment ",
+            "children": []
+          },
+          {
+            "name": "Enchantment variant",
+            "children": []
+          }
+        ]
       }
     ]
   },
