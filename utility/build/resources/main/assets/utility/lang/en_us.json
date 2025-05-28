@@ -1,5 +1,6 @@
 {
   "item.utility.endkey": "end key",
+  "block.utility.ancent_anvil": "Ancent Anvil",
   "item.utility.overwordkey": "Overword key",
   "item.utility.netherkey": "nether key",
   "item.utility.flatkey": "Flat key",
@@ -10,6 +11,6 @@
   "biome.utility.flat_biom": "Flat_biom",
   "key.utility.attivadisattivanighthelmet": "enable/disabilite night vision",
   "biome.utility.void_biom": "Void Biom",
-  "effect.utility.gravity": "Gravity",
+  "gui.utility.ancent_anvi.label_ancent_anvil": "Ancent Anvil",
   "item_group.utility.utility": "Utility"
 }

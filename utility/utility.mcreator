@@ -319,19 +319,6 @@
       "path": "~/enchantment/Power_essence"
     },
     {
-      "name": "Gravity",
-      "type": "potioneffect",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gravity",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/utility/potion/GravityMobEffect.java"
-        ]
-      },
-      "path": "~/Potion/New_effect"
-    },
-    {
       "name": "Poweresscrafting",
       "type": "recipe",
       "compiles": true,
@@ -486,7 +473,6 @@
       "biome.utility.flat_biom": "Flat_biom",
       "key.utility.attivadisattivanighthelmet": "enable/disabilite night vision",
       "biome.utility.void_biom": "Void Biom",
-      "effect.utility.gravity": "Gravity",
       "gui.utility.ancent_anvi.label_ancent_anvil": "Ancent Anvil",
       "item_group.utility.utility": "Utility"
     }
