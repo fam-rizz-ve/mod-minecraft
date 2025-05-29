@@ -366,6 +366,29 @@
         ]
       },
       "path": "~/enchantment/Power_essence_enchant"
+    },
+    {
+      "name": "LavaEssenceNegative",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_essence_negative",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/procedures/LavaEssenceNegativeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/enchantment/Power_essence_enchant"
     }
   ],
   "variable_elements": [
