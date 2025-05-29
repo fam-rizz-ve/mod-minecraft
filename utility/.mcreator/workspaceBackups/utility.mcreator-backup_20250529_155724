@@ -329,54 +329,30 @@
           "src/main/resources/data/utility/recipes/power_crafting.json"
         ]
       },
-<<<<<<<< HEAD:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250528_184258
-      "path": "~/Potion/New_effect"
-    },
-    {
-      "name": "Poweresscrafting",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "poweresscrafting",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/utility/recipes/power_crafting.json"
-        ]
-      },
-========
->>>>>>>> 0cc72d7d5fc5ff516ac24ca258c9bca3d0624f4e:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250528_185215
       "path": "~/enchantment/Power_essence"
     },
     {
-      "name": "AncentAnvil",
-      "type": "block",
+      "name": "Netherite_Swordwith_Essence_procedure",
+      "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ancent_anvil",
+      "registry_name": "netherite_swordwith_essence_procedure",
       "metadata": {
         "files": [
-          "src/main/resources/assets/utility/models/item/ancent_anvil.json",
-          "src/main/java/net/mcreator/utility/block/AncentAnvilBlock.java",
-          "src/main/resources/assets/utility/blockstates/ancent_anvil.json",
-          "src/main/resources/assets/utility/models/block/ancent_anvil.json",
-          "src/main/resources/data/utility/loot_tables/blocks/ancent_anvil.json"
+          "src/main/java/net/mcreator/utility/procedures/Netherite_Swordwith_Essence_procedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       },
-      "path": "~/enchantment/Enchantemnt_block"
-    },
-    {
-      "name": "AncentAnvi",
-      "type": "gui",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ancent_anvi",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/utility/world/inventory/AncentAnviMenu.java",
-          "src/main/java/net/mcreator/utility/client/gui/AncentAnviScreen.java"
-        ]
-      },
-      "path": "~/enchantment/Enchantemnt_block"
+      "path": "~/enchantment/Power_essence_enchant"
     }
   ],
   "variable_elements": [
@@ -466,19 +442,11 @@
     }
   ],
   "sound_elements": [],
-  "tag_elements": {
-    "BLOCKS:minecraft:needs_diamond_tool": [
-      "~CUSTOM:AncentAnvil"
-    ],
-    "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:AncentAnvil"
-    ]
-  },
+  "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "item.utility.endkey": "end key",
-      "block.utility.ancent_anvil": "Ancent Anvil",
       "item.utility.overwordkey": "Overword key",
       "item.utility.netherkey": "nether key",
       "item.utility.flatkey": "Flat key",
@@ -489,11 +457,7 @@
       "biome.utility.flat_biom": "Flat_biom",
       "key.utility.attivadisattivanighthelmet": "enable/disabilite night vision",
       "biome.utility.void_biom": "Void Biom",
-<<<<<<<< HEAD:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250528_184258
       "effect.utility.gravity": "Gravity",
-========
->>>>>>>> 0cc72d7d5fc5ff516ac24ca258c9bca3d0624f4e:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250528_185215
-      "gui.utility.ancent_anvi.label_ancent_anvil": "Ancent Anvil",
       "item_group.utility.utility": "Utility"
     }
   },
@@ -526,7 +490,12 @@
           },
           {
             "name": "limbo",
-            "children": []
+            "children": [
+              {
+                "name": "essenction distilizer",
+                "children": []
+              }
+            ]
           }
         ]
       },
@@ -538,15 +507,11 @@
             "children": []
           },
           {
-            "name": "Powerfull_enchantment ",
-            "children": []
-          },
-          {
             "name": "Enchantment variant",
             "children": []
           },
           {
-            "name": "Enchantemnt_block",
+            "name": "Power_essence_enchant",
             "children": []
           }
         ]

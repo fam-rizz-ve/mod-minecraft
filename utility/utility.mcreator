@@ -330,6 +330,43 @@
         ]
       },
       "path": "~/enchantment/Power_essence"
+    },
+    {
+      "name": "Netherite_Swordwith_Essence_procedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_swordwith_essence_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/procedures/Netherite_Swordwith_Essence_procedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/enchantment/Power_essence_enchant"
+    },
+    {
+      "name": "NetheriteSwordwithEssence",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_swordwith_essence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/utility/models/item/netherite_swordwith_essence.json",
+          "src/main/java/net/mcreator/utility/item/NetheriteSwordwithEssenceItem.java"
+        ]
+      },
+      "path": "~/enchantment/Power_essence_enchant"
     }
   ],
   "variable_elements": [
@@ -419,13 +456,18 @@
     }
   ],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:NetheriteSwordwithEssence"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "item.utility.endkey": "end key",
       "item.utility.overwordkey": "Overword key",
       "item.utility.netherkey": "nether key",
+      "item.utility.netherite_swordwith_essence": "Netherite Sword",
       "item.utility.flatkey": "Flat key",
       "item.utility.power_essence": "Power Essence",
       "item.utility.limbokey.description_0": "When you grip it, you feel the weight of a thousand whispers that do not belong to this world. Use it only if you have the courage to face the eternal void… for those who enter the Limbo rarely find their way back.",

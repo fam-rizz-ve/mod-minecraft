@@ -305,28 +305,6 @@
       "path": "~/dimension/limbo"
     },
     {
-<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250528_180915
-========
-      "name": "PowerEssenceHasItemGlowingEffect",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "power_essence_has_item_glowing_effect",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/utility/procedures/PowerEssenceHasItemGlowingEffectProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      },
-      "path": "~/enchantment/Power_essence"
-    },
-    {
->>>>>>>> Stashed changes:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250528_182231
       "name": "PowerEssence",
       "type": "item",
       "compiles": true,
@@ -341,20 +319,6 @@
       "path": "~/enchantment/Power_essence"
     },
     {
-      "name": "Gravity",
-      "type": "potioneffect",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gravity",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/utility/potion/GravityMobEffect.java"
-        ]
-      },
-      "path": "~/Potion/New_effect"
-<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250528_180915
-    },
-    {
       "name": "Poweresscrafting",
       "type": "recipe",
       "compiles": true,
@@ -366,8 +330,29 @@
         ]
       },
       "path": "~/enchantment/Power_essence"
-========
->>>>>>>> Stashed changes:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250528_182231
+    },
+    {
+      "name": "Netherite_Swordwith_Essence_procedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_swordwith_essence_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/procedures/Netherite_Swordwith_Essence_procedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/enchantment/Power_essence_enchant"
     }
   ],
   "variable_elements": [
@@ -454,6 +439,12 @@
       "type": "string",
       "scope": "player_persistent",
       "value": "\"false\""
+    },
+    {
+      "name": "perc_loot",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
     }
   ],
   "sound_elements": [],
@@ -505,7 +496,12 @@
           },
           {
             "name": "limbo",
-            "children": []
+            "children": [
+              {
+                "name": "essenction distilizer",
+                "children": []
+              }
+            ]
           }
         ]
       },
@@ -517,11 +513,11 @@
             "children": []
           },
           {
-            "name": "Powerfull_enchantment ",
+            "name": "Enchantment variant",
             "children": []
           },
           {
-            "name": "Enchantment variant",
+            "name": "Power_essence_enchant",
             "children": []
           }
         ]

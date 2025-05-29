@@ -14,6 +14,7 @@ import net.mcreator.utility.item.PowerEssenceItem;
 import net.mcreator.utility.item.OverwordkeyItem;
 import net.mcreator.utility.item.NightelmetItem;
 import net.mcreator.utility.item.NetherkeyItem;
+import net.mcreator.utility.item.NetheriteSwordwithEssenceItem;
 import net.mcreator.utility.item.LimbokeyItem;
 import net.mcreator.utility.item.FlatkeyItem;
 import net.mcreator.utility.item.EndkeyItem;
@@ -28,6 +29,7 @@ public class UtilityModItems {
 	public static final RegistryObject<Item> ENDKEY = REGISTRY.register("endkey", () -> new EndkeyItem());
 	public static final RegistryObject<Item> LIMBOKEY = REGISTRY.register("limbokey", () -> new LimbokeyItem());
 	public static final RegistryObject<Item> POWER_ESSENCE = REGISTRY.register("power_essence", () -> new PowerEssenceItem());
+	public static final RegistryObject<Item> NETHERITE_SWORDWITH_ESSENCE = REGISTRY.register("netherite_swordwith_essence", () -> new NetheriteSwordwithEssenceItem());
 	// Start of user code block custom items
 	// End of user code block custom items
 }

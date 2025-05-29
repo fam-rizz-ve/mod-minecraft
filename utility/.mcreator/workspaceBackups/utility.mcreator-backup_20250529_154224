@@ -305,39 +305,6 @@
       "path": "~/dimension/limbo"
     },
     {
-<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250528_180845
-      "name": "PowerEssence",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "power_essence",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/utility/item/PowerEssenceItem.java",
-          "src/main/resources/assets/utility/models/item/power_essence.json"
-========
-      "name": "PowerEssenceHasItemGlowingEffect",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "power_essence_has_item_glowing_effect",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/utility/procedures/PowerEssenceHasItemGlowingEffectProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
->>>>>>>> Stashed changes:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250528_181718
-        ]
-      },
-      "path": "~/enchantment/Power_essence"
-    },
-    {
-<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250528_180845
-========
       "name": "PowerEssence",
       "type": "item",
       "compiles": true,
@@ -352,18 +319,17 @@
       "path": "~/enchantment/Power_essence"
     },
     {
->>>>>>>> Stashed changes:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250528_181718
-      "name": "Gravity",
-      "type": "potioneffect",
+      "name": "Poweresscrafting",
+      "type": "recipe",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gravity",
+      "registry_name": "poweresscrafting",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/utility/potion/GravityMobEffect.java"
+          "src/main/resources/data/utility/recipes/power_crafting.json"
         ]
       },
-      "path": "~/Potion/New_effect"
+      "path": "~/enchantment/Power_essence"
     }
   ],
   "variable_elements": [
@@ -501,7 +467,12 @@
           },
           {
             "name": "limbo",
-            "children": []
+            "children": [
+              {
+                "name": "essenction distilizer",
+                "children": []
+              }
+            ]
           }
         ]
       },
@@ -513,11 +484,11 @@
             "children": []
           },
           {
-            "name": "Powerfull_enchantment ",
+            "name": "Enchantment variant",
             "children": []
           },
           {
-            "name": "Enchantment variant",
+            "name": "Power_essence_enchant",
             "children": []
           }
         ]
