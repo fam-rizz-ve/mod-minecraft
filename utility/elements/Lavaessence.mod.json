@@ -11,21 +11,12 @@
     "incompatibleEnchantments": [],
     "supportedItems": [
       {
-        "value": "Items.WOODEN_SWORD"
-      },
-      {
-        "value": "Items.IRON_SWORD"
-      },
-      {
-        "value": "Items.DIAMOND_SWORD"
-      },
-      {
-        "value": "Items.NETHERITE_SWORD"
+        "value": "TAG:minecraft:enchantable/sword"
       }
     ],
     "isTreasureEnchantment": false,
     "isCurse": false,
-    "canGenerateInLootTables": true,
+    "canGenerateInLootTables": false,
     "canVillagerTrade": true
   }
 }

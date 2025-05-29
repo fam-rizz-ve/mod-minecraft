@@ -4,13 +4,13 @@ package net.mcreator.utility.enchantment;
 import net.minecraft.world.item.enchantment.EnchantmentCategory;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.tags.ItemTags;
+import net.minecraft.resources.ResourceLocation;
 
 public class LavaessenceEnchantment extends Enchantment {
-	private static final EnchantmentCategory ENCHANTMENT_CATEGORY = EnchantmentCategory.create("utility_lavaessence",
-			item -> Ingredient.of(new ItemStack(Items.WOODEN_SWORD), new ItemStack(Items.IRON_SWORD), new ItemStack(Items.DIAMOND_SWORD), new ItemStack(Items.NETHERITE_SWORD)).test(new ItemStack(item)));
+	private static final EnchantmentCategory ENCHANTMENT_CATEGORY = EnchantmentCategory.create("utility_lavaessence", item -> Ingredient.of(ItemTags.create(new ResourceLocation("minecraft:enchantable/sword"))).test(new ItemStack(item)));
 
 	public LavaessenceEnchantment() {
 		super(Enchantment.Rarity.COMMON, ENCHANTMENT_CATEGORY, EquipmentSlot.values());
@@ -24,5 +24,10 @@ public class LavaessenceEnchantment extends Enchantment {
 	@Override
 	public int getMaxCost(int level) {
 		return 6 + level * 10;
+	}
+
+	@Override
+	public boolean isDiscoverable() {
+		return false;
 	}
 }
