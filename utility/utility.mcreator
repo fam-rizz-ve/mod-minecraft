@@ -343,6 +343,29 @@
         ]
       },
       "path": "~/enchantment/Power_essence_enchant"
+    },
+    {
+      "name": "LavaEssenceActivate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_essence_activate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/procedures/LavaEssenceActivateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/enchantment/Power_essence_enchant"
     }
   ],
   "variable_elements": [
