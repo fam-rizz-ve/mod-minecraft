@@ -1,0 +1,19 @@
+
+/*
+ *	MCreator note: This file will be REGENERATED on each build.
+ */
+package net.mcreator.utility.init;
+
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
+
+import net.minecraft.world.item.enchantment.Enchantment;
+
+import net.mcreator.utility.enchantment.LavaessenceEnchantment;
+import net.mcreator.utility.UtilityMod;
+
+public class UtilityModEnchantments {
+	public static final DeferredRegister<Enchantment> REGISTRY = DeferredRegister.create(ForgeRegistries.ENCHANTMENTS, UtilityMod.MODID);
+	public static final RegistryObject<Enchantment> LAVAESSENCE = REGISTRY.register("lavaessence", () -> new LavaessenceEnchantment());
+}

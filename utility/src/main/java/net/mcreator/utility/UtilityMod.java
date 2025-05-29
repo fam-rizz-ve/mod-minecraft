@@ -19,6 +19,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.utility.init.UtilityModTabs;
 import net.mcreator.utility.init.UtilityModItems;
+import net.mcreator.utility.init.UtilityModEnchantments;
 import net.mcreator.utility.init.UtilityModBlocks;
 
 import java.util.function.Supplier;
@@ -45,6 +46,7 @@ public class UtilityMod {
 
 		UtilityModItems.REGISTRY.register(bus);
 
+		UtilityModEnchantments.REGISTRY.register(bus);
 		UtilityModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init

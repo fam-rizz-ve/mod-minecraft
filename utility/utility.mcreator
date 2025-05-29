@@ -330,6 +330,19 @@
         ]
       },
       "path": "~/enchantment/Power_essence"
+    },
+    {
+      "name": "Lavaessence",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavaessence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/enchantment/LavaessenceEnchantment.java"
+        ]
+      },
+      "path": "~/enchantment/Power_essence_enchant"
     }
   ],
   "variable_elements": [
@@ -424,6 +437,7 @@
   "language_map": {
     "en_us": {
       "item.utility.endkey": "end key",
+      "enchantment.utility.lavaessence": "Lava essence",
       "item.utility.overwordkey": "Overword key",
       "item.utility.netherkey": "nether key",
       "item.utility.flatkey": "Flat key",
