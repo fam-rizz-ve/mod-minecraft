@@ -11,13 +11,11 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.utility.block.FlatdimentionPortalBlock;
-import net.mcreator.utility.block.AncentAnvilBlock;
 import net.mcreator.utility.UtilityMod;
 
 public class UtilityModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, UtilityMod.MODID);
 	public static final RegistryObject<Block> FLATDIMENTION_PORTAL = REGISTRY.register("flatdimention_portal", () -> new FlatdimentionPortalBlock());
-	public static final RegistryObject<Block> ANCENT_ANVIL = REGISTRY.register("ancent_anvil", () -> new AncentAnvilBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

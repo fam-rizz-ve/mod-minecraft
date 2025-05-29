@@ -305,28 +305,6 @@
       "path": "~/dimension/limbo"
     },
     {
-<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250528_180915
-========
-      "name": "PowerEssenceHasItemGlowingEffect",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "power_essence_has_item_glowing_effect",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/utility/procedures/PowerEssenceHasItemGlowingEffectProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      },
-      "path": "~/enchantment/Power_essence"
-    },
-    {
->>>>>>>> Stashed changes:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250528_182231
       "name": "PowerEssence",
       "type": "item",
       "compiles": true,
@@ -352,7 +330,6 @@
         ]
       },
       "path": "~/Potion/New_effect"
-<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250528_180915
     },
     {
       "name": "Poweresscrafting",
@@ -366,8 +343,37 @@
         ]
       },
       "path": "~/enchantment/Power_essence"
-========
->>>>>>>> Stashed changes:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250528_182231
+    },
+    {
+      "name": "AncentAnvil",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancent_anvil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/utility/models/item/ancent_anvil.json",
+          "src/main/java/net/mcreator/utility/block/AncentAnvilBlock.java",
+          "src/main/resources/assets/utility/blockstates/ancent_anvil.json",
+          "src/main/resources/assets/utility/models/block/ancent_anvil.json",
+          "src/main/resources/data/utility/loot_tables/blocks/ancent_anvil.json"
+        ]
+      },
+      "path": "~/enchantment/Enchantemnt_block"
+    },
+    {
+      "name": "AncentAnvi",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancent_anvi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/world/inventory/AncentAnviMenu.java",
+          "src/main/java/net/mcreator/utility/client/gui/AncentAnviScreen.java"
+        ]
+      },
+      "path": "~/enchantment/Enchantemnt_block"
     }
   ],
   "variable_elements": [
@@ -457,11 +463,19 @@
     }
   ],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:AncentAnvil"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:AncentAnvil"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "item.utility.endkey": "end key",
+      "block.utility.ancent_anvil": "Ancent Anvil",
       "item.utility.overwordkey": "Overword key",
       "item.utility.netherkey": "nether key",
       "item.utility.flatkey": "Flat key",
@@ -473,6 +487,7 @@
       "key.utility.attivadisattivanighthelmet": "enable/disabilite night vision",
       "biome.utility.void_biom": "Void Biom",
       "effect.utility.gravity": "Gravity",
+      "gui.utility.ancent_anvi.label_ancent_anvil": "Ancent Anvil",
       "item_group.utility.utility": "Utility"
     }
   },
@@ -505,7 +520,12 @@
           },
           {
             "name": "limbo",
-            "children": []
+            "children": [
+              {
+                "name": "essenction distilizer",
+                "children": []
+              }
+            ]
           }
         ]
       },
@@ -522,6 +542,10 @@
           },
           {
             "name": "Enchantment variant",
+            "children": []
+          },
+          {
+            "name": "Enchantemnt_block",
             "children": []
           }
         ]
