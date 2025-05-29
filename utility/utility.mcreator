@@ -330,29 +330,6 @@
         ]
       },
       "path": "~/enchantment/Power_essence"
-    },
-    {
-      "name": "Netherite_Swordwith_Essence_procedure",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "netherite_swordwith_essence_procedure",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/utility/procedures/Netherite_Swordwith_Essence_procedureProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/enchantment/Power_essence_enchant"
     }
   ],
   "variable_elements": [
