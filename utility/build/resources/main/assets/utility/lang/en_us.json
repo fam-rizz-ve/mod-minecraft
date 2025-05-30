@@ -11,6 +11,7 @@
   "biome.utility.flat_biom": "Flat_biom",
   "key.utility.attivadisattivanighthelmet": "enable/disabilite night vision",
   "biome.utility.void_biom": "Void Biom",
+  "enchantment.utility.wateressence": "water essence",
   "effect.utility.gravity": "Gravity",
   "item_group.utility.utility": "Utility"
 }

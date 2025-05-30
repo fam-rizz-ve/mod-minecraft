@@ -16,11 +16,12 @@ public class LavaEssenceActivateProcedure {
 			return;
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(UtilityModEnchantments.LAVAESSENCE.get()) == 1) {
 			if (entity instanceof LivingEntity _livEnt2 && _livEnt2.getMobType() == MobType.UNDEAD) {
-				if (Mth.nextInt(RandomSource.create(), 1, 5) == Mth.nextInt(RandomSource.create(), 1, 5)) {
-					if (!entity.level().isClientSide())
-						entity.discard();
-				} else {
-					entity.setSecondsOnFire(100);
+				entity.setSecondsOnFire(100);
+				if ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) == 5) {
+					if (Mth.nextInt(RandomSource.create(), 1, 5) == 3) {
+						if (!entity.level().isClientSide())
+							entity.discard();
+					}
 				}
 			}
 		}
