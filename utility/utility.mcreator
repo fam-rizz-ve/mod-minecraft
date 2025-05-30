@@ -368,14 +368,27 @@
       "path": "~/enchantment/Power_essence_enchant"
     },
     {
-      "name": "LavaEssenceNegative",
+      "name": "Wateressence",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wateressence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/enchantment/WateressenceEnchantment.java"
+        ]
+      },
+      "path": "~/enchantment/Power_essence_enchant"
+    },
+    {
+      "name": "WaterEssenceActivate",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lava_essence_negative",
+      "registry_name": "water_essence_activate",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/utility/procedures/LavaEssenceNegativeProcedure.java"
+          "src/main/java/net/mcreator/utility/procedures/WaterEssenceActivateProcedure.java"
         ],
         "dependencies": [
           {
@@ -494,6 +507,7 @@
       "biome.utility.flat_biom": "Flat_biom",
       "key.utility.attivadisattivanighthelmet": "enable/disabilite night vision",
       "biome.utility.void_biom": "Void Biom",
+      "enchantment.utility.wateressence": "water essence",
       "effect.utility.gravity": "Gravity",
       "item_group.utility.utility": "Utility"
     }

@@ -332,14 +332,27 @@
       "path": "~/enchantment/Power_essence"
     },
     {
-      "name": "Netherite_Swordwith_Essence_procedure",
+      "name": "Lavaessence",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavaessence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/enchantment/LavaessenceEnchantment.java"
+        ]
+      },
+      "path": "~/enchantment/Power_essence_enchant"
+    },
+    {
+      "name": "LavaEssenceActivate",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "netherite_swordwith_essence_procedure",
+      "registry_name": "lava_essence_activate",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/utility/procedures/Netherite_Swordwith_Essence_procedureProcedure.java"
+          "src/main/java/net/mcreator/utility/procedures/LavaEssenceActivateProcedure.java"
         ],
         "dependencies": [
           {
@@ -439,12 +452,6 @@
       "type": "string",
       "scope": "player_persistent",
       "value": "\"false\""
-    },
-    {
-      "name": "perc_loot",
-      "type": "number",
-      "scope": "player_persistent",
-      "value": "0"
     }
   ],
   "sound_elements": [],
@@ -453,6 +460,7 @@
   "language_map": {
     "en_us": {
       "item.utility.endkey": "end key",
+      "enchantment.utility.lavaessence": "Lava essence",
       "item.utility.overwordkey": "Overword key",
       "item.utility.netherkey": "nether key",
       "item.utility.flatkey": "Flat key",

@@ -332,14 +332,27 @@
       "path": "~/enchantment/Power_essence"
     },
     {
-      "name": "Netherite_Swordwith_Essence_procedure",
+      "name": "Lavaessence",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavaessence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/enchantment/LavaessenceEnchantment.java"
+        ]
+      },
+      "path": "~/enchantment/Power_essence_enchant"
+    },
+    {
+      "name": "LavaEssenceActivate",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "netherite_swordwith_essence_procedure",
+      "registry_name": "lava_essence_activate",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/utility/procedures/Netherite_Swordwith_Essence_procedureProcedure.java"
+          "src/main/java/net/mcreator/utility/procedures/LavaEssenceActivateProcedure.java"
         ],
         "dependencies": [
           {
@@ -355,15 +368,14 @@
       "path": "~/enchantment/Power_essence_enchant"
     },
     {
-      "name": "NetheriteSwordwithEssence",
-      "type": "tool",
+      "name": "Wateressence",
+      "type": "enchantment",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "netherite_swordwith_essence",
+      "registry_name": "wateressence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/utility/models/item/netherite_swordwith_essence.json",
-          "src/main/java/net/mcreator/utility/item/NetheriteSwordwithEssenceItem.java"
+          "src/main/java/net/mcreator/utility/enchantment/WateressenceEnchantment.java"
         ]
       },
       "path": "~/enchantment/Power_essence_enchant"
@@ -456,18 +468,14 @@
     }
   ],
   "sound_elements": [],
-  "tag_elements": {
-    "ITEMS:minecraft:swords": [
-      "~CUSTOM:NetheriteSwordwithEssence"
-    ]
-  },
+  "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "item.utility.endkey": "end key",
+      "enchantment.utility.lavaessence": "Lava essence",
       "item.utility.overwordkey": "Overword key",
       "item.utility.netherkey": "nether key",
-      "item.utility.netherite_swordwith_essence": "Netherite Sword",
       "item.utility.flatkey": "Flat key",
       "item.utility.power_essence": "Power Essence",
       "item.utility.limbokey.description_0": "When you grip it, you feel the weight of a thousand whispers that do not belong to this world. Use it only if you have the courage to face the eternal void… for those who enter the Limbo rarely find their way back.",
@@ -476,6 +484,7 @@
       "biome.utility.flat_biom": "Flat_biom",
       "key.utility.attivadisattivanighthelmet": "enable/disabilite night vision",
       "biome.utility.void_biom": "Void Biom",
+      "enchantment.utility.wateressence": "water essence",
       "effect.utility.gravity": "Gravity",
       "item_group.utility.utility": "Utility"
     }
