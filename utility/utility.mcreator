@@ -402,6 +402,19 @@
         ]
       },
       "path": "~/enchantment/Power_essence_enchant"
+    },
+    {
+      "name": "Creeperessence",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creeperessence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/enchantment/CreeperessenceEnchantment.java"
+        ]
+      },
+      "path": "~/enchantment/Power_essence_enchant"
     }
   ],
   "variable_elements": [
@@ -497,6 +510,7 @@
     "en_us": {
       "item.utility.endkey": "end key",
       "enchantment.utility.lavaessence": "Lava essence",
+      "enchantment.utility.creeperessence": "water essence",
       "item.utility.overwordkey": "Overword key",
       "item.utility.netherkey": "nether key",
       "item.utility.flatkey": "Flat key",

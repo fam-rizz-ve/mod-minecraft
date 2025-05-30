@@ -366,6 +366,42 @@
         ]
       },
       "path": "~/enchantment/Power_essence_enchant"
+    },
+    {
+      "name": "Wateressence",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wateressence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/enchantment/WateressenceEnchantment.java"
+        ]
+      },
+      "path": "~/enchantment/Power_essence_enchant"
+    },
+    {
+      "name": "WaterEssenceActivate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_essence_activate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/procedures/WaterEssenceActivateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/enchantment/Power_essence_enchant"
     }
   ],
   "variable_elements": [
@@ -471,6 +507,7 @@
       "biome.utility.flat_biom": "Flat_biom",
       "key.utility.attivadisattivanighthelmet": "enable/disabilite night vision",
       "biome.utility.void_biom": "Void Biom",
+      "enchantment.utility.wateressence": "water essence",
       "effect.utility.gravity": "Gravity",
       "item_group.utility.utility": "Utility"
     }

@@ -366,6 +366,55 @@
         ]
       },
       "path": "~/enchantment/Power_essence_enchant"
+    },
+    {
+      "name": "Wateressence",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wateressence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/enchantment/WateressenceEnchantment.java"
+        ]
+      },
+      "path": "~/enchantment/Power_essence_enchant"
+    },
+    {
+      "name": "WaterEssenceActivate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_essence_activate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/procedures/WaterEssenceActivateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/enchantment/Power_essence_enchant"
+    },
+    {
+      "name": "Creeperessence",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creeperessence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/enchantment/CreeperessenceEnchantment.java"
+        ]
+      },
+      "path": "~/enchantment/Power_essence_enchant"
     }
   ],
   "variable_elements": [
@@ -461,6 +510,7 @@
     "en_us": {
       "item.utility.endkey": "end key",
       "enchantment.utility.lavaessence": "Lava essence",
+      "enchantment.utility.creeperessence": "water essence",
       "item.utility.overwordkey": "Overword key",
       "item.utility.netherkey": "nether key",
       "item.utility.flatkey": "Flat key",
@@ -471,6 +521,7 @@
       "biome.utility.flat_biom": "Flat_biom",
       "key.utility.attivadisattivanighthelmet": "enable/disabilite night vision",
       "biome.utility.void_biom": "Void Biom",
+      "enchantment.utility.wateressence": "water essence",
       "effect.utility.gravity": "Gravity",
       "item_group.utility.utility": "Utility"
     }
