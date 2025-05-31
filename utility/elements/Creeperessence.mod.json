@@ -2,7 +2,7 @@
   "_fv": 77,
   "_type": "enchantment",
   "definition": {
-    "name": "water essence",
+    "name": "creeper essence",
     "supportedSlots": "any",
     "weight": 10,
     "anvilCost": 3,

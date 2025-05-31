@@ -11,7 +11,7 @@
     "incompatibleEnchantments": [],
     "supportedItems": [
       {
-        "value": "TAG:minecraft:enchantable/sword"
+        "value": "TAG:forge:sword"
       }
     ],
     "isTreasureEnchantment": false,

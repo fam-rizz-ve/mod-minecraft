@@ -10,7 +10,7 @@ import net.minecraft.tags.ItemTags;
 import net.minecraft.resources.ResourceLocation;
 
 public class LavaessenceEnchantment extends Enchantment {
-	private static final EnchantmentCategory ENCHANTMENT_CATEGORY = EnchantmentCategory.create("utility_lavaessence", item -> Ingredient.of(ItemTags.create(new ResourceLocation("minecraft:enchantable/sword"))).test(new ItemStack(item)));
+	private static final EnchantmentCategory ENCHANTMENT_CATEGORY = EnchantmentCategory.create("utility_lavaessence", item -> Ingredient.of(ItemTags.create(new ResourceLocation("forge:sword"))).test(new ItemStack(item)));
 
 	public LavaessenceEnchantment() {
 		super(Enchantment.Rarity.COMMON, ENCHANTMENT_CATEGORY, EquipmentSlot.values());

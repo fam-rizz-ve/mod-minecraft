@@ -1,9 +1,12 @@
 {
   "item.utility.endkey": "end key",
   "enchantment.utility.lavaessence": "Lava essence",
-  "enchantment.utility.creeperessence": "water essence",
+  "enchantment.utility.creeperessence": "creeper essence",
+  "enchantment.utility.obsidianessence": "obsidian essence (pik.)",
   "item.utility.overwordkey": "Overword key",
+  "enchantment.utility.projectile_essence": "projectile essence",
   "item.utility.netherkey": "nether key",
+  "enchantment.utility.obsidianessence_2": "obsidian essence (axe)",
   "item.utility.flatkey": "Flat key",
   "item.utility.power_essence": "Power Essence",
   "item.utility.limbokey.description_0": "When you grip it, you feel the weight of a thousand whispers that do not belong to this world. Use it only if you have the courage to face the eternal void… for those who enter the Limbo rarely find their way back.",
