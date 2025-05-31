@@ -9,10 +9,10 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.resources.ResourceLocation;
 
-public class LavaessenceEnchantment extends Enchantment {
-	private static final EnchantmentCategory ENCHANTMENT_CATEGORY = EnchantmentCategory.create("utility_lavaessence", item -> Ingredient.of(ItemTags.create(new ResourceLocation("minecraft:enchantable/sword"))).test(new ItemStack(item)));
+public class ObsidianessenceEnchantment extends Enchantment {
+	private static final EnchantmentCategory ENCHANTMENT_CATEGORY = EnchantmentCategory.create("utility_obsidianessence", item -> Ingredient.of(ItemTags.create(new ResourceLocation("forge:pickaxe"))).test(new ItemStack(item)));
 
-	public LavaessenceEnchantment() {
+	public ObsidianessenceEnchantment() {
 		super(Enchantment.Rarity.COMMON, ENCHANTMENT_CATEGORY, EquipmentSlot.values());
 	}
 

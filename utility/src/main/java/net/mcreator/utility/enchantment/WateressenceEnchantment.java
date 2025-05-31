@@ -30,4 +30,9 @@ public class WateressenceEnchantment extends Enchantment {
 	public boolean isDiscoverable() {
 		return false;
 	}
+
+	@Override
+	public boolean isTradeable() {
+		return false;
+	}
 }

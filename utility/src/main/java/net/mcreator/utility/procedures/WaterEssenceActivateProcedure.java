@@ -20,11 +20,10 @@ public class WaterEssenceActivateProcedure {
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(UtilityModEnchantments.WATERESSENCE.get()) == 1) {
 			if (entity instanceof LivingEntity _livEnt2 && _livEnt2.getMobType() == MobType.UNDEAD) {
 				if (Mth.nextInt(RandomSource.create(), 1, 10) == 5) {
-					if (!entity.level().isClientSide())
-						entity.discard();
+					for (int index0 = 0; index0 < 9; index0++) {
+						entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.DROWN)), 1);
+					}
 				}
-			} else {
-				entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.DROWN)), 5);
 			}
 		}
 	}

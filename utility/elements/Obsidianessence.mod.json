@@ -2,7 +2,7 @@
   "_fv": 77,
   "_type": "enchantment",
   "definition": {
-    "name": "water essence",
+    "name": "obsidian essence",
     "supportedSlots": "any",
     "weight": 10,
     "anvilCost": 3,
@@ -11,7 +11,7 @@
     "incompatibleEnchantments": [],
     "supportedItems": [
       {
-        "value": "TAG:forge:shields"
+        "value": "TAG:forge:pickaxe"
       }
     ],
     "isTreasureEnchantment": false,
