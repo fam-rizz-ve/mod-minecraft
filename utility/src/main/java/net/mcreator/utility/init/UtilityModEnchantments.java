@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.item.enchantment.Enchantment;
 
 import net.mcreator.utility.enchantment.WateressenceEnchantment;
+import net.mcreator.utility.enchantment.ProjectileEssenceEnchantment;
 import net.mcreator.utility.enchantment.ObsidianessenceEnchantment;
 import net.mcreator.utility.enchantment.Obsidianessence2Enchantment;
 import net.mcreator.utility.enchantment.LavaessenceEnchantment;
@@ -24,4 +25,5 @@ public class UtilityModEnchantments {
 	public static final RegistryObject<Enchantment> CREEPERESSENCE = REGISTRY.register("creeperessence", () -> new CreeperessenceEnchantment());
 	public static final RegistryObject<Enchantment> OBSIDIANESSENCE = REGISTRY.register("obsidianessence", () -> new ObsidianessenceEnchantment());
 	public static final RegistryObject<Enchantment> OBSIDIANESSENCE_2 = REGISTRY.register("obsidianessence_2", () -> new Obsidianessence2Enchantment());
+	public static final RegistryObject<Enchantment> PROJECTILE_ESSENCE = REGISTRY.register("projectile_essence", () -> new ProjectileEssenceEnchantment());
 }

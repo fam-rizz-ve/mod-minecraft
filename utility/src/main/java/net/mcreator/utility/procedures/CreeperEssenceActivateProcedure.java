@@ -11,11 +11,13 @@ import net.minecraft.core.registries.Registries;
 import net.mcreator.utility.init.UtilityModEnchantments;
 
 public class CreeperEssenceActivateProcedure {
-	public static void execute(LevelAccessor world, Entity entity) {
-		if (entity == null)
+	public static void execute(LevelAccessor world, Entity entity, Entity sourceentity) {
+		if (entity == null || sourceentity == null)
 			return;
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(UtilityModEnchantments.CREEPERESSENCE.get()) == 1) {
-			entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.EXPLOSION)), 4);
+			if (sourceentity instanceof LivingEntity _livEnt2 && _livEnt2.isBlocking()) {
+				entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.EXPLOSION)), 4);
+			}
 		}
 	}
 }

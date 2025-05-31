@@ -12,8 +12,10 @@ public class ObsidianEssenceActivateProcedure {
 		if (entity == null)
 			return;
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(UtilityModEnchantments.OBSIDIANESSENCE.get()) == 1) {
-			while (itemstack.getMaxDamage() == 200) {
-				itemstack.setDamageValue(1);
+			if (itemstack.getMaxDamage() < 20) {
+				itemstack.setDamageValue((int) (itemstack.getDamageValue() + 1));
+			} else {
+				itemstack.setDamageValue((int) (itemstack.getDamageValue() - 1));
 			}
 		}
 	}
