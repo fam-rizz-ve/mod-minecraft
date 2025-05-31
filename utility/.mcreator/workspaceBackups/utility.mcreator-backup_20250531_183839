@@ -521,6 +521,37 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/enchantment/Power_essence_enchant"
+    },
+    {
+      "name": "ObsidianEssenceActivate2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_essence_activate_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/procedures/ObsidianEssenceActivate2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -621,13 +652,13 @@
   "language_map": {
     "en_us": {
       "item.utility.endkey": "end key",
+      "enchantment.utility.creeperessence": "creeper essence",
       "enchantment.utility.lavaessence": "Lava essence",
-      "enchantment.utility.creeperessence": "water essence",
-      "enchantment.utility.obsidianessence": "obsidian essence",
+      "enchantment.utility.obsidianessence": "obsidian essence (pik.)",
       "item.utility.overwordkey": "Overword key",
       "enchantment.utility.projectile_essence": "projectile essence",
       "item.utility.netherkey": "nether key",
-      "enchantment.utility.obsidianessence_2": "obsidian essence",
+      "enchantment.utility.obsidianessence_2": "obsidian essence (axe)",
       "item.utility.flatkey": "Flat key",
       "item.utility.power_essence": "Power Essence",
       "item.utility.limbokey.description_0": "When you grip it, you feel the weight of a thousand whispers that do not belong to this world. Use it only if you have the courage to face the eternal void… for those who enter the Limbo rarely find their way back.",
@@ -708,6 +739,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "acivment",
+        "children": []
       }
     ]
   },

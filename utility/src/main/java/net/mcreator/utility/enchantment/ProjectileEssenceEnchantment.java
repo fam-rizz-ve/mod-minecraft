@@ -13,7 +13,7 @@ public class ProjectileEssenceEnchantment extends Enchantment {
 	private static final EnchantmentCategory ENCHANTMENT_CATEGORY = EnchantmentCategory.create("utility_projectile_essence", item -> Ingredient.of(ItemTags.create(new ResourceLocation("forge:amrmor"))).test(new ItemStack(item)));
 
 	public ProjectileEssenceEnchantment() {
-		super(Enchantment.Rarity.COMMON, ENCHANTMENT_CATEGORY, EquipmentSlot.values());
+		super(Enchantment.Rarity.VERY_RARE, ENCHANTMENT_CATEGORY, EquipmentSlot.values());
 	}
 
 	@Override

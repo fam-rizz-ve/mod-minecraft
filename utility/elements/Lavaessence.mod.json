@@ -4,8 +4,8 @@
   "definition": {
     "name": "Lava essence",
     "supportedSlots": "any",
-    "weight": 10,
-    "anvilCost": 3,
+    "weight": 2,
+    "anvilCost": 5,
     "maxLevel": 1,
     "damageModifier": 0,
     "incompatibleEnchantments": [],

@@ -13,7 +13,7 @@ public class WateressenceEnchantment extends Enchantment {
 	private static final EnchantmentCategory ENCHANTMENT_CATEGORY = EnchantmentCategory.create("utility_wateressence", item -> Ingredient.of(ItemTags.create(new ResourceLocation("forge:sword"))).test(new ItemStack(item)));
 
 	public WateressenceEnchantment() {
-		super(Enchantment.Rarity.COMMON, ENCHANTMENT_CATEGORY, EquipmentSlot.values());
+		super(Enchantment.Rarity.UNCOMMON, ENCHANTMENT_CATEGORY, EquipmentSlot.values());
 	}
 
 	@Override

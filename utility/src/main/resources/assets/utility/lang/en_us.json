@@ -1,10 +1,12 @@
 {
   "item.utility.endkey": "end key",
-  "enchantment.utility.lavaessence": "Lava essence",
   "enchantment.utility.creeperessence": "creeper essence",
+  "enchantment.utility.lavaessence": "Lava essence",
   "enchantment.utility.obsidianessence": "obsidian essence (pik.)",
+  "advancements.thelimbo.title": "The limbo",
   "item.utility.overwordkey": "Overword key",
   "enchantment.utility.projectile_essence": "projectile essence",
+  "advancements.thelimbo.descr": "The Master of Key is waiting you.......",
   "item.utility.netherkey": "nether key",
   "enchantment.utility.obsidianessence_2": "obsidian essence (axe)",
   "item.utility.flatkey": "Flat key",

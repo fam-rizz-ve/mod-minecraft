@@ -4,7 +4,7 @@
   "definition": {
     "name": "water essence",
     "supportedSlots": "any",
-    "weight": 10,
+    "weight": 5,
     "anvilCost": 3,
     "maxLevel": 1,
     "damageModifier": 0,

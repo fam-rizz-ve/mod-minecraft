@@ -13,7 +13,7 @@ public class LavaessenceEnchantment extends Enchantment {
 	private static final EnchantmentCategory ENCHANTMENT_CATEGORY = EnchantmentCategory.create("utility_lavaessence", item -> Ingredient.of(ItemTags.create(new ResourceLocation("forge:sword"))).test(new ItemStack(item)));
 
 	public LavaessenceEnchantment() {
-		super(Enchantment.Rarity.COMMON, ENCHANTMENT_CATEGORY, EquipmentSlot.values());
+		super(Enchantment.Rarity.RARE, ENCHANTMENT_CATEGORY, EquipmentSlot.values());
 	}
 
 	@Override

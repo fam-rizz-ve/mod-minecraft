@@ -4,8 +4,8 @@
   "definition": {
     "name": "obsidian essence (pik.)",
     "supportedSlots": "any",
-    "weight": 10,
-    "anvilCost": 3,
+    "weight": 4,
+    "anvilCost": 15,
     "maxLevel": 1,
     "damageModifier": 0,
     "incompatibleEnchantments": [],

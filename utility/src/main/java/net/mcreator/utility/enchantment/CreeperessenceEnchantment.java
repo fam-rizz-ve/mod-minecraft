@@ -13,7 +13,7 @@ public class CreeperessenceEnchantment extends Enchantment {
 	private static final EnchantmentCategory ENCHANTMENT_CATEGORY = EnchantmentCategory.create("utility_creeperessence", item -> Ingredient.of(ItemTags.create(new ResourceLocation("forge:shields"))).test(new ItemStack(item)));
 
 	public CreeperessenceEnchantment() {
-		super(Enchantment.Rarity.COMMON, ENCHANTMENT_CATEGORY, EquipmentSlot.values());
+		super(Enchantment.Rarity.VERY_RARE, ENCHANTMENT_CATEGORY, EquipmentSlot.values());
 	}
 
 	@Override
