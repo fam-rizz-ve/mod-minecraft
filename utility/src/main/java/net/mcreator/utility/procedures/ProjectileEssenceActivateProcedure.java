@@ -22,7 +22,7 @@ public class ProjectileEssenceActivateProcedure {
 	public static void execute(LevelAccessor world, Entity entity, Entity sourceentity) {
 		if (entity == null || sourceentity == null)
 			return;
-		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(UtilityModEnchantments.PROJECTILE_ESSENCE.get()) == 1) {
+		if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(UtilityModEnchantments.PROJECTILE_ESSENCE.get()) == 1) {
 			if (entity instanceof LivingEntity _livEnt2 && _livEnt2.getMobType() == MobType.ARTHROPOD) {
 				if (Mth.nextInt(RandomSource.create(), 1, 3) == 2) {
 					{

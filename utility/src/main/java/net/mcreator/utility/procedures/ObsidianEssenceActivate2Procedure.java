@@ -8,10 +8,10 @@ import net.minecraft.world.entity.Entity;
 import net.mcreator.utility.init.UtilityModEnchantments;
 
 public class ObsidianEssenceActivate2Procedure {
-	public static void execute(LevelAccessor world, Entity entity, ItemStack itemstack) {
-		if (entity == null)
+	public static void execute(LevelAccessor world, Entity sourceentity, ItemStack itemstack) {
+		if (sourceentity == null)
 			return;
-		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(UtilityModEnchantments.OBSIDIANESSENCE_2.get()) == 1) {
+		if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(UtilityModEnchantments.OBSIDIANESSENCE_2.get()) == 1) {
 			if (itemstack.getMaxDamage() < 20) {
 				itemstack.setDamageValue((int) (itemstack.getDamageValue() + 10));
 			} else {
