@@ -9,6 +9,10 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.resources.ResourceLocation;
 
+import net.mcreator.utility.init.UtilityModEnchantments;
+
+import java.util.List;
+
 public class Obsidianessence2Enchantment extends Enchantment {
 	private static final EnchantmentCategory ENCHANTMENT_CATEGORY = EnchantmentCategory.create("utility_obsidianessence_2", item -> Ingredient.of(ItemTags.create(new ResourceLocation("forge:axe"))).test(new ItemStack(item)));
 
@@ -24,6 +28,13 @@ public class Obsidianessence2Enchantment extends Enchantment {
 	@Override
 	public int getMaxCost(int level) {
 		return 6 + level * 10;
+	}
+
+	@Override
+	protected boolean checkCompatibility(Enchantment enchantment) {
+		return super.checkCompatibility(enchantment) && !List
+				.of(UtilityModEnchantments.LAVAESSENCE.get(), UtilityModEnchantments.WATERESSENCE.get(), UtilityModEnchantments.CREEPERESSENCE.get(), UtilityModEnchantments.OBSIDIANESSENCE.get(), UtilityModEnchantments.PROJECTILE_ESSENCE.get())
+				.contains(enchantment);
 	}
 
 	@Override

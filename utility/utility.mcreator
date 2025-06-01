@@ -360,6 +360,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -393,6 +397,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
             "type": "entity"
           },
           {
@@ -464,7 +472,7 @@
         ],
         "dependencies": [
           {
-            "name": "entity",
+            "name": "sourceentity",
             "type": "entity"
           },
           {
@@ -665,8 +673,8 @@
   "language_map": {
     "en_us": {
       "item.utility.endkey": "end key",
-      "enchantment.utility.creeperessence": "creeper essence",
       "enchantment.utility.lavaessence": "Lava essence",
+      "enchantment.utility.creeperessence": "creeper essence",
       "enchantment.utility.obsidianessence": "obsidian essence (pik.)",
       "advancements.thelimbo.title": "The limbo",
       "item.utility.overwordkey": "Overword key",
