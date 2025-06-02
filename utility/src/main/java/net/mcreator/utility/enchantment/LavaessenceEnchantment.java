@@ -9,15 +9,11 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.resources.ResourceLocation;
 
-import net.mcreator.utility.init.UtilityModEnchantments;
-
-import java.util.List;
-
 public class LavaessenceEnchantment extends Enchantment {
 	private static final EnchantmentCategory ENCHANTMENT_CATEGORY = EnchantmentCategory.create("utility_lavaessence", item -> Ingredient.of(ItemTags.create(new ResourceLocation("forge:sword"))).test(new ItemStack(item)));
 
 	public LavaessenceEnchantment() {
-		super(Enchantment.Rarity.RARE, ENCHANTMENT_CATEGORY, EquipmentSlot.values());
+		super(Enchantment.Rarity.UNCOMMON, ENCHANTMENT_CATEGORY, new EquipmentSlot[]{EquipmentSlot.MAINHAND, EquipmentSlot.OFFHAND});
 	}
 
 	@Override
@@ -28,13 +24,6 @@ public class LavaessenceEnchantment extends Enchantment {
 	@Override
 	public int getMaxCost(int level) {
 		return 6 + level * 10;
-	}
-
-	@Override
-	protected boolean checkCompatibility(Enchantment enchantment) {
-		return super.checkCompatibility(enchantment) && !List
-				.of(UtilityModEnchantments.WATERESSENCE.get(), UtilityModEnchantments.CREEPERESSENCE.get(), UtilityModEnchantments.OBSIDIANESSENCE.get(), UtilityModEnchantments.OBSIDIANESSENCE_2.get(), UtilityModEnchantments.PROJECTILE_ESSENCE.get())
-				.contains(enchantment);
 	}
 
 	@Override

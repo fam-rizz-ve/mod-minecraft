@@ -3,28 +3,12 @@
   "_type": "enchantment",
   "definition": {
     "name": "Lava essence",
-    "supportedSlots": "any",
-    "weight": 2,
+    "supportedSlots": "hand",
+    "weight": 5,
     "anvilCost": 5,
     "maxLevel": 1,
     "damageModifier": 0,
-    "incompatibleEnchantments": [
-      {
-        "value": "CUSTOM:Wateressence"
-      },
-      {
-        "value": "CUSTOM:Creeperessence"
-      },
-      {
-        "value": "CUSTOM:Obsidianessence"
-      },
-      {
-        "value": "CUSTOM:Obsidianessence2"
-      },
-      {
-        "value": "CUSTOM:ProjectileEssence"
-      }
-    ],
+    "incompatibleEnchantments": [],
     "supportedItems": [
       {
         "value": "TAG:forge:sword"

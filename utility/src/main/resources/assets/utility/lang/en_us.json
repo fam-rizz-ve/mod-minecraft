@@ -1,14 +1,10 @@
 {
   "item.utility.endkey": "end key",
-  "enchantment.utility.creeperessence": "creeper essence",
   "enchantment.utility.lavaessence": "Lava essence",
-  "enchantment.utility.obsidianessence": "obsidian essence (pik.)",
   "advancements.thelimbo.title": "The limbo",
   "item.utility.overwordkey": "Overword key",
-  "enchantment.utility.projectile_essence": "projectile essence",
   "advancements.thelimbo.descr": "The Master of Key is waiting you.......",
   "item.utility.netherkey": "nether key",
-  "enchantment.utility.obsidianessence_2": "obsidian essence (axe)",
   "item.utility.flatkey": "Flat key",
   "item.utility.power_essence": "Power Essence",
   "item.utility.limbokey.description_0": "When you grip it, you feel the weight of a thousand whispers that do not belong to this world. Use it only if you have the courage to face the eternal void… for those who enter the Limbo rarely find their way back.",
@@ -17,7 +13,7 @@
   "biome.utility.flat_biom": "Flat_biom",
   "key.utility.attivadisattivanighthelmet": "enable/disabilite night vision",
   "biome.utility.void_biom": "Void Biom",
-  "enchantment.utility.wateressence": "water essence",
+  "enchantment.utility.wateressence": "Water essence",
   "effect.utility.gravity": "Gravity",
   "item_group.utility.utility": "Utility"
 }

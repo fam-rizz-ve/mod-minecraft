@@ -2,8 +2,8 @@
   "_fv": 77,
   "_type": "enchantment",
   "definition": {
-    "name": "water essence",
-    "supportedSlots": "any",
+    "name": "Water essence",
+    "supportedSlots": "hand",
     "weight": 5,
     "anvilCost": 3,
     "maxLevel": 1,
@@ -11,18 +11,6 @@
     "incompatibleEnchantments": [
       {
         "value": "CUSTOM:Lavaessence"
-      },
-      {
-        "value": "CUSTOM:Creeperessence"
-      },
-      {
-        "value": "CUSTOM:Obsidianessence"
-      },
-      {
-        "value": "CUSTOM:Obsidianessence2"
-      },
-      {
-        "value": "CUSTOM:ProjectileEssence"
       }
     ],
     "supportedItems": [

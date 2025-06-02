@@ -17,7 +17,7 @@ public class WateressenceEnchantment extends Enchantment {
 	private static final EnchantmentCategory ENCHANTMENT_CATEGORY = EnchantmentCategory.create("utility_wateressence", item -> Ingredient.of(ItemTags.create(new ResourceLocation("forge:sword"))).test(new ItemStack(item)));
 
 	public WateressenceEnchantment() {
-		super(Enchantment.Rarity.UNCOMMON, ENCHANTMENT_CATEGORY, EquipmentSlot.values());
+		super(Enchantment.Rarity.UNCOMMON, ENCHANTMENT_CATEGORY, new EquipmentSlot[]{EquipmentSlot.MAINHAND, EquipmentSlot.OFFHAND});
 	}
 
 	@Override
@@ -32,9 +32,7 @@ public class WateressenceEnchantment extends Enchantment {
 
 	@Override
 	protected boolean checkCompatibility(Enchantment enchantment) {
-		return super.checkCompatibility(enchantment) && !List
-				.of(UtilityModEnchantments.LAVAESSENCE.get(), UtilityModEnchantments.CREEPERESSENCE.get(), UtilityModEnchantments.OBSIDIANESSENCE.get(), UtilityModEnchantments.OBSIDIANESSENCE_2.get(), UtilityModEnchantments.PROJECTILE_ESSENCE.get())
-				.contains(enchantment);
+		return super.checkCompatibility(enchantment) && !List.of(UtilityModEnchantments.LAVAESSENCE.get()).contains(enchantment);
 	}
 
 	@Override
