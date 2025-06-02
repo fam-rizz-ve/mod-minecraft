@@ -332,6 +332,19 @@
       "path": "~/enchantment/Power_essence"
     },
     {
+      "name": "Thelimbo",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thelimbo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/advancements/thelimbo.json"
+        ]
+      },
+      "path": "~/acivment"
+    },
+    {
       "name": "Lavaessence",
       "type": "enchantment",
       "compiles": true,
@@ -345,14 +358,14 @@
       "path": "~/enchantment/Power_essence_enchant"
     },
     {
-      "name": "LavaEssenceActivate",
+      "name": "Lavaessenceattivation",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lava_essence_activate",
+      "registry_name": "lavaessenceattivation",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/utility/procedures/LavaEssenceActivateProcedure.java"
+          "src/main/java/net/mcreator/utility/procedures/LavaessenceattivationProcedure.java"
         ],
         "dependencies": [
           {
@@ -385,14 +398,14 @@
       "path": "~/enchantment/Power_essence_enchant"
     },
     {
-      "name": "WaterEssenceActivate",
+      "name": "Wateressenceactivation",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "water_essence_activate",
+      "registry_name": "wateressenceactivation",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/utility/procedures/WaterEssenceActivateProcedure.java"
+          "src/main/java/net/mcreator/utility/procedures/WateressenceactivationProcedure.java"
         ],
         "dependencies": [
           {
@@ -410,175 +423,6 @@
         ]
       },
       "path": "~/enchantment/Power_essence_enchant"
-    },
-    {
-      "name": "Creeperessence",
-      "type": "enchantment",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "creeperessence",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/utility/enchantment/CreeperessenceEnchantment.java"
-        ]
-      },
-      "path": "~/enchantment/Power_essence_enchant"
-    },
-    {
-      "name": "CreeperEssenceActivate",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "creeper_essence_activate",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/utility/procedures/CreeperEssenceActivateProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/enchantment/Power_essence_enchant"
-    },
-    {
-      "name": "Obsidianessence",
-      "type": "enchantment",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "obsidianessence",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/utility/enchantment/ObsidianessenceEnchantment.java"
-        ]
-      },
-      "path": "~/enchantment/Power_essence_enchant"
-    },
-    {
-      "name": "ObsidianEssenceActivate",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "obsidian_essence_activate",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/utility/procedures/ObsidianEssenceActivateProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/enchantment/Power_essence_enchant"
-    },
-    {
-      "name": "Obsidianessence2",
-      "type": "enchantment",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "obsidianessence_2",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/utility/enchantment/Obsidianessence2Enchantment.java"
-        ]
-      },
-      "path": "~/enchantment/Power_essence_enchant"
-    },
-    {
-      "name": "ProjectileEssence",
-      "type": "enchantment",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "projectile_essence",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/utility/enchantment/ProjectileEssenceEnchantment.java"
-        ]
-      },
-      "path": "~/enchantment/Power_essence_enchant"
-    },
-    {
-      "name": "ProjectileEssenceActivate",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "projectile_essence_activate",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/utility/procedures/ProjectileEssenceActivateProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/enchantment/Power_essence_enchant"
-    },
-    {
-      "name": "ObsidianEssenceActivate2",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "obsidian_essence_activate_2",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/utility/procedures/ObsidianEssenceActivate2Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/enchantment/Power_essence_enchant"
-    },
-    {
-      "name": "Thelimbo",
-      "type": "achievement",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "thelimbo",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/utility/advancements/thelimbo.json"
-        ]
-      },
-      "path": "~/acivment"
     }
   ],
   "variable_elements": [
@@ -674,14 +518,10 @@
     "en_us": {
       "item.utility.endkey": "end key",
       "enchantment.utility.lavaessence": "Lava essence",
-      "enchantment.utility.creeperessence": "creeper essence",
-      "enchantment.utility.obsidianessence": "obsidian essence (pik.)",
       "advancements.thelimbo.title": "The limbo",
       "item.utility.overwordkey": "Overword key",
-      "enchantment.utility.projectile_essence": "projectile essence",
       "advancements.thelimbo.descr": "The Master of Key is waiting you.......",
       "item.utility.netherkey": "nether key",
-      "enchantment.utility.obsidianessence_2": "obsidian essence (axe)",
       "item.utility.flatkey": "Flat key",
       "item.utility.power_essence": "Power Essence",
       "item.utility.limbokey.description_0": "When you grip it, you feel the weight of a thousand whispers that do not belong to this world. Use it only if you have the courage to face the eternal void… for those who enter the Limbo rarely find their way back.",
@@ -690,7 +530,7 @@
       "biome.utility.flat_biom": "Flat_biom",
       "key.utility.attivadisattivanighthelmet": "enable/disabilite night vision",
       "biome.utility.void_biom": "Void Biom",
-      "enchantment.utility.wateressence": "water essence",
+      "enchantment.utility.wateressence": "Water essence",
       "effect.utility.gravity": "Gravity",
       "item_group.utility.utility": "Utility"
     }
