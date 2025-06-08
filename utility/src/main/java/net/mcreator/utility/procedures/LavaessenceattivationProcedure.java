@@ -9,11 +9,8 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.damagesource.DamageTypes;
-import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
-import net.minecraft.core.registries.Registries;
 
 import net.mcreator.utility.init.UtilityModEnchantments;
 
@@ -37,7 +34,6 @@ public class LavaessenceattivationProcedure {
 			return;
 		if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(UtilityModEnchantments.LAVAESSENCE.get()) == 1) {
 			if (Mth.nextInt(RandomSource.create(), 1, 3) == 2) {
-				entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.ON_FIRE)), 10);
 				entity.setSecondsOnFire(100);
 			}
 		}
