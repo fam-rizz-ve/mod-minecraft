@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "utility:item/screenshot_2025-06-09_112251"
+  },
+  "render_type": "translucent"
+}

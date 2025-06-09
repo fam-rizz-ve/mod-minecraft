@@ -398,31 +398,21 @@
       "path": "~/enchantment/Power_essence_enchant"
     },
     {
-      "name": "Wateressenceactivation",
-      "type": "procedure",
+      "name": "Essenctiondistilizer",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wateressenceactivation",
+      "registry_name": "essenctiondistilizer",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/utility/procedures/WateressenceactivationProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
+          "src/main/resources/assets/utility/models/block/essenctiondistilizer.json",
+          "src/main/java/net/mcreator/utility/block/EssenctiondistilizerBlock.java",
+          "src/main/resources/assets/utility/blockstates/essenctiondistilizer.json",
+          "src/main/resources/assets/utility/models/item/essenctiondistilizer.json",
+          "src/main/resources/data/utility/loot_tables/blocks/essenctiondistilizer.json"
         ]
       },
-      "path": "~/enchantment/Power_essence_enchant"
+      "path": "~/dimension/limbo/essenction distilizer"
     }
   ],
   "variable_elements": [
@@ -525,6 +515,7 @@
       "item.utility.flatkey": "Flat key",
       "item.utility.power_essence": "Power Essence",
       "item.utility.limbokey.description_0": "When you grip it, you feel the weight of a thousand whispers that do not belong to this world. Use it only if you have the courage to face the eternal void… for those who enter the Limbo rarely find their way back.",
+      "block.utility.essenctiondistilizer": "Essenctiondistilizer",
       "item.utility.limbokey": "Limbo key",
       "item.utility.nightelmet_helmet": "Night Helmet",
       "biome.utility.flat_biom": "Flat_biom",

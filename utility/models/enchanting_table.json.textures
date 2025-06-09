@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "enchanting_table_bottom",
+        "2": "enchanting_table_top",
+        "3": "enchanting_table_side_3",
+        "5": "gem2",
+        "6": "gem3",
+        "7": "gem4",
+        "8": "gem5"
+      },
+      "name": "default"
+    }
+  }
+}

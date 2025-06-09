@@ -25,5 +25,6 @@ public class UtilityModTabs {
 				tabData.accept(UtilityModItems.ENDKEY.get());
 				tabData.accept(UtilityModItems.LIMBOKEY.get());
 				tabData.accept(UtilityModItems.POWER_ESSENCE.get());
+				tabData.accept(UtilityModBlocks.ESSENCTIONDISTILIZER.get().asItem());
 			}).build());
 }
