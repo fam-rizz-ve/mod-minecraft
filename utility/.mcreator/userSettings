@@ -7,13 +7,7 @@
     "expandedPaths": [
       "[, utility]",
       "[, utility, Source (Gradle)]",
-      "[, utility, Source (Gradle), C:\\Users\\Andrea\\Documents\\GitHub\\mod-minecraft\\utility\\src\\main\\java\\net]",
-      "[, utility, Source (Gradle), C:\\Users\\Andrea\\Documents\\GitHub\\mod-minecraft\\utility\\src\\main\\java\\net, C:\\Users\\Andrea\\Documents\\GitHub\\mod-minecraft\\utility\\src\\main\\java\\net\\mcreator]",
-      "[, utility, Source (Gradle), C:\\Users\\Andrea\\Documents\\GitHub\\mod-minecraft\\utility\\src\\main\\java\\net, C:\\Users\\Andrea\\Documents\\GitHub\\mod-minecraft\\utility\\src\\main\\java\\net\\mcreator, C:\\Users\\Andrea\\Documents\\GitHub\\mod-minecraft\\utility\\src\\main\\java\\net\\mcreator\\utility]",
-      "[, utility, Resources (Gradle)]",
-      "[, utility, Resources (Gradle), C:\\Users\\Andrea\\Documents\\GitHub\\mod-minecraft\\utility\\src\\main\\resources\\assets]",
-      "[, utility, Resources (Gradle), C:\\Users\\Andrea\\Documents\\GitHub\\mod-minecraft\\utility\\src\\main\\resources\\assets, C:\\Users\\Andrea\\Documents\\GitHub\\mod-minecraft\\utility\\src\\main\\resources\\assets\\minecraft]",
-      "[, utility, Resources (Gradle), C:\\Users\\Andrea\\Documents\\GitHub\\mod-minecraft\\utility\\src\\main\\resources\\assets, C:\\Users\\Andrea\\Documents\\GitHub\\mod-minecraft\\utility\\src\\main\\resources\\assets\\minecraft, C:\\Users\\Andrea\\Documents\\GitHub\\mod-minecraft\\utility\\src\\main\\resources\\assets\\minecraft\\models]"
+      "[, utility, Resources (Gradle)]"
     ]
   }
 }
