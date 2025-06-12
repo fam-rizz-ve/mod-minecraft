@@ -10,7 +10,8 @@
       "minecraft:taiga": "2025-06-02 09:04:18 +0200",
       "minecraft:beach": "2025-06-08 11:25:01 +0200",
       "minecraft:river": "2025-06-02 09:19:35 +0200",
-      "minecraft:forest": "2025-06-02 09:19:04 +0200"
+      "minecraft:forest": "2025-06-02 09:19:04 +0200",
+      "minecraft:plains": "2025-06-12 15:18:25 +0200"
     },
     "done": false
   },
@@ -25,7 +26,8 @@
       "minecraft:spider": "2025-06-08 12:20:15 +0200",
       "minecraft:creeper": "2025-06-08 11:24:43 +0200",
       "minecraft:witch": "2025-06-08 11:19:55 +0200",
-      "minecraft:zombie": "2025-06-02 09:19:40 +0200"
+      "minecraft:zombie": "2025-06-02 09:19:40 +0200",
+      "minecraft:drowned": "2025-06-12 15:01:37 +0200"
     },
     "done": false
   },
@@ -242,6 +244,108 @@
   "minecraft:recipes/building_blocks/white_stained_glass": {
     "criteria": {
       "has_glass": "2025-06-08 12:21:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2025-06-12 15:01:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2025-06-12 15:01:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2025-06-12 15:01:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2025-06-12 15:01:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2025-06-12 15:01:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2025-06-12 15:01:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2025-06-12 15:01:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2025-06-12 15:01:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2025-06-12 15:01:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-06-12 15:05:24 +0200"
+    },
+    "done": true
+  },
+  "utility:poweressece": {
+    "criteria": {
+      "poweressece_0": "2025-06-12 15:16:44 +0200"
+    },
+    "done": true
+  },
+  "utility:thelimbo": {
+    "criteria": {
+      "thelimbo_0": "2025-06-12 15:18:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2025-06-12 15:22:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2025-06-12 15:22:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2025-06-12 15:22:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2025-06-12 15:22:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2025-06-12 15:22:27 +0200"
     },
     "done": true
   },

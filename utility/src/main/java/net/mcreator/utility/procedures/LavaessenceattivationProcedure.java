@@ -41,8 +41,20 @@ public class LavaessenceattivationProcedure {
 				entity.setSecondsOnFire(100);
 			}
 		} else if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(UtilityModEnchantments.WATERESSENCE.get()) >= 1) {
-			for (int index0 = 0; index0 < 5; index0++) {
-				UtilityMod.queueServerWork(30, () -> {
+			if (Mth.nextInt(RandomSource.create(), 1, 10) == 5) {
+				UtilityMod.queueServerWork(20, () -> {
+					entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)), 2);
+				});
+				UtilityMod.queueServerWork(20, () -> {
+					entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)), 2);
+				});
+				UtilityMod.queueServerWork(20, () -> {
+					entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)), 2);
+				});
+				UtilityMod.queueServerWork(20, () -> {
+					entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)), 2);
+				});
+				UtilityMod.queueServerWork(20, () -> {
 					entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)), 2);
 				});
 			}

@@ -2,7 +2,7 @@
   "workspacePanelIconSize": "TILES",
   "workspacePanelSortType": "CREATED",
   "workspacePanelSortAscending": true,
-  "projectBrowserSplitPos": 0,
+  "projectBrowserSplitPos": 21,
   "projectBrowserState": {
     "expandedPaths": [
       "[, utility]",

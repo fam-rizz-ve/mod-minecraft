@@ -10,7 +10,7 @@
     "damageModifier": 0,
     "incompatibleEnchantments": [
       {
-        "value": "CUSTOM:Lavaessence"
+        "value": "#mod:custom_enchantemnt"
       }
     ],
     "supportedItems": [
