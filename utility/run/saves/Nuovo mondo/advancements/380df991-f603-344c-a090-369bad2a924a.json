@@ -350,21 +350,9 @@
     },
     "done": true
   },
-  "minecraft:nether/obtain_crying_obsidian": {
-    "criteria": {
-      "crying_obsidian": "2025-06-12 15:56:01 +0200"
-    },
-    "done": true
-  },
   "utility:a_powerfullshard": {
     "criteria": {
       "a_powerfullshard_0": "2025-06-12 15:55:30 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/respawn_anchor": {
-    "criteria": {
-      "has_obsidian": "2025-06-12 15:56:01 +0200"
     },
     "done": true
   },
@@ -377,6 +365,18 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2025-06-12 15:55:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2025-06-12 15:56:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2025-06-12 15:56:01 +0200"
     },
     "done": true
   },
