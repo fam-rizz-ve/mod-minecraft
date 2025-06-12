@@ -415,19 +415,6 @@
       "path": "~/dimension/limbo/essenction distilizer"
     },
     {
-      "name": "Obsidianessence",
-      "type": "enchantment",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "obsidianessence",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/utility/enchantment/ObsidianessenceEnchantment.java"
-        ]
-      },
-      "path": "~/enchantment/Power_essence_enchant"
-    },
-    {
       "name": "Creeperessence",
       "type": "enchantment",
       "compiles": true,
@@ -465,45 +452,6 @@
         ]
       },
       "path": "~/acivment"
-    },
-    {
-      "name": "CreeperessenceActivation",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "creeperessence_activation",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/utility/procedures/CreeperessenceActivationProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/enchantment/Power_essence_enchant"
     },
     {
       "name": "LimboKeyPart1",
@@ -557,6 +505,45 @@
         ]
       },
       "path": "~/acivment"
+    },
+    {
+      "name": "CreeeperessenceActivation",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creeeperessence_activation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/procedures/CreeeperessenceActivationProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/enchantment/Power_essence_enchant"
     }
   ],
   "variable_elements": [
@@ -660,7 +647,6 @@
       "item.utility.endkey": "end key",
       "enchantment.utility.lavaessence": "Lava essence",
       "advancements.the_key.title": "The Key",
-      "enchantment.utility.obsidianessence": "Obsidian essence",
       "advancements.a_powerfullshard.descr": "The powerfull scrap I ever se",
       "advancements.the_key.descr": "A unknow key for a unknow dimension",
       "advancements.thelimbo.title": "The limbo",
@@ -730,10 +716,6 @@
         "children": [
           {
             "name": "Power_essence",
-            "children": []
-          },
-          {
-            "name": "Enchantment variant",
             "children": []
           },
           {
