@@ -415,19 +415,6 @@
       "path": "~/dimension/limbo/essenction distilizer"
     },
     {
-      "name": "Obsidianessence",
-      "type": "enchantment",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "obsidianessence",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/utility/enchantment/ObsidianessenceEnchantment.java"
-        ]
-      },
-      "path": "~/enchantment/Power_essence_enchant"
-    },
-    {
       "name": "Creeperessence",
       "type": "enchantment",
       "compiles": true,
@@ -467,14 +454,67 @@
       "path": "~/acivment"
     },
     {
-      "name": "CreeperessenceActivation",
+      "name": "LimboKeyPart1",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbo_key_part_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/item/LimboKeyPart1Item.java",
+          "src/main/resources/assets/utility/models/item/limbo_key_part_1.json"
+        ]
+      },
+      "path": "~/key/item"
+    },
+    {
+      "name": "LimboKeyrecipes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbo_keyrecipes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/recipes/limbo_keyrecipes.json"
+        ]
+      },
+      "path": "~/key/item"
+    },
+    {
+      "name": "TheKey",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_key",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/advancements/the_key.json"
+        ]
+      },
+      "path": "~/acivment"
+    },
+    {
+      "name": "APowerfullshard",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_powerfullshard",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/advancements/a_powerfullshard.json"
+        ]
+      },
+      "path": "~/acivment"
+    },
+    {
+      "name": "CreeeperessenceActivation",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "creeperessence_activation",
+      "registry_name": "creeeperessence_activation",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/utility/procedures/CreeperessenceActivationProcedure.java"
+          "src/main/java/net/mcreator/utility/procedures/CreeeperessenceActivationProcedure.java"
         ],
         "dependencies": [
           {
@@ -605,28 +645,32 @@
   "language_map": {
     "en_us": {
       "item.utility.endkey": "end key",
-      "enchantment.utility.creeperessence": "Creeper essence",
       "enchantment.utility.lavaessence": "Lava essence",
-      "enchantment.utility.obsidianessence": "Obsidian essence",
+      "advancements.the_key.title": "The Key",
+      "advancements.a_powerfullshard.descr": "The powerfull scrap I ever se",
+      "advancements.the_key.descr": "A unknow key for a unknow dimension",
       "advancements.thelimbo.title": "The limbo",
-      "item.utility.overwordkey": "Overword key",
       "advancements.thelimbo.descr": "The Master of Key is waiting you.......",
       "item.utility.netherkey": "nether key",
+      "item.utility.limbokey.description_0": "When you grip it, you feel the weight of a thousand whispers that do not belong to this world. Use it only if you have the courage to face the eternal void… for those who enter the Limbo rarely find their way back.",
+      "item.utility.limbokey": "Limbo key",
+      "item.utility.nightelmet_helmet": "Night Helmet",
+      "biome.utility.void_biom": "Void Biom",
+      "item_group.utility.utility": "Utility",
+      "enchantment.utility.creeperessence": "Creeper essence",
+      "item.utility.limbo_key_part_1": "Limbo key shard",
+      "advancements.a_powerfullshard.title": "A Powerfull Shard",
+      "item.utility.overwordkey": "Overword key",
       "item.utility.flatkey": "Flat key",
       "item.utility.power_essence": "Power Essence",
       "enchantment.utility.projectileessence": "Projectil essence",
       "advancements.poweressece.title": "Power Essence",
-      "item.utility.limbokey.description_0": "When you grip it, you feel the weight of a thousand whispers that do not belong to this world. Use it only if you have the courage to face the eternal void… for those who enter the Limbo rarely find their way back.",
       "block.utility.essenctiondistilizer": "Essenctiondistilizer",
-      "item.utility.limbokey": "Limbo key",
-      "item.utility.nightelmet_helmet": "Night Helmet",
       "biome.utility.flat_biom": "Flat_biom",
       "key.utility.attivadisattivanighthelmet": "enable/disabilite night vision",
-      "biome.utility.void_biom": "Void Biom",
       "enchantment.utility.wateressence": "Water essence",
       "effect.utility.gravity": "Gravity",
-      "advancements.poweressece.descr": "I..I.. can fell the power!!",
-      "item_group.utility.utility": "Utility"
+      "advancements.poweressece.descr": "I..I.. can fell the power!!"
     }
   },
   "foldersRoot": {
@@ -672,10 +716,6 @@
         "children": [
           {
             "name": "Power_essence",
-            "children": []
-          },
-          {
-            "name": "Enchantment variant",
             "children": []
           },
           {
