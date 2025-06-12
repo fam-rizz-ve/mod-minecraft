@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "utility:limbokey"
+      "item": "utility:essenctiondistilizer"
     },
     "title": {
       "translate": "advancements.thelimbo.title"
@@ -22,5 +22,5 @@
       }
     }
   },
-  "parent": "utility:poweressece"
+  "parent": "utility:the_key"
 }

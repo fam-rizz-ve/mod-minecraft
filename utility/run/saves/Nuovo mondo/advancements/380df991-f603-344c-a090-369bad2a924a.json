@@ -8,6 +8,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:taiga": "2025-06-02 09:04:18 +0200",
+      "minecraft:windswept_hills": "2025-06-12 15:55:49 +0200",
       "minecraft:beach": "2025-06-08 11:25:01 +0200",
       "minecraft:river": "2025-06-02 09:19:35 +0200",
       "minecraft:forest": "2025-06-02 09:19:04 +0200",
@@ -337,15 +338,51 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2025-06-12 15:22:27 +0200"
+    },
+    "done": true
+  },
   "minecraft:adventure/avoid_vibration": {
     "criteria": {
       "avoid_vibration": "2025-06-12 15:22:50 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/black_banner": {
+  "minecraft:nether/obtain_crying_obsidian": {
     "criteria": {
-      "has_black_wool": "2025-06-12 15:22:27 +0200"
+      "crying_obsidian": "2025-06-12 15:56:01 +0200"
+    },
+    "done": true
+  },
+  "utility:a_powerfullshard": {
+    "criteria": {
+      "a_powerfullshard_0": "2025-06-12 15:55:30 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2025-06-12 15:56:01 +0200"
+    },
+    "done": true
+  },
+  "utility:the_key": {
+    "criteria": {
+      "the_key_0": "2025-06-12 15:55:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-06-12 15:55:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_slime_block": "2025-06-12 15:56:37 +0200"
     },
     "done": true
   },

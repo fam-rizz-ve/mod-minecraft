@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cbc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "b": {
+      "item": "utility:limbo_key_part_1"
+    },
+    "c": {
+      "item": "minecraft:slime_block"
+    }
+  },
+  "result": {
+    "item": "utility:limbokey",
+    "count": 1
+  }
+}

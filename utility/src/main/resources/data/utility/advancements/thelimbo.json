@@ -1,7 +1,8 @@
 {
   "display": {
+    "background": "minecraft:textures/block/stone.png",
     "icon": {
-      "item": "utility:limbokey"
+      "item": "utility:essenctiondistilizer"
     },
     "title": {
       "translate": "advancements.thelimbo.title"
@@ -21,6 +22,5 @@
         "to": "utility:limbo_dimension"
       }
     }
-  },
-  "parent": "utility:poweressece"
+  }
 }
