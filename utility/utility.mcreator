@@ -655,10 +655,40 @@
   ],
   "sound_elements": [],
   "tag_elements": {
+    "ITEMS:mod:slot_3_essenction_distilizer": [
+      "Items.DRAGON_BREATH",
+      "Blocks.BLACKSTONE",
+      "Items.GLOW_BERRIES"
+    ],
+    "ITEMS:mod:slot_2_essenction_distilizer": [
+      "Blocks.SHULKER_BOX",
+      "Blocks.SOUL_SAND",
+      "Items.ECHO_SHARD"
+    ],
     "ENCHANTMENTS:mod:custom_enchantemnt": [
       "CUSTOM:Lavaessence",
       "CUSTOM:Wateressence",
       "CUSTOM:Creeperessence"
+    ],
+    "ITEMS:mod:slot_0_essenction_distilizer": [
+      "Blocks.ANCIENT_DEBRIS",
+      "Items.ENDER_PEARL",
+      "Items.PRISMARINE_SHARD"
+    ],
+    "ITEMS:mod:slot_1_essenction_distilizer": [
+      "Items.CHORUS_FRUIT",
+      "Blocks.MAGMA",
+      "Blocks.SAND#1"
+    ],
+    "ITEMS:mod:slot_4_essenction_distilizer": [
+      "Blocks.END_STONE",
+      "Blocks.BASALT",
+      "Items.POWDER_SNOW_BUCKET"
+    ],
+    "ITEMS:mod:slot_5_essenction_distilizer": [
+      "Items.END_CRYSTAL",
+      "Items.NETHERBRICK",
+      "Blocks.BAMBOO"
     ]
   },
   "tab_element_order": {},

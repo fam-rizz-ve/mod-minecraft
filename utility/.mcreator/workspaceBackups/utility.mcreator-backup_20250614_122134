@@ -556,6 +556,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_113609
 =======
 <<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_113739
@@ -565,6 +566,9 @@
 >>>>>>> Stashed changes
 =======
 <<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_114709
+>>>>>>> Stashed changes
+=======
+<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_115209
 >>>>>>> Stashed changes
           "src/main/java/net/mcreator/utility/enchantment/IceessenceEnchantment.java"
 ========
@@ -578,6 +582,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_113609
 =======
 <<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_113739
@@ -587,6 +592,9 @@
 >>>>>>> Stashed changes
 =======
 <<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_114709
+>>>>>>> Stashed changes
+=======
+<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_115209
 >>>>>>> Stashed changes
       "name": "WindEssence",
       "type": "enchantment",
@@ -655,6 +663,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
     },
     {
@@ -671,6 +680,8 @@
       "path": "~/acivment"
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     },
@@ -700,8 +711,11 @@
       },
       "path": "~/acivment"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> Stashed changes
     },
     {
       "name": "Theendkey",
@@ -728,6 +742,9 @@
         ]
       },
       "path": "~/acivment"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 ========
       "name": "EssenctiondistilizerGUI",
@@ -847,6 +864,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_113609
 =======
 <<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_113739
@@ -856,6 +874,9 @@
 >>>>>>> Stashed changes
 =======
 <<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_114709
+>>>>>>> Stashed changes
+=======
+<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_115209
 >>>>>>> Stashed changes
       "CUSTOM:Creeperessence",
       "CUSTOM:Iceessence",
@@ -882,6 +903,10 @@
       "item.utility.endkey": "end key",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+      "advancements.the_overworldkey.title": "The Overworld key",
+>>>>>>> Stashed changes
 =======
       "advancements.the_overworldkey.title": "The Overworld key",
 >>>>>>> Stashed changes
@@ -898,6 +923,10 @@
       "item.utility.netherkey": "nether key",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+      "advancements.the_overworldkey.descr": "A way to come back home",
+>>>>>>> Stashed changes
 =======
       "advancements.the_overworldkey.descr": "A way to come back home",
 >>>>>>> Stashed changes
@@ -911,6 +940,7 @@
       "item.utility.nightelmet_helmet": "Night Helmet",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "biome.utility.void_biom": "Void Biom",
 =======
       "advancements.the_netherkey.title": "The Nether key",
@@ -918,15 +948,21 @@
       "advancements.the_netherkey.descr": "What a hell.... A  key for the Hell?",
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> Stashed changes
       "advancements.theflatkey.title": "The flat key",
       "advancements.the_netherkey.title": "The Nether key",
       "biome.utility.void_biom": "Void Biom",
       "advancements.the_netherkey.descr": "What a hell.... A  key for the Hell?",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       "item_group.utility.utility": "Utility",
       "enchantment.utility.creeperessence": "Creeper essence",
       "enchantment.utility.shockessence": "Shock essence",
       "item.utility.limbo_key_part_1": "Limbo key shard",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -941,11 +977,16 @@
 <<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_114709
       "advancements.theflatkey.descr": "Finally i can use all creative power",
 >>>>>>> Stashed changes
+=======
+<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_115209
+      "advancements.theflatkey.descr": "Finally i can use all creative power",
+>>>>>>> Stashed changes
 ========
       "biome.utility.limbobiom": "Limbo biom",
 >>>>>>>> Stashed changes:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_122134
       "advancements.a_powerfullshard.title": "A Powerfull Shard",
       "item.utility.overwordkey": "Overword key",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -956,11 +997,14 @@
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
       "item.utility.flatkey": "Flat key",
       "item.utility.power_essence": "Power Essence",
       "advancements.poweressece.title": "Power Essence",
       "block.utility.essenctiondistilizer": "Essenctiondistilizer",
       "advancements.liminalikey.descr": "A very dangerus key for..... another dimension?",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       "biome.utility.flat_biom": "Flat_biom",
       "key.utility.attivadisattivanighthelmet": "enable/disabilite night vision",
@@ -975,6 +1019,8 @@
 =======
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> Stashed changes
       "advancements.theendkey.descr": "A key for the end.... So easy?",
       "biome.utility.flat_biom": "Flat_biom",
       "key.utility.attivadisattivanighthelmet": "enable/disabilite night vision",
@@ -982,6 +1028,9 @@
       "enchantment.utility.iceessence": "Ice essence",
       "enchantment.utility.wateressence": "Water essence",
       "advancements.liminalikey.title": "Dimension traveler",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       "effect.utility.gravity": "Gravity",
       "advancements.poweressece.descr": "I..I.. can fell the power!!"
