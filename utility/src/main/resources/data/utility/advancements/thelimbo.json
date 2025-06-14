@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "utility:essenctiondistilizer"
+      "item": "minecraft:quartz_pillar"
     },
     "title": {
       "translate": "advancements.thelimbo.title"

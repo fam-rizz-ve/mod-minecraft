@@ -1,6 +1,5 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
     "icon": {
       "item": "utility:limbo_key_part_1"
     },
@@ -32,5 +31,6 @@
         ]
       }
     }
-  }
+  },
+  "parent": "utility:liminalikey"
 }

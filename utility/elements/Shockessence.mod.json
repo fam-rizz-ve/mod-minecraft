@@ -1,0 +1,26 @@
+{
+  "_fv": 77,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Shock essence",
+    "supportedSlots": "mainhand",
+    "weight": 2,
+    "anvilCost": 10,
+    "maxLevel": 1,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [
+      {
+        "value": "#mod:custom_enchantemnt"
+      }
+    ],
+    "supportedItems": [
+      {
+        "value": "TAG:minecraft:enchantable/sword"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "canGenerateInLootTables": false,
+    "canVillagerTrade": false
+  }
+}

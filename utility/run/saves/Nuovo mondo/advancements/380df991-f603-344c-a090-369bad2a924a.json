@@ -1,388 +1,126 @@
 {
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2025-06-02 09:04:17 +0200"
+      "unlock_right_away": "2025-06-14 10:22:38 +0200"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:taiga": "2025-06-02 09:04:18 +0200",
-      "minecraft:windswept_hills": "2025-06-12 15:55:49 +0200",
-      "minecraft:beach": "2025-06-08 11:25:01 +0200",
-      "minecraft:river": "2025-06-02 09:19:35 +0200",
-      "minecraft:forest": "2025-06-02 09:19:04 +0200",
-      "minecraft:plains": "2025-06-12 15:18:25 +0200"
+      "minecraft:taiga": "2025-06-14 10:22:49 +0200",
+      "minecraft:beach": "2025-06-14 10:22:42 +0200",
+      "minecraft:river": "2025-06-14 10:23:29 +0200",
+      "minecraft:cold_ocean": "2025-06-14 10:25:20 +0200",
+      "minecraft:forest": "2025-06-14 10:22:40 +0200",
+      "minecraft:plains": "2025-06-14 10:24:07 +0200"
     },
     "done": false
-  },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2025-06-02 09:19:40 +0200"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_all_mobs": {
-    "criteria": {
-      "minecraft:spider": "2025-06-08 12:20:15 +0200",
-      "minecraft:creeper": "2025-06-08 11:24:43 +0200",
-      "minecraft:witch": "2025-06-08 11:19:55 +0200",
-      "minecraft:zombie": "2025-06-02 09:19:40 +0200",
-      "minecraft:drowned": "2025-06-12 15:01:37 +0200"
-    },
-    "done": false
-  },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "minecraft:zombie": "2025-06-02 09:19:40 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/glowstone": {
-    "criteria": {
-      "has_glowstone_dust": "2025-06-08 11:19:57 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/firework_rocket_simple": {
-    "criteria": {
-      "has_gunpowder": "2025-06-08 11:19:57 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/tnt": {
-    "criteria": {
-      "has_gunpowder": "2025-06-08 11:19:57 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/spectral_arrow": {
-    "criteria": {
-      "has_glowstone_dust": "2025-06-08 11:19:57 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop": {
-    "criteria": {
-      "has_porkchop": "2025-06-08 11:25:39 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
-    "criteria": {
-      "has_porkchop": "2025-06-08 11:25:39 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
-    "criteria": {
-      "has_porkchop": "2025-06-08 11:25:39 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_mutton_from_smoking": {
-    "criteria": {
-      "has_mutton": "2025-06-08 12:06:29 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_mutton": {
-    "criteria": {
-      "has_mutton": "2025-06-08 12:06:29 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
-    "criteria": {
-      "has_mutton": "2025-06-08 12:06:29 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_nugget_from_smelting": {
-    "criteria": {
-      "has_golden_sword": "2025-06-08 12:06:54 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_nugget_from_blasting": {
-    "criteria": {
-      "has_golden_sword": "2025-06-08 12:06:54 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/arrow": {
-    "criteria": {
-      "has_feather": "2025-06-08 12:07:56 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
-    "criteria": {
-      "has_chicken": "2025-06-08 12:07:57 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_chicken": {
-    "criteria": {
-      "has_chicken": "2025-06-08 12:07:57 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_chicken_from_smoking": {
-    "criteria": {
-      "has_chicken": "2025-06-08 12:07:57 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2025-06-08 12:10:56 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/red_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-06-08 12:21:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/light_blue_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-06-08 12:21:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/glass_bottle": {
-    "criteria": {
-      "has_glass": "2025-06-08 12:21:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/green_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-06-08 12:21:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/brown_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-06-08 12:21:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/light_gray_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-06-08 12:21:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/blue_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-06-08 12:21:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/orange_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-06-08 12:21:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cyan_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-06-08 12:21:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/pink_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-06-08 12:21:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/black_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-06-08 12:21:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/gray_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-06-08 12:21:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purple_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-06-08 12:21:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/yellow_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-06-08 12:21:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/lime_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-06-08 12:21:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/glass_pane": {
-    "criteria": {
-      "has_glass": "2025-06-08 12:21:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/magenta_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-06-08 12:21:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/white_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-06-08 12:21:13 +0200"
-    },
-    "done": true
   },
   "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
-      "in_water": "2025-06-12 15:01:37 +0200"
+      "in_water": "2025-06-14 10:23:29 +0200"
     },
     "done": true
   },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
-      "in_water": "2025-06-12 15:01:37 +0200"
+      "in_water": "2025-06-14 10:23:29 +0200"
     },
     "done": true
   },
   "minecraft:recipes/transportation/cherry_boat": {
     "criteria": {
-      "in_water": "2025-06-12 15:01:37 +0200"
+      "in_water": "2025-06-14 10:23:29 +0200"
     },
     "done": true
   },
   "minecraft:recipes/transportation/bamboo_raft": {
     "criteria": {
-      "in_water": "2025-06-12 15:01:37 +0200"
+      "in_water": "2025-06-14 10:23:29 +0200"
     },
     "done": true
   },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
-      "in_water": "2025-06-12 15:01:37 +0200"
+      "in_water": "2025-06-14 10:23:29 +0200"
     },
     "done": true
   },
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
-      "in_water": "2025-06-12 15:01:37 +0200"
+      "in_water": "2025-06-14 10:23:29 +0200"
     },
     "done": true
   },
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
-      "in_water": "2025-06-12 15:01:37 +0200"
+      "in_water": "2025-06-14 10:23:29 +0200"
     },
     "done": true
   },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
-      "in_water": "2025-06-12 15:01:37 +0200"
+      "in_water": "2025-06-14 10:23:29 +0200"
     },
     "done": true
   },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
-      "in_water": "2025-06-12 15:01:37 +0200"
+      "in_water": "2025-06-14 10:23:29 +0200"
     },
     "done": true
   },
-  "minecraft:story/lava_bucket": {
+  "minecraft:adventure/root": {
     "criteria": {
-      "lava_bucket": "2025-06-12 15:05:24 +0200"
+      "killed_something": "2025-06-14 10:28:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
+    "criteria": {
+      "lightning_rod_with_villager_no_fire": "2025-06-14 10:46:18 +0200"
+    },
+    "done": true
+  },
+  "utility:liminalikey": {
+    "criteria": {
+      "liminalikey_0": "2025-06-14 11:29:20 +0200"
     },
     "done": true
   },
   "utility:poweressece": {
     "criteria": {
-      "poweressece_0": "2025-06-12 15:16:44 +0200"
-    },
-    "done": true
-  },
-  "utility:thelimbo": {
-    "criteria": {
-      "thelimbo_0": "2025-06-12 15:18:24 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_bed": {
-    "criteria": {
-      "has_black_wool": "2025-06-12 15:22:27 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/painting": {
-    "criteria": {
-      "has_wool": "2025-06-12 15:22:27 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_carpet": {
-    "criteria": {
-      "has_black_wool": "2025-06-12 15:22:27 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_banner": {
-    "criteria": {
-      "has_black_wool": "2025-06-12 15:22:27 +0200"
-    },
-    "done": true
-  },
-  "minecraft:adventure/avoid_vibration": {
-    "criteria": {
-      "avoid_vibration": "2025-06-12 15:22:50 +0200"
+      "poweressece_0": "2025-06-14 11:46:36 +0200"
     },
     "done": true
   },
   "utility:a_powerfullshard": {
     "criteria": {
-      "a_powerfullshard_0": "2025-06-12 15:55:30 +0200"
+      "a_powerfullshard_0": "2025-06-14 11:46:40 +0200"
     },
     "done": true
   },
   "utility:the_key": {
     "criteria": {
-      "the_key_0": "2025-06-12 15:55:35 +0200"
+      "the_key_0": "2025-06-14 11:46:43 +0200"
     },
     "done": true
   },
-  "minecraft:story/root": {
+  "utility:theendkey": {
     "criteria": {
-      "crafting_table": "2025-06-12 15:55:59 +0200"
+      "theendkey_0": "2025-06-14 11:53:26 +0200"
     },
     "done": true
   },
-  "minecraft:nether/obtain_crying_obsidian": {
+  "utility:the_netherkey": {
     "criteria": {
-      "crying_obsidian": "2025-06-12 15:56:01 +0200"
+      "the_netherkey_0": "2025-06-14 11:53:24 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/respawn_anchor": {
+  "utility:theflatkey": {
     "criteria": {
-      "has_obsidian": "2025-06-12 15:56:01 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/slime_ball": {
-    "criteria": {
-      "has_slime_block": "2025-06-12 15:56:37 +0200"
+      "theflatkey_0": "2025-06-14 11:53:21 +0200"
     },
     "done": true
   },

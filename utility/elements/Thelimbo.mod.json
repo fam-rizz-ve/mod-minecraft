@@ -5,7 +5,7 @@
     "achievementName": "The limbo",
     "achievementDescription": "The Master of Key is waiting you.......",
     "achievementIcon": {
-      "value": "CUSTOM:Essenctiondistilizer"
+      "value": "Blocks.QUARTZ_BLOCK#2"
     },
     "background": "Default",
     "disableDisplay": false,
