@@ -16,7 +16,6 @@ import net.mcreator.utility.item.PowerEssenceItem;
 import net.mcreator.utility.item.OverwordkeyItem;
 import net.mcreator.utility.item.NightelmetItem;
 import net.mcreator.utility.item.NetherkeyItem;
-import net.mcreator.utility.item.LimialikeyItem;
 import net.mcreator.utility.item.LimbokeyItem;
 import net.mcreator.utility.item.LimboKeyPart1Item;
 import net.mcreator.utility.item.FlatkeyItem;
@@ -34,7 +33,6 @@ public class UtilityModItems {
 	public static final RegistryObject<Item> POWER_ESSENCE = REGISTRY.register("power_essence", () -> new PowerEssenceItem());
 	public static final RegistryObject<Item> ESSENCTIONDISTILIZER = block(UtilityModBlocks.ESSENCTIONDISTILIZER);
 	public static final RegistryObject<Item> LIMBO_KEY_PART_1 = REGISTRY.register("limbo_key_part_1", () -> new LimboKeyPart1Item());
-	public static final RegistryObject<Item> LIMIALIKEY = REGISTRY.register("limialikey", () -> new LimialikeyItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
