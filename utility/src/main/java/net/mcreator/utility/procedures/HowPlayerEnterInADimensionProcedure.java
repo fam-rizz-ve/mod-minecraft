@@ -12,6 +12,8 @@ import net.minecraft.world.level.levelgen.structure.templatesystem.StructurePlac
 import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.Mirror;
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.GameType;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
@@ -75,6 +77,16 @@ public class HowPlayerEnterInADimensionProcedure {
 					_ent.teleportTo(75, 12, 48);
 					if (_ent instanceof ServerPlayer _serverPlayer)
 						_serverPlayer.connection.teleport(75, 12, 48, _ent.getYRot(), _ent.getXRot());
+				}
+				if (entity instanceof Player _player) {
+					_player.getAbilities().mayBuild = false;
+					_player.onUpdateAbilities();
+				}
+				if (entity instanceof ServerPlayer _player)
+					_player.setGameMode(GameType.ADVENTURE);
+				if (entity instanceof Player _player) {
+					_player.getAbilities().invulnerable = true;
+					_player.onUpdateAbilities();
 				}
 			}
 		}

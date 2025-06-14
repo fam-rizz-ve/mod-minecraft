@@ -3,6 +3,7 @@ package net.mcreator.utility.procedures;
 import net.minecraftforge.items.ItemHandlerHelper;
 
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.GameType;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
@@ -140,6 +141,16 @@ public class EndKeyRightclickedOnBlockProcedure {
 				ItemStack _setstack = new ItemStack(UtilityModItems.LIMBOKEY.get()).copy();
 				_setstack.setCount(1);
 				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
+			if (entity instanceof Player _player) {
+				_player.getAbilities().mayBuild = true;
+				_player.onUpdateAbilities();
+			}
+			if (entity instanceof ServerPlayer _player)
+				_player.setGameMode(GameType.SURVIVAL);
+			if (entity instanceof Player _player) {
+				_player.getAbilities().invulnerable = false;
+				_player.onUpdateAbilities();
 			}
 		}
 		{

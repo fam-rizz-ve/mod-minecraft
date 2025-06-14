@@ -151,12 +151,6 @@ public class LimboKeyRightclickedOnBlockProcedure {
 				capability.syncPlayerVariables(entity);
 			});
 		}
-		{
-			Entity _ent = entity;
-			_ent.teleportTo(0, 0, 0);
-			if (_ent instanceof ServerPlayer _serverPlayer)
-				_serverPlayer.connection.teleport(0, 0, 0, _ent.getYRot(), _ent.getXRot());
-		}
 		if (entity instanceof ServerPlayer _player && !_player.level().isClientSide()) {
 			ResourceKey<Level> destinationType = ResourceKey.create(Registries.DIMENSION, new ResourceLocation("utility:limbo_dimension"));
 			if (_player.level().dimension() == destinationType)
