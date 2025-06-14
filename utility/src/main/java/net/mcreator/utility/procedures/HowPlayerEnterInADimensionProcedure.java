@@ -7,9 +7,15 @@ import net.minecraftforge.event.TickEvent;
 
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.Vec2;
+import net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate;
+import net.minecraft.world.level.levelgen.structure.templatesystem.StructurePlaceSettings;
+import net.minecraft.world.level.block.Rotation;
+import net.minecraft.world.level.block.Mirror;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 import net.minecraft.commands.CommandSourceStack;
@@ -57,13 +63,27 @@ public class HowPlayerEnterInADimensionProcedure {
 								"fill ~-1 ~ ~-1 ~1 ~ ~1 minecraft:end_stone");
 				}
 			}
-			{
-				String _setval = "false";
-				entity.getCapability(UtilityModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-					capability.switch_dimension = _setval;
-					capability.syncPlayerVariables(entity);
-				});
+			if (((entity.getCapability(UtilityModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new UtilityModVariables.PlayerVariables())).last_key).equals("limbo key")) {
+				if (world instanceof ServerLevel _serverworld) {
+					StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("utility", "limbo_2"));
+					if (template != null) {
+						template.placeInWorld(_serverworld, new BlockPos(0, 0, 0), new BlockPos(0, 0, 0), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false), _serverworld.random, 3);
+					}
+				}
+				{
+					Entity _ent = entity;
+					_ent.teleportTo(75, 12, 48);
+					if (_ent instanceof ServerPlayer _serverPlayer)
+						_serverPlayer.connection.teleport(75, 12, 48, _ent.getYRot(), _ent.getXRot());
+				}
 			}
+		}
+		{
+			String _setval = "false";
+			entity.getCapability(UtilityModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+				capability.switch_dimension = _setval;
+				capability.syncPlayerVariables(entity);
+			});
 		}
 	}
 }
