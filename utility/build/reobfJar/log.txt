@@ -140,6 +140,7 @@ Processing entries
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Conflicting propagated mapping for net/mcreator/utility/enchantment/ShockessenceEnchantment/getMinCost(I)I from net/minecraft/world/item/enchantment/Enchantment/getMinCost(I)I: getMinCost -> m_6183_
 Conflicting propagated mapping for net/mcreator/utility/enchantment/WateressenceEnchantment/getMinCost(I)I from net/minecraft/world/item/enchantment/Enchantment/getMinCost(I)I: getMinCost -> m_6183_
 Conflicting propagated mapping for net/mcreator/utility/item/NightelmetItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
@@ -202,6 +203,8 @@ Conflicting propagated mapping for net/mcreator/utility/item/LimbokeyItem/use(Ln
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 Conflicting propagated mapping for net/mcreator/utility/init/UtilityModKeyMappings$1/setDown(Z)V from net/minecraft/client/KeyMapping/setDown(Z)V: setDown -> m_7249_
 Conflicting propagated mapping for net/mcreator/utility/enchantment/LavaessenceEnchantment/getMinCost(I)I from net/minecraft/world/item/enchantment/Enchantment/getMinCost(I)I: getMinCost -> m_6183_
 Conflicting propagated mapping for net/mcreator/utility/enchantment/LavaessenceEnchantment/isDiscoverable()Z from net/minecraft/world/item/enchantment/Enchantment/isDiscoverable()Z: isDiscoverable -> m_6592_
@@ -228,6 +231,9 @@ Conflicting propagated mapping for net/mcreator/utility/client/gui/Essenctiondis
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -252,9 +258,12 @@ Conflicting propagated mapping for net/mcreator/utility/block/FlatdimentionPorta
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Conflicting propagated mapping for net/mcreator/utility/world/dimension/LimboDimensionDimension$LimboDimensionSpecialEffectsHandler$1/getBrightnessDependentFogColor(Lnet/minecraft/world/phys/Vec3;F)Lnet/minecraft/world/phys/Vec3; from net/minecraft/client/renderer/DimensionSpecialEffects/getBrightnessDependentFogColor(Lnet/minecraft/world/phys/Vec3;F)Lnet/minecraft/world/phys/Vec3;: getBrightnessDependentFogColor -> m_5927_
 Conflicting propagated mapping for net/mcreator/utility/world/dimension/LimboDimensionDimension$LimboDimensionSpecialEffectsHandler$1/isFoggyAt(II)Z from net/minecraft/client/renderer/DimensionSpecialEffects/isFoggyAt(II)Z: isFoggyAt -> m_5781_
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -290,6 +299,9 @@ Conflicting propagated mapping for net/mcreator/utility/network/UtilityModVariab
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -453,7 +465,10 @@ Writing Output: C:\Users\gianl\Documents\GitHub\mod-minecraft\utility\build\reob
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   net/mcreator/utility/enchantment/ShockessenceEnchantment.class
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
