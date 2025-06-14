@@ -544,6 +544,36 @@
         ]
       },
       "path": "~/enchantment/Power_essence_enchant"
+    },
+    {
+      "name": "Limbobiom",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbobiom",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/worldgen/biome/limbobiom.json",
+          "src/main/resources/data/utility/worldgen/configured_feature/limbobiom_tree.json",
+          "src/main/resources/data/utility/worldgen/placed_feature/limbobiom_tree.json"
+        ]
+      },
+      "path": "~/dimension/limbo"
+    },
+    {
+      "name": "Limbostructure",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbostructure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/worldgen/template_pool/limbostructure.json",
+          "src/main/resources/data/utility/worldgen/structure_set/limbostructure.json",
+          "src/main/resources/data/utility/worldgen/structure/limbostructure.json"
+        ]
+      },
+      "path": "~/dimension/limbo"
     }
   ],
   "variable_elements": [
@@ -659,6 +689,7 @@
       "item_group.utility.utility": "Utility",
       "enchantment.utility.creeperessence": "Creeper essence",
       "item.utility.limbo_key_part_1": "Limbo key shard",
+      "biome.utility.limbobiom": "Limbo_biom",
       "advancements.a_powerfullshard.title": "A Powerfull Shard",
       "item.utility.overwordkey": "Overword key",
       "item.utility.flatkey": "Flat key",
