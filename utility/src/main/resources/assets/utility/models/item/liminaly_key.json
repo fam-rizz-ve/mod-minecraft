@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "utility:item/liminali_key_textur"
+  }
+}

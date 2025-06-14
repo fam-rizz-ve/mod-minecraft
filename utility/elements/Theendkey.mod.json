@@ -2,8 +2,8 @@
   "_fv": 77,
   "_type": "achievement",
   "definition": {
-    "achievementName": "The end key",
-    "achievementDescription": "A key for the end.... So easy?",
+    "achievementName": "The End key",
+    "achievementDescription": "The end of your journery.... So easy?",
     "achievementIcon": {
       "value": "CUSTOM:Endkey"
     },
@@ -15,9 +15,9 @@
     "rewardLoot": [],
     "rewardRecipes": [],
     "rewardXP": 0,
-    "achievementType": "task",
+    "achievementType": "challenge",
     "parent": {
-      "value": "CUSTOM:TheNetherkey"
+      "value": "CUSTOM:Thenetherkey"
     },
     "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"item_in_inventory\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:Endkey</field></block></value></block></next></block></xml>"
   }
