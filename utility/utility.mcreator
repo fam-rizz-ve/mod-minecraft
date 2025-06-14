@@ -546,9 +546,6 @@
       "path": "~/enchantment/Power_essence_enchant"
     },
     {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
       "name": "Iceessence",
       "type": "enchantment",
       "compiles": true,
@@ -556,12 +553,33 @@
       "registry_name": "iceessence",
       "metadata": {
         "files": [
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_113609
+=======
+<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_113739
+>>>>>>> Stashed changes
+=======
+<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_114239
+>>>>>>> Stashed changes
           "src/main/java/net/mcreator/utility/enchantment/IceessenceEnchantment.java"
+========
+          "src/main/resources/data/utility/worldgen/biome/limbobiom.json"
+>>>>>>>> Stashed changes:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_122134
         ]
       },
       "path": "~/enchantment/Power_essence_enchant"
     },
     {
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_113609
+=======
+<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_113739
+>>>>>>> Stashed changes
+=======
+<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_114239
+>>>>>>> Stashed changes
       "name": "WindEssence",
       "type": "enchantment",
       "compiles": true,
@@ -626,6 +644,24 @@
         ]
       },
       "path": "~/acivment"
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+    },
+    {
+      "name": "Thechosen",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thechosen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/advancements/thechosen.json"
+        ]
+      },
+      "path": "~/acivment"
+>>>>>>> Stashed changes
+=======
     },
     {
       "name": "TheOverworldkey",
@@ -652,50 +688,8 @@
         ]
       },
       "path": "~/acivment"
-    },
-    {
-      "name": "Theendkey",
-      "type": "achievement",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "theendkey",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/utility/advancements/theendkey.json"
-        ]
-      },
-      "path": "~/acivment"
-    },
-    {
-      "name": "Theflatkey",
-      "type": "achievement",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "theflatkey",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/utility/advancements/theflatkey.json"
-        ]
-      },
-      "path": "~/acivment"
-=======
-=======
 >>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-      "name": "Limbobiom",
-      "type": "biome",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "limbobiom",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/utility/worldgen/biome/limbobiom.json"
-        ]
-      },
-      "path": "~/dimension/limbo"
-    },
-    {
+========
       "name": "EssenctiondistilizerGUI",
       "type": "gui",
       "compiles": true,
@@ -708,13 +702,7 @@
         ]
       },
       "path": "~/dimension/limbo/essenction distilizer"
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+>>>>>>>> Stashed changes:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_122134
     }
   ],
   "variable_elements": [
@@ -811,32 +799,27 @@
   ],
   "sound_elements": [],
   "tag_elements": {
-    "ITEMS:mod:slot_3_essenction_distilizer": [
-      "Items.DRAGON_BREATH",
-      "Blocks.BLACKSTONE",
-      "Items.GLOW_BERRIES"
-    ],
-    "ITEMS:mod:slot_2_essenction_distilizer": [
-      "Blocks.SHULKER_BOX",
-      "Blocks.SOUL_SAND",
-      "Items.ECHO_SHARD"
-    ],
+    "ITEMS:mod:slot_3_essenction_distilizer": [],
+    "ITEMS:mod:slot_2_essenction_distilizer": [],
     "ENCHANTMENTS:mod:custom_enchantemnt": [
       "CUSTOM:Lavaessence",
       "CUSTOM:Wateressence",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_113609
+=======
+<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_113739
+>>>>>>> Stashed changes
+=======
+<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_114239
+>>>>>>> Stashed changes
       "CUSTOM:Creeperessence",
       "CUSTOM:Iceessence",
       "CUSTOM:WindEssence",
       "CUSTOM:Shockessence",
       "CUSTOM:Ashessence"
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+    ]
+========
       "CUSTOM:Creeperessence"
     ],
     "ITEMS:mod:slot_0_essenction_distilizer": [
@@ -844,34 +827,19 @@
       "Items.ENDER_PEARL",
       "Items.PRISMARINE_SHARD"
     ],
-    "ITEMS:mod:slot_1_essenction_distilizer": [
-      "Items.CHORUS_FRUIT",
-      "Blocks.MAGMA",
-      "Blocks.SAND#1"
-    ],
-    "ITEMS:mod:slot_4_essenction_distilizer": [
-      "Blocks.END_STONE",
-      "Blocks.BASALT",
-      "Items.POWDER_SNOW_BUCKET"
-    ],
-    "ITEMS:mod:slot_5_essenction_distilizer": [
-      "Items.END_CRYSTAL",
-      "Items.NETHERBRICK",
-      "Blocks.BAMBOO"
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-    ]
+    "ITEMS:mod:slot_1_essenction_distilizer": [],
+    "ITEMS:mod:slot_4_essenction_distilizer": [],
+    "ITEMS:mod:slot_5_essenction_distilizer": []
+>>>>>>>> Stashed changes:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_122134
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "item.utility.endkey": "end key",
+<<<<<<< Updated upstream
+=======
       "advancements.the_overworldkey.title": "The Overworld key",
+>>>>>>> Stashed changes
       "enchantment.utility.lavaessence": "Lava essence",
       "advancements.the_key.title": "The Key",
       "advancements.a_powerfullshard.descr": "The powerfull scrap I ever see",
@@ -880,47 +848,64 @@
       "advancements.thelimbo.title": "The limbo",
       "advancements.thelimbo.descr": "The Master of Key is waiting you.......",
       "item.utility.netherkey": "nether key",
+<<<<<<< Updated upstream
+=======
       "advancements.the_overworldkey.descr": "A way to come back home",
+>>>>>>> Stashed changes
       "item.utility.limialikey": "Limiali key",
       "item.utility.limbokey.description_0": "When you grip it, you feel the weight of a thousand whispers that do not belong to this world. Use it only if you have the courage to face the eternal void… for those who enter the Limbo rarely find their way back.",
       "enchantment.utility.ashessence": "Ash essence",
       "item.utility.limbokey": "Limbo key",
       "item.utility.nightelmet_helmet": "Night Helmet",
-      "advancements.theflatkey.title": "The flat key",
+<<<<<<< Updated upstream
+      "biome.utility.void_biom": "Void Biom",
+=======
       "advancements.the_netherkey.title": "The Nether key",
       "biome.utility.void_biom": "Void Biom",
       "advancements.the_netherkey.descr": "What a hell.... A  key for the Hell?",
+>>>>>>> Stashed changes
       "item_group.utility.utility": "Utility",
       "enchantment.utility.creeperessence": "Creeper essence",
       "enchantment.utility.shockessence": "Shock essence",
       "item.utility.limbo_key_part_1": "Limbo key shard",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
-      "advancements.theflatkey.descr": "Finally i can use all creative power",
+<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_113609
 =======
-      "biome.utility.limbobiom": "Limbo biom",
+<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_113739
 >>>>>>> Stashed changes
 =======
-      "biome.utility.limbobiom": "Limbo biom",
+<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_114239
 >>>>>>> Stashed changes
-=======
+========
       "biome.utility.limbobiom": "Limbo biom",
->>>>>>> Stashed changes
+>>>>>>>> Stashed changes:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_122134
       "advancements.a_powerfullshard.title": "A Powerfull Shard",
       "item.utility.overwordkey": "Overword key",
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+      "advancements.thechosen.title": "The chosen",
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
       "item.utility.flatkey": "Flat key",
       "item.utility.power_essence": "Power Essence",
       "advancements.poweressece.title": "Power Essence",
       "block.utility.essenctiondistilizer": "Essenctiondistilizer",
       "advancements.liminalikey.descr": "A very dangerus key for..... another dimension?",
-      "advancements.theendkey.descr": "A key for the end.... So easy?",
       "biome.utility.flat_biom": "Flat_biom",
       "key.utility.attivadisattivanighthelmet": "enable/disabilite night vision",
-      "advancements.theendkey.title": "The end key",
       "enchantment.utility.iceessence": "Ice essence",
       "enchantment.utility.wateressence": "Water essence",
       "advancements.liminalikey.title": "Dimension traveler",
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+      "advancements.thechosen.descr": "The chosen of the master... I?",
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
       "effect.utility.gravity": "Gravity",
       "advancements.poweressece.descr": "I..I.. can fell the power!!"
     }
@@ -987,10 +972,6 @@
       },
       {
         "name": "acivment",
-        "children": []
-      },
-      {
-        "name": "mosti_nuovi",
         "children": []
       }
     ]
