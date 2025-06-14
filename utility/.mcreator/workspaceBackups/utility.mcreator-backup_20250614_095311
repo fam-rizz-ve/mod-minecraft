@@ -428,6 +428,19 @@
       "path": "~/enchantment/Power_essence_enchant"
     },
     {
+      "name": "Projectileessence",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "projectileessence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/enchantment/ProjectileessenceEnchantment.java"
+        ]
+      },
+      "path": "~/enchantment/Power_essence_enchant"
+    },
+    {
       "name": "Poweressece",
       "type": "achievement",
       "compiles": true,
@@ -681,6 +694,7 @@
       "item.utility.overwordkey": "Overword key",
       "item.utility.flatkey": "Flat key",
       "item.utility.power_essence": "Power Essence",
+      "enchantment.utility.projectileessence": "Projectil essence",
       "advancements.poweressece.title": "Power Essence",
       "block.utility.essenctiondistilizer": "Essenctiondistilizer",
       "biome.utility.flat_biom": "Flat_biom",
