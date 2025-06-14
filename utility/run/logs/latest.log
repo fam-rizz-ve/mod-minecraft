@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [14Jun2025 11:52:11.410] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\gianl\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
 [14Jun2025 11:52:11.417] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
 [14Jun2025 11:52:11.549] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
@@ -49,6 +50,8 @@
 [14Jun2025 11:52:28.399] [Worker-Main-21/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:needs_diamond_tool as it is missing following references: utility:ancent_anvil (from main)
 [14Jun2025 11:52:28.597] [Worker-Main-9/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:utility:blocks/ancent_anvil
 =======
+=======
+>>>>>>> Stashed changes
 [14Jun2025 12:08:23.581] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\Andrea\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
 [14Jun2025 12:08:23.586] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
 [14Jun2025 12:08:23.715] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
@@ -135,6 +138,9 @@ Caused by: java.net.ConnectException: Connection timed out: getsockopt
 [14Jun2025 12:08:57.117] [Worker-Main-5/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:mineable/pickaxe as it is missing following references: utility:ancent_anvil (from main)
 [14Jun2025 12:08:57.118] [Worker-Main-5/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:needs_diamond_tool as it is missing following references: utility:ancent_anvil (from main)
 [14Jun2025 12:08:57.477] [Worker-Main-8/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:utility:blocks/ancent_anvil
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'utility:ancent_anvil'
 	at net.minecraft.util.GsonHelper.lambda$convertToItem$0(GsonHelper.java:116) ~[forge-1.20.1-47.4.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -187,6 +193,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 [14Jun2025 11:52:28.643] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
 [14Jun2025 11:52:28.697] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1280 advancements
@@ -247,6 +254,8 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [14Jun2025 11:53:40.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (flatdimention): All chunks are saved
 [14Jun2025 11:53:40.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
 =======
+=======
+>>>>>>> Stashed changes
 [14Jun2025 12:08:57.596] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
 [14Jun2025 12:08:57.718] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1275 advancements
 [14Jun2025 12:08:58.953] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
@@ -360,4 +369,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [14Jun2025 12:15:15.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
 [14Jun2025 12:15:15.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (flatdimention): All chunks are saved
 [14Jun2025 12:15:15.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

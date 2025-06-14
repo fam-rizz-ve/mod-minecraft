@@ -135,6 +135,7 @@ Reading Input: C:\Users\gianl\Documents\GitHub\mod-minecraft\utility\build\libs\
 Adding input to inheritance map
 Processing entries
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Conflicting propagated mapping for net/mcreator/utility/enchantment/ShockessenceEnchantment/getMinCost(I)I from net/minecraft/world/item/enchantment/Enchantment/getMinCost(I)I: getMinCost -> m_6183_
 Conflicting propagated mapping for net/mcreator/utility/enchantment/WateressenceEnchantment/getMinCost(I)I from net/minecraft/world/item/enchantment/Enchantment/getMinCost(I)I: getMinCost -> m_6183_
 Conflicting propagated mapping for net/mcreator/utility/item/NightelmetItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
@@ -187,6 +188,8 @@ Conflicting propagated mapping for net/mcreator/utility/item/OverwordkeyItem/use
 Conflicting propagated mapping for net/mcreator/utility/item/LimbokeyItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for net/mcreator/utility/item/LimbokeyItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
 =======
+=======
+>>>>>>> Stashed changes
 Conflicting propagated mapping for net/mcreator/utility/init/UtilityModKeyMappings$1/setDown(Z)V from net/minecraft/client/KeyMapping/setDown(Z)V: setDown -> m_7249_
 Conflicting propagated mapping for net/mcreator/utility/enchantment/LavaessenceEnchantment/getMinCost(I)I from net/minecraft/world/item/enchantment/Enchantment/getMinCost(I)I: getMinCost -> m_6183_
 Conflicting propagated mapping for net/mcreator/utility/enchantment/LavaessenceEnchantment/isDiscoverable()Z from net/minecraft/world/item/enchantment/Enchantment/isDiscoverable()Z: isDiscoverable -> m_6592_
@@ -208,6 +211,9 @@ Conflicting propagated mapping for net/mcreator/utility/client/gui/Essenctiondis
 Conflicting propagated mapping for net/mcreator/utility/client/gui/EssenctiondistilizerGUIScreen/init()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/init()V: init -> m_7856_
 Conflicting propagated mapping for net/mcreator/utility/client/gui/EssenctiondistilizerGUIScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V: renderLabels -> m_280003_
 Conflicting propagated mapping for net/mcreator/utility/client/gui/EssenctiondistilizerGUIScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V: renderBg -> m_7286_
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 Conflicting propagated mapping for net/mcreator/utility/block/EssenctiondistilizerBlock/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getVisualShape -> m_5909_
 Conflicting propagated mapping for net/mcreator/utility/block/EssenctiondistilizerBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
@@ -217,9 +223,12 @@ Conflicting propagated mapping for net/mcreator/utility/block/FlatdimentionPorta
 Conflicting propagated mapping for net/mcreator/utility/block/FlatdimentionPortalBlock/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/NetherPortalBlock/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;: updateShape -> m_7417_
 Conflicting propagated mapping for net/mcreator/utility/block/FlatdimentionPortalBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/NetherPortalBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: randomTick -> m_213898_
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Conflicting propagated mapping for net/mcreator/utility/world/dimension/LimboDimensionDimension$LimboDimensionSpecialEffectsHandler$1/getBrightnessDependentFogColor(Lnet/minecraft/world/phys/Vec3;F)Lnet/minecraft/world/phys/Vec3; from net/minecraft/client/renderer/DimensionSpecialEffects/getBrightnessDependentFogColor(Lnet/minecraft/world/phys/Vec3;F)Lnet/minecraft/world/phys/Vec3;: getBrightnessDependentFogColor -> m_5927_
 Conflicting propagated mapping for net/mcreator/utility/world/dimension/LimboDimensionDimension$LimboDimensionSpecialEffectsHandler$1/isFoggyAt(II)Z from net/minecraft/client/renderer/DimensionSpecialEffects/isFoggyAt(II)Z: isFoggyAt -> m_5781_
 =======
+=======
+>>>>>>> Stashed changes
 Conflicting propagated mapping for net/mcreator/utility/world/inventory/EssenctiondistilizerGUIMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/world/inventory/AbstractContainerMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z: stillValid -> m_6875_
 Conflicting propagated mapping for net/mcreator/utility/world/inventory/EssenctiondistilizerGUIMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/AbstractContainerMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;: quickMoveStack -> m_7648_
 Conflicting propagated mapping for net/mcreator/utility/item/EndkeyItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
@@ -240,6 +249,9 @@ Conflicting propagated mapping for net/mcreator/utility/item/NightelmetItem$1/ge
 Conflicting propagated mapping for net/minecraftforge/network/IContainerFactory/create(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/inventory/MenuType$MenuSupplier/create(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: create -> m_39994_
 Conflicting propagated mapping for net/mcreator/utility/network/UtilityModVariables$MapVariables/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/saveddata/SavedData/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;: save -> m_7176_
 Conflicting propagated mapping for net/mcreator/utility/network/UtilityModVariables$WorldVariables/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/saveddata/SavedData/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;: save -> m_7176_
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
 Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/isInvulnerableTo(Lnet/minecraft/world/damagesource/DamageSource;)Z from net/minecraft/server/level/ServerPlayer/isInvulnerableTo(Lnet/minecraft/world/damagesource/DamageSource;)Z: isInvulnerableTo -> m_6673_
@@ -388,7 +400,10 @@ Writing Output: C:\Users\gianl\Documents\GitHub\mod-minecraft\utility\build\reob
   net/mcreator/utility/enchantment/IceessenceEnchantment.class
   net/mcreator/utility/enchantment/LavaessenceEnchantment.class
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   net/mcreator/utility/enchantment/ShockessenceEnchantment.class
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   net/mcreator/utility/enchantment/WateressenceEnchantment.class

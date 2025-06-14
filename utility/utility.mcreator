@@ -547,6 +547,7 @@
     },
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "name": "Iceessence",
       "type": "enchantment",
       "compiles": true,
@@ -677,6 +678,8 @@
       },
       "path": "~/acivment"
 =======
+=======
+>>>>>>> Stashed changes
       "name": "Limbobiom",
       "type": "biome",
       "compiles": true,
@@ -702,6 +705,9 @@
         ]
       },
       "path": "~/dimension/limbo/essenction distilizer"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
   ],
@@ -813,12 +819,15 @@
       "CUSTOM:Lavaessence",
       "CUSTOM:Wateressence",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "CUSTOM:Creeperessence",
       "CUSTOM:Iceessence",
       "CUSTOM:WindEssence",
       "CUSTOM:Shockessence",
       "CUSTOM:Ashessence"
 =======
+=======
+>>>>>>> Stashed changes
       "CUSTOM:Creeperessence"
     ],
     "ITEMS:mod:slot_0_essenction_distilizer": [
@@ -840,6 +849,9 @@
       "Items.END_CRYSTAL",
       "Items.NETHERBRICK",
       "Blocks.BAMBOO"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     ]
   },
@@ -871,7 +883,11 @@
       "enchantment.utility.shockessence": "Shock essence",
       "item.utility.limbo_key_part_1": "Limbo key shard",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "advancements.theflatkey.descr": "Finally i can use all creative power",
+=======
+      "biome.utility.limbobiom": "Limbo biom",
+>>>>>>> Stashed changes
 =======
       "biome.utility.limbobiom": "Limbo biom",
 >>>>>>> Stashed changes

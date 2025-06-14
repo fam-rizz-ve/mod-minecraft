@@ -553,7 +553,11 @@
       "registry_name": "iceessence",
       "metadata": {
         "files": [
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_113609
+=======
+<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_113739
+>>>>>>> Stashed changes
           "src/main/java/net/mcreator/utility/enchantment/IceessenceEnchantment.java"
 ========
           "src/main/resources/data/utility/worldgen/biome/limbobiom.json"
@@ -563,7 +567,11 @@
       "path": "~/enchantment/Power_essence_enchant"
     },
     {
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_113609
+=======
+<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_113739
+>>>>>>> Stashed changes
       "name": "WindEssence",
       "type": "enchantment",
       "compiles": true,
@@ -628,6 +636,22 @@
         ]
       },
       "path": "~/acivment"
+<<<<<<< Updated upstream
+=======
+    },
+    {
+      "name": "Thechosen",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thechosen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/advancements/thechosen.json"
+        ]
+      },
+      "path": "~/acivment"
+>>>>>>> Stashed changes
 ========
       "name": "EssenctiondistilizerGUI",
       "type": "gui",
@@ -743,7 +767,11 @@
     "ENCHANTMENTS:mod:custom_enchantemnt": [
       "CUSTOM:Lavaessence",
       "CUSTOM:Wateressence",
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_113609
+=======
+<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_113739
+>>>>>>> Stashed changes
       "CUSTOM:Creeperessence",
       "CUSTOM:Iceessence",
       "CUSTOM:WindEssence",
@@ -785,12 +813,20 @@
       "enchantment.utility.creeperessence": "Creeper essence",
       "enchantment.utility.shockessence": "Shock essence",
       "item.utility.limbo_key_part_1": "Limbo key shard",
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_113609
+=======
+<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_113739
+>>>>>>> Stashed changes
 ========
       "biome.utility.limbobiom": "Limbo biom",
 >>>>>>>> Stashed changes:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_122134
       "advancements.a_powerfullshard.title": "A Powerfull Shard",
       "item.utility.overwordkey": "Overword key",
+<<<<<<< Updated upstream
+=======
+      "advancements.thechosen.title": "The chosen",
+>>>>>>> Stashed changes
       "item.utility.flatkey": "Flat key",
       "item.utility.power_essence": "Power Essence",
       "advancements.poweressece.title": "Power Essence",
@@ -801,6 +837,10 @@
       "enchantment.utility.iceessence": "Ice essence",
       "enchantment.utility.wateressence": "Water essence",
       "advancements.liminalikey.title": "Dimension traveler",
+<<<<<<< Updated upstream
+=======
+      "advancements.thechosen.descr": "The chosen of the master... I?",
+>>>>>>> Stashed changes
       "effect.utility.gravity": "Gravity",
       "advancements.poweressece.descr": "I..I.. can fell the power!!"
     }
