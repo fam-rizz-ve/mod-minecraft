@@ -2,9 +2,9 @@
   "_fv": 77,
   "_type": "enchantment",
   "definition": {
-    "name": "Ice essence",
+    "name": "Wind essece",
     "supportedSlots": "mainhand",
-    "weight": 2,
+    "weight": 3,
     "anvilCost": 20,
     "maxLevel": 1,
     "damageModifier": 0,
@@ -15,7 +15,7 @@
     ],
     "supportedItems": [
       {
-        "value": "TAG:minecraft:enchantable/sword"
+        "value": "TAG:minecraft:enchantable/armor"
       }
     ],
     "isTreasureEnchantment": false,

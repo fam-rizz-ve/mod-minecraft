@@ -660,6 +660,97 @@
         ]
       },
       "path": "~/acivment"
+    },
+    {
+      "name": "Iceessence",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iceessence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/enchantment/IceessenceEnchantment.java"
+        ]
+      },
+      "path": "~/enchantment/Power_essence_enchant"
+    },
+    {
+      "name": "Ashessece",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ashessece",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/enchantment/AshesseceEnchantment.java"
+        ]
+      },
+      "path": "~/enchantment/Power_essence_enchant"
+    },
+    {
+      "name": "Stormessece",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormessece",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/enchantment/StormesseceEnchantment.java"
+        ]
+      },
+      "path": "~/enchantment/Power_essence_enchant"
+    },
+    {
+      "name": "Windessece",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "windessece",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/enchantment/WindesseceEnchantment.java"
+        ]
+      },
+      "path": "~/enchantment/Power_essence_enchant"
+    },
+    {
+      "name": "Sporetouch",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sporetouch",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/enchantment/SporetouchEnchantment.java"
+        ]
+      },
+      "path": "~/enchantment/Power_essence_enchant"
+    },
+    {
+      "name": "Furyessece",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furyessece",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/enchantment/FuryesseceEnchantment.java"
+        ]
+      },
+      "path": "~/enchantment/Power_essence_enchant"
+    },
+    {
+      "name": "Furyessecearmor",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furyessecearmor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/enchantment/FuryessecearmorEnchantment.java"
+        ]
+      },
+      "path": "~/enchantment/Power_essence_enchant"
     }
   ],
   "variable_elements": [
@@ -769,7 +860,12 @@
     "ENCHANTMENTS:mod:custom_enchantemnt": [
       "CUSTOM:Lavaessence",
       "CUSTOM:Wateressence",
-      "CUSTOM:Creeperessence"
+      "CUSTOM:Creeperessence",
+      "CUSTOM:Iceessence",
+      "CUSTOM:Ashessece",
+      "CUSTOM:Stormessece",
+      "CUSTOM:Windessece",
+      "CUSTOM:Sporetouch"
     ],
     "ITEMS:mod:slot_0_essenction_distilizer": [
       "Blocks.ANCIENT_DEBRIS",
@@ -798,12 +894,14 @@
       "advancements.over_worldkey.title": "Overworld key",
       "item.utility.endkey": "end key",
       "enchantment.utility.lavaessence": "Lava essence",
+      "enchantment.utility.stormessece": "Storm essece",
       "advancements.the_key.title": "The Key",
       "advancements.a_powerfullshard.descr": "The powerfull scrap I ever see",
       "advancements.the_key.descr": "A unknow key for a unknow dimension",
       "advancements.thelimbo.title": "The limbo",
       "advancements.thelimbo.descr": "The Master of Key is waiting you.......",
       "item.utility.netherkey": "nether key",
+      "enchantment.utility.windessece": "Wind essece",
       "advancements.thenetherkey.descr": "What a hell, is this a key for Hell?",
       "advancements.over_worldkey.descr": "A way to come back home",
       "item.utility.limbokey.description_0": "When you grip it, you feel the weight of a thousand whispers that do not belong to this world. Use it only if you have the courage to face the eternal void… for those who enter the Limbo rarely find their way back.",
@@ -811,10 +909,14 @@
       "item.utility.limbokey": "Limbo key",
       "item.utility.nightelmet_helmet": "Night Helmet",
       "advancements.theflatworldkey.title": "The flatworld key",
+      "enchantment.utility.sporetouch": "Spore essence",
+      "enchantment.utility.furyessece": "Fury essece (sword)",
       "biome.utility.void_biom": "Void Biom",
       "item_group.utility.utility": "Utility",
       "advancements.the_liminalykey.title": "The dimension walker",
+      "enchantment.utility.ashessece": "Ash essece",
       "enchantment.utility.creeperessence": "Creeper essence",
+      "enchantment.utility.furyessecearmor": "Fury essece (armor)",
       "item.utility.limbo_key_part_1": "Limbo key shard",
       "biome.utility.limbobiom": "Limbo biom",
       "advancements.a_powerfullshard.title": "A Powerfull Shard",
@@ -829,6 +931,7 @@
       "biome.utility.flat_biom": "Flat_biom",
       "key.utility.attivadisattivanighthelmet": "enable/disabilite night vision",
       "item.utility.liminaly_key": "Liminali Key",
+      "enchantment.utility.iceessence": "Ice essence",
       "enchantment.utility.wateressence": "Water essence",
       "effect.utility.gravity": "Gravity",
       "advancements.poweressece.descr": "I..I.. can fell the power!!",
@@ -897,6 +1000,10 @@
       },
       {
         "name": "acivment",
+        "children": []
+      },
+      {
+        "name": "New mob",
         "children": []
       }
     ]

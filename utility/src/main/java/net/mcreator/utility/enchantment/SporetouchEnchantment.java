@@ -12,11 +12,11 @@ import net.minecraft.resources.ResourceLocation;
 
 import java.util.List;
 
-public class IceessenceEnchantment extends Enchantment {
-	private static final EnchantmentCategory ENCHANTMENT_CATEGORY = EnchantmentCategory.create("utility_iceessence", item -> Ingredient.of(ItemTags.create(new ResourceLocation("minecraft:enchantable/sword"))).test(new ItemStack(item)));
+public class SporetouchEnchantment extends Enchantment {
+	private static final EnchantmentCategory ENCHANTMENT_CATEGORY = EnchantmentCategory.create("utility_sporetouch", item -> Ingredient.of(ItemTags.create(new ResourceLocation("minecraft:enchantable/sword"))).test(new ItemStack(item)));
 
-	public IceessenceEnchantment() {
-		super(Enchantment.Rarity.RARE, ENCHANTMENT_CATEGORY, new EquipmentSlot[]{EquipmentSlot.MAINHAND});
+	public SporetouchEnchantment() {
+		super(Enchantment.Rarity.VERY_RARE, ENCHANTMENT_CATEGORY, new EquipmentSlot[]{EquipmentSlot.MAINHAND});
 	}
 
 	@Override
