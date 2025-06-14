@@ -1,6 +1,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [14Jun2025 11:52:11.410] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\gianl\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
 [14Jun2025 11:52:11.417] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
 [14Jun2025 11:52:11.549] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
@@ -51,6 +52,8 @@
 [14Jun2025 11:52:28.399] [Worker-Main-21/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:needs_diamond_tool as it is missing following references: utility:ancent_anvil (from main)
 [14Jun2025 11:52:28.597] [Worker-Main-9/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:utility:blocks/ancent_anvil
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -143,6 +146,9 @@ Caused by: java.net.ConnectException: Connection timed out: getsockopt
 [14Jun2025 12:08:57.477] [Worker-Main-8/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:utility:blocks/ancent_anvil
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -199,6 +205,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -261,6 +268,8 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [14Jun2025 11:53:40.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (flatdimention): All chunks are saved
 [14Jun2025 11:53:40.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -380,6 +389,9 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [14Jun2025 12:15:15.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

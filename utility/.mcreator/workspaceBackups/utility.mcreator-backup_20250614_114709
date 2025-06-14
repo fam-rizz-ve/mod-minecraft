@@ -8,8 +8,8 @@
       "registry_name": "nightelmet",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/utility/item/NightelmetItem.java",
-          "src/main/resources/assets/utility/models/item/nightelmet_helmet.json"
+          "src/main/resources/assets/utility/models/item/nightelmet_helmet.json",
+          "src/main/java/net/mcreator/utility/item/NightelmetItem.java"
         ]
       },
       "path": "~/night_helmet"
@@ -66,8 +66,8 @@
       "registry_name": "overwordkey",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/utility/item/OverwordkeyItem.java",
-          "src/main/resources/assets/utility/models/item/overwordkey.json"
+          "src/main/resources/assets/utility/models/item/overwordkey.json",
+          "src/main/java/net/mcreator/utility/item/OverwordkeyItem.java"
         ]
       },
       "path": "~/key/item"
@@ -99,8 +99,8 @@
       "registry_name": "netherkey",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/utility/item/NetherkeyItem.java",
-          "src/main/resources/assets/utility/models/item/netherkey.json"
+          "src/main/resources/assets/utility/models/item/netherkey.json",
+          "src/main/java/net/mcreator/utility/item/NetherkeyItem.java"
         ]
       },
       "path": "~/key/item"
@@ -127,9 +127,9 @@
       "registry_name": "flat_biom",
       "metadata": {
         "files": [
-          "src/main/resources/data/utility/worldgen/configured_feature/flat_biom_tree.json",
+          "src/main/resources/data/utility/worldgen/biome/flat_biom.json",
           "src/main/resources/data/utility/worldgen/placed_feature/flat_biom_tree.json",
-          "src/main/resources/data/utility/worldgen/biome/flat_biom.json"
+          "src/main/resources/data/utility/worldgen/configured_feature/flat_biom_tree.json"
         ]
       },
       "path": "~/dimension/flat"
@@ -299,6 +299,7 @@
       "metadata": {
         "files": [
           "src/main/resources/data/utility/dimension_type/limbo_dimension.json",
+          "src/main/java/net/mcreator/utility/world/dimension/LimboDimensionDimension.java",
           "src/main/resources/data/utility/dimension/limbo_dimension.json"
         ]
       },
@@ -312,8 +313,8 @@
       "registry_name": "power_essence",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/utility/item/PowerEssenceItem.java",
-          "src/main/resources/assets/utility/models/item/power_essence.json"
+          "src/main/resources/assets/utility/models/item/power_essence.json",
+          "src/main/java/net/mcreator/utility/item/PowerEssenceItem.java"
         ]
       },
       "path": "~/enchantment/Power_essence"
@@ -417,11 +418,11 @@
       "registry_name": "essenctiondistilizer",
       "metadata": {
         "files": [
-          "src/main/resources/data/utility/loot_tables/blocks/essenctiondistilizer.json",
+          "src/main/resources/assets/utility/models/block/essenctiondistilizer.json",
           "src/main/java/net/mcreator/utility/block/EssenctiondistilizerBlock.java",
           "src/main/resources/assets/utility/blockstates/essenctiondistilizer.json",
           "src/main/resources/assets/utility/models/item/essenctiondistilizer.json",
-          "src/main/resources/assets/utility/models/block/essenctiondistilizer.json"
+          "src/main/resources/data/utility/loot_tables/blocks/essenctiondistilizer.json"
         ]
       },
       "path": "~/dimension/limbo/essenction distilizer"
@@ -552,12 +553,17 @@
       "registry_name": "iceessence",
       "metadata": {
         "files": [
+<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_114709
           "src/main/java/net/mcreator/utility/enchantment/IceessenceEnchantment.java"
+========
+          "src/main/resources/data/utility/worldgen/biome/limbobiom.json"
+>>>>>>>> Stashed changes:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_122134
         ]
       },
       "path": "~/enchantment/Power_essence_enchant"
     },
     {
+<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_114709
       "name": "WindEssence",
       "type": "enchantment",
       "compiles": true,
@@ -674,6 +680,20 @@
         ]
       },
       "path": "~/acivment"
+========
+      "name": "EssenctiondistilizerGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "essenctiondistilizer_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/client/gui/EssenctiondistilizerGUIScreen.java",
+          "src/main/java/net/mcreator/utility/world/inventory/EssenctiondistilizerGUIMenu.java"
+        ]
+      },
+      "path": "~/dimension/limbo/essenction distilizer"
+>>>>>>>> Stashed changes:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_122134
     }
   ],
   "variable_elements": [
@@ -760,19 +780,40 @@
       "type": "string",
       "scope": "player_persistent",
       "value": "\"false\""
+    },
+    {
+      "name": "last_time",
+      "type": "string",
+      "scope": "world",
+      "value": "\"\""
     }
   ],
   "sound_elements": [],
   "tag_elements": {
+    "ITEMS:mod:slot_3_essenction_distilizer": [],
+    "ITEMS:mod:slot_2_essenction_distilizer": [],
     "ENCHANTMENTS:mod:custom_enchantemnt": [
       "CUSTOM:Lavaessence",
       "CUSTOM:Wateressence",
+<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_114709
       "CUSTOM:Creeperessence",
       "CUSTOM:Iceessence",
       "CUSTOM:WindEssence",
       "CUSTOM:Shockessence",
       "CUSTOM:Ashessence"
     ]
+========
+      "CUSTOM:Creeperessence"
+    ],
+    "ITEMS:mod:slot_0_essenction_distilizer": [
+      "Blocks.ANCIENT_DEBRIS",
+      "Items.ENDER_PEARL",
+      "Items.PRISMARINE_SHARD"
+    ],
+    "ITEMS:mod:slot_1_essenction_distilizer": [],
+    "ITEMS:mod:slot_4_essenction_distilizer": [],
+    "ITEMS:mod:slot_5_essenction_distilizer": []
+>>>>>>>> Stashed changes:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_122134
   },
   "tab_element_order": {},
   "language_map": {
@@ -801,7 +842,11 @@
       "enchantment.utility.creeperessence": "Creeper essence",
       "enchantment.utility.shockessence": "Shock essence",
       "item.utility.limbo_key_part_1": "Limbo key shard",
+<<<<<<<< Updated upstream:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_114709
       "advancements.theflatkey.descr": "Finally i can use all creative power",
+========
+      "biome.utility.limbobiom": "Limbo biom",
+>>>>>>>> Stashed changes:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250614_122134
       "advancements.a_powerfullshard.title": "A Powerfull Shard",
       "item.utility.overwordkey": "Overword key",
       "item.utility.flatkey": "Flat key",
