@@ -8,6 +8,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:taiga": "2025-06-14 11:57:05 +0200",
+      "minecraft:beach": "2025-06-14 18:57:27 +0200",
       "minecraft:forest": "2025-06-14 11:57:37 +0200"
     },
     "done": false
@@ -216,27 +217,9 @@
     },
     "done": true
   },
-  "utility:over_worldkey": {
-    "criteria": {
-      "over_worldkey_0": "2025-06-14 14:22:39 +0200"
-    },
-    "done": true
-  },
-  "utility:theendkey": {
-    "criteria": {
-      "theendkey_0": "2025-06-14 14:24:22 +0200"
-    },
-    "done": true
-  },
   "utility:the_liminalykey": {
     "criteria": {
       "the_liminalykey_0": "2025-06-14 14:22:30 +0200"
-    },
-    "done": true
-  },
-  "utility:thelimbo": {
-    "criteria": {
-      "thelimbo_0": "2025-06-14 14:22:39 +0200"
     },
     "done": true
   },
@@ -246,33 +229,21 @@
     },
     "done": true
   },
-  "utility:the_netherkey": {
-    "criteria": {
-      "the_netherkey_0": "2025-06-14 14:24:17 +0200"
-    },
-    "done": true
-  },
-  "utility:theflatworldkey": {
-    "criteria": {
-      "theflatworldkey_0": "2025-06-14 14:24:12 +0200"
-    },
-    "done": true
-  },
   "utility:the_key": {
     "criteria": {
       "the_key_0": "2025-06-14 14:22:37 +0200"
     },
     "done": true
   },
-  "utility:the_endkey": {
+  "utility:over_worldkey": {
     "criteria": {
-      "the_endkey_0": "2025-06-14 14:24:22 +0200"
+      "over_worldkey_0": "2025-06-14 14:22:39 +0200"
     },
     "done": true
   },
-  "utility:theflatkey": {
+  "utility:thelimbo": {
     "criteria": {
-      "theflatkey_0": "2025-06-14 14:24:12 +0200"
+      "thelimbo_0": "2025-06-14 14:22:39 +0200"
     },
     "done": true
   },
@@ -288,9 +259,112 @@
     },
     "done": true
   },
+  "utility:theflatworldkey": {
+    "criteria": {
+      "theflatworldkey_0": "2025-06-14 14:24:12 +0200"
+    },
+    "done": true
+  },
+  "utility:theflatkey": {
+    "criteria": {
+      "theflatkey_0": "2025-06-14 14:24:12 +0200"
+    },
+    "done": true
+  },
+  "utility:the_netherkey": {
+    "criteria": {
+      "the_netherkey_0": "2025-06-14 14:24:17 +0200"
+    },
+    "done": true
+  },
   "utility:thenetherkey": {
     "criteria": {
       "thenetherkey_0": "2025-06-14 14:24:17 +0200"
+    },
+    "done": true
+  },
+  "utility:theendkey": {
+    "criteria": {
+      "theendkey_0": "2025-06-14 14:24:22 +0200"
+    },
+    "done": true
+  },
+  "utility:the_endkey": {
+    "criteria": {
+      "the_endkey_0": "2025-06-14 14:24:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-06-14 18:56:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-06-14 18:57:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2025-06-14 18:57:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2025-06-14 18:57:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2025-06-14 18:57:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:zombified_piglin": "2025-06-14 18:57:55 +0200",
+      "minecraft:zombie": "2025-06-14 18:59:24 +0200"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombified_piglin": "2025-06-14 18:57:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2025-06-14 18:58:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2025-06-14 18:58:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2025-06-14 18:58:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2025-06-14 18:58:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2025-06-14 19:13:58 +0200"
     },
     "done": true
   },
