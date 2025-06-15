@@ -546,19 +546,6 @@
       "path": "~/enchantment/Power_essence_enchant"
     },
     {
-      "name": "Limbobiom",
-      "type": "biome",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "limbobiom",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/utility/worldgen/biome/limbobiom.json"
-        ]
-      },
-      "path": "~/dimension/limbo"
-    },
-    {
       "name": "EssenctiondistilizerGUI",
       "type": "gui",
       "compiles": true,
@@ -842,6 +829,37 @@
         ]
       },
       "path": "~/enchantment/Power_essence_enchant"
+    },
+    {
+      "name": "EssenctiondistilizerGUIOgniTickMentreQuestaGUIEAperta",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "essenctiondistilizer_gui_ogni_tick_mentre_questa_guie_aperta",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/procedures/EssenctiondistilizerGUIOgniTickMentreQuestaGUIEApertaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/dimension/limbo/essenction distilizer"
     }
   ],
   "variable_elements": [
@@ -1023,7 +1041,6 @@
       "enchantment.utility.sporetouch": "Spore essence",
       "item_group.utility.utility": "Utility",
       "enchantment.utility.godessence": "God essence",
-      "biome.utility.limbobiom": "Limbo biom",
       "advancements.the_liminalykey.descr": "A key for what? Another dimension?",
       "item.utility.flatkey": "Flat key",
       "item.utility.power_essence": "Power Essence",
