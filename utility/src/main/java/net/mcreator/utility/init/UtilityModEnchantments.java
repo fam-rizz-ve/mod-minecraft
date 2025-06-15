@@ -14,6 +14,7 @@ import net.mcreator.utility.enchantment.WindesseceEnchantment;
 import net.mcreator.utility.enchantment.WateressenceEnchantment;
 import net.mcreator.utility.enchantment.StormesseceEnchantment;
 import net.mcreator.utility.enchantment.SporetouchEnchantment;
+import net.mcreator.utility.enchantment.ProjectileEssenceEnchantment;
 import net.mcreator.utility.enchantment.LavaessenceEnchantment;
 import net.mcreator.utility.enchantment.IceessenceEnchantment;
 import net.mcreator.utility.enchantment.GodessenceEnchantment;

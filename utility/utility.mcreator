@@ -789,6 +789,10 @@
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "sourceentity",
             "type": "entity"
           },
@@ -981,22 +985,22 @@
   "language_map": {
     "en_us": {
       "item.utility.endkey": "end key",
-      "enchantment.utility.lavaessence": "Lava essence",
       "enchantment.utility.stormessece": "Storm essece",
+      "enchantment.utility.lavaessence": "Lava essence",
       "advancements.the_key.title": "The Key",
       "advancements.a_powerfullshard.descr": "The powerfull scrap I ever see",
       "advancements.the_key.descr": "A unknow key for a unknow dimension",
       "enchantment.utility.doom_essence": "Doom Essence",
       "advancements.thelimbo.title": "The limbo",
-      "advancements.thelimbo.descr": "The Master of Key is waiting you.......",
       "enchantment.utility.projectile_essence": "Projectile Essence",
+      "advancements.thelimbo.descr": "The Master of Key is waiting you.......",
       "item.utility.netherkey": "nether key",
       "enchantment.utility.windessece": "Wind essece",
       "item.utility.limbokey.description_0": "When you grip it, you feel the weight of a thousand whispers that do not belong to this world. Use it only if you have the courage to face the eternal void… for those who enter the Limbo rarely find their way back.",
       "advancements.theflatworldkey.descr": "A world of infinite possibilities, and now?",
       "item.utility.nightelmet_helmet": "Night Helmet",
-      "advancements.theflatworldkey.title": "The flatworld key",
       "enchantment.utility.furyessece": "Fury essece ",
+      "advancements.theflatworldkey.title": "The flatworld key",
       "biome.utility.void_biom": "Void Biom",
       "advancements.the_liminalykey.title": "The dimension walker",
       "enchantment.utility.ashessece": "Ash essece",
