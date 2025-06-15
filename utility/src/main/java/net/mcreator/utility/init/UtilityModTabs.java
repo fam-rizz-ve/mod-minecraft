@@ -28,5 +28,6 @@ public class UtilityModTabs {
 				tabData.accept(UtilityModBlocks.ESSENCTIONDISTILIZER.get().asItem());
 				tabData.accept(UtilityModItems.LIMBO_KEY_PART_1.get());
 				tabData.accept(UtilityModItems.LIMINALY_KEY.get());
+				tabData.accept(UtilityModItems.EMPTYKEY.get());
 			}).build());
 }

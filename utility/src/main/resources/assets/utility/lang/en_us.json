@@ -44,6 +44,7 @@
   "advancements.poweressece.title": "Power Essence",
   "advancements.thenetherkey.title": "The nether key",
   "advancements.the_endkey.title": "The End key",
+  "item.utility.emptykey": "Empty key",
   "enchantment.utility.wateressence": "Water essence",
   "effect.utility.gravity": "Gravity"
 }

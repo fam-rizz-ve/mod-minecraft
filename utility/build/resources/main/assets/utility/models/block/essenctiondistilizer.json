@@ -2,7 +2,7 @@
   "parent": "utility:custom/enchanting_table",
   "textures": {
     "all": "utility:block/enchanting_table_bottom",
-    "particle": "utility:block/essenction_infuser_particella",
+    "particle": "utility:block/enchanting_table_bottom",
     "1": "utility:block/enchanting_table_bottom",
     "2": "utility:block/enchanting_table_top",
     "3": "utility:block/enchanting_table_side_3",

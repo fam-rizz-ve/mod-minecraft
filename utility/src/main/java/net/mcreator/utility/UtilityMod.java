@@ -22,6 +22,7 @@ import net.mcreator.utility.init.UtilityModMenus;
 import net.mcreator.utility.init.UtilityModItems;
 import net.mcreator.utility.init.UtilityModEnchantments;
 import net.mcreator.utility.init.UtilityModBlocks;
+import net.mcreator.utility.init.UtilityModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -44,7 +45,7 @@ public class UtilityMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		UtilityModBlocks.REGISTRY.register(bus);
-
+		UtilityModBlockEntities.REGISTRY.register(bus);
 		UtilityModItems.REGISTRY.register(bus);
 
 		UtilityModEnchantments.REGISTRY.register(bus);

@@ -21,6 +21,7 @@ import net.mcreator.utility.item.LimbokeyItem;
 import net.mcreator.utility.item.LimboKeyPart1Item;
 import net.mcreator.utility.item.FlatkeyItem;
 import net.mcreator.utility.item.EndkeyItem;
+import net.mcreator.utility.item.EmptykeyItem;
 import net.mcreator.utility.UtilityMod;
 
 public class UtilityModItems {
@@ -35,6 +36,7 @@ public class UtilityModItems {
 	public static final RegistryObject<Item> ESSENCTIONDISTILIZER = block(UtilityModBlocks.ESSENCTIONDISTILIZER);
 	public static final RegistryObject<Item> LIMBO_KEY_PART_1 = REGISTRY.register("limbo_key_part_1", () -> new LimboKeyPart1Item());
 	public static final RegistryObject<Item> LIMINALY_KEY = REGISTRY.register("liminaly_key", () -> new LiminalyKeyItem());
+	public static final RegistryObject<Item> EMPTYKEY = REGISTRY.register("emptykey", () -> new EmptykeyItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
