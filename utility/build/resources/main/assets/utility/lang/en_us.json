@@ -38,13 +38,20 @@
   "enchantment.utility.sporetouch": "Spore essence",
   "item_group.utility.utility": "Utility",
   "enchantment.utility.godessence": "God essence",
+<<<<<<< HEAD
+=======
+  "biome.utility.limbobiom": "Limbo biom",
+>>>>>>> 5c8536ed45f56021dff43b88a22b4bcb67c28872
   "advancements.the_liminalykey.descr": "A key for what? Another dimension?",
   "item.utility.flatkey": "Flat key",
   "item.utility.power_essence": "Power Essence",
   "advancements.poweressece.title": "Power Essence",
   "advancements.thenetherkey.title": "The nether key",
   "advancements.the_endkey.title": "The End key",
+<<<<<<< HEAD
   "item.utility.emptykey": "Empty key",
+=======
+>>>>>>> 5c8536ed45f56021dff43b88a22b4bcb67c28872
   "enchantment.utility.wateressence": "Water essence",
   "effect.utility.gravity": "Gravity"
 }

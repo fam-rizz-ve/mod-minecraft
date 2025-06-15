@@ -419,7 +419,6 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/utility/models/block/essenctiondistilizer.json",
-          "src/main/java/net/mcreator/utility/block/entity/EssenctiondistilizerBlockEntity.java",
           "src/main/java/net/mcreator/utility/block/EssenctiondistilizerBlock.java",
           "src/main/resources/assets/utility/blockstates/essenctiondistilizer.json",
           "src/main/resources/assets/utility/models/item/essenctiondistilizer.json",
@@ -547,6 +546,19 @@
       "path": "~/enchantment/Power_essence_enchant"
     },
     {
+      "name": "Limbobiom",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbobiom",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/worldgen/biome/limbobiom.json"
+        ]
+      },
+      "path": "~/dimension/limbo"
+    },
+    {
       "name": "EssenctiondistilizerGUI",
       "type": "gui",
       "compiles": true,
@@ -556,6 +568,41 @@
         "files": [
           "src/main/java/net/mcreator/utility/client/gui/EssenctiondistilizerGUIScreen.java",
           "src/main/java/net/mcreator/utility/world/inventory/EssenctiondistilizerGUIMenu.java"
+        ]
+      },
+      "path": "~/dimension/limbo/essenction distilizer"
+    },
+    {
+      "name": "EssenctiondistilizerQuandoIlBloccoECliccatoConIlTastoDestro",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "essenctiondistilizer_quando_il_blocco_e_cliccato_con_il_tasto_destro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/procedures/EssenctiondistilizerQuandoIlBloccoECliccatoConIlTastoDestroProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       },
       "path": "~/dimension/limbo/essenction distilizer"
@@ -726,8 +773,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/utility/enchantment/GodessenceEnchantment.java"
-<<<<<<<< HEAD:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250615_184349
-========
         ]
       },
       "path": "~/enchantment/Power_essence_enchant"
@@ -794,117 +839,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/utility/enchantment/ProjectileEssenceEnchantment.java"
->>>>>>>> 5c8536ed45f56021dff43b88a22b4bcb67c28872:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250615_181820
         ]
       },
       "path": "~/enchantment/Power_essence_enchant"
-    },
-    {
-      "name": "GodessenceActivation",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "godessence_activation",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/utility/procedures/GodessenceActivationProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/enchantment/Power_essence_enchant"
-    },
-    {
-      "name": "DoomEssence",
-      "type": "enchantment",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "doom_essence",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/utility/enchantment/DoomEssenceEnchantment.java"
-        ]
-      },
-      "path": "~/enchantment/Power_essence_enchant"
-    },
-    {
-      "name": "CaosEssence",
-      "type": "enchantment",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "caos_essence",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/utility/enchantment/CaosEssenceEnchantment.java"
-        ]
-      },
-      "path": "~/enchantment/Power_essence_enchant"
-    },
-    {
-      "name": "ProjectileEssence",
-      "type": "enchantment",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "projectile_essence",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/utility/enchantment/ProjectileEssenceEnchantment.java"
-        ]
-      },
-      "path": "~/enchantment/Power_essence_enchant"
-    },
-    {
-      "name": "EssenctiondistilizerGUIOgniTickMentreQuestaGUIEAperta",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "essenctiondistilizer_gui_ogni_tick_mentre_questa_guie_aperta",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/utility/procedures/EssenctiondistilizerGUIOgniTickMentreQuestaGUIEApertaProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/dimension/limbo/essenction distilizer"
-    },
-    {
-      "name": "Emptykey",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "emptykey",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/utility/item/EmptykeyItem.java",
-          "src/main/resources/assets/utility/models/item/emptykey.json"
-        ]
-      },
-      "path": "~/key/item"
     }
   ],
   "variable_elements": [
@@ -1086,20 +1023,13 @@
       "enchantment.utility.sporetouch": "Spore essence",
       "item_group.utility.utility": "Utility",
       "enchantment.utility.godessence": "God essence",
-<<<<<<<< HEAD:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250615_184349
-========
       "biome.utility.limbobiom": "Limbo biom",
->>>>>>>> 5c8536ed45f56021dff43b88a22b4bcb67c28872:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250615_181820
       "advancements.the_liminalykey.descr": "A key for what? Another dimension?",
       "item.utility.flatkey": "Flat key",
       "item.utility.power_essence": "Power Essence",
       "advancements.poweressece.title": "Power Essence",
       "advancements.thenetherkey.title": "The nether key",
       "advancements.the_endkey.title": "The End key",
-<<<<<<<< HEAD:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250615_184349
-      "item.utility.emptykey": "Empty key",
-========
->>>>>>>> 5c8536ed45f56021dff43b88a22b4bcb67c28872:utility/.mcreator/workspaceBackups/utility.mcreator-backup_20250615_181820
       "enchantment.utility.wateressence": "Water essence",
       "effect.utility.gravity": "Gravity"
     }
