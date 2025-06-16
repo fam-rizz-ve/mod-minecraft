@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.NETHERITE_INGOT"
+        "value": "Items.EMERALD"
       },
       {
         "value": "Items.DYE#2"
       },
       {
+        "value": "Items.EMERALD"
+      },
+      {
         "value": "Items.NETHERITE_INGOT"
       },
       {
-        "value": "Blocks.EMERALD_BLOCK"
+        "value": ""
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
       },
       {
         "value": ""
       },
       {
-        "value": "Blocks.EMERALD_BLOCK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "Items.NETHERITE_INGOT"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Nightelmet.helmet"
+      "value": "CUSTOM:Nightelmet.legs"
     },
-    "name": "tactival_suit",
+    "name": "tactical_suit_leggins",
     "namespace": "mod"
   }
 }

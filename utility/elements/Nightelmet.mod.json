@@ -4,12 +4,12 @@
   "definition": {
     "enableHelmet": true,
     "textureHelmet": "chatgpt_image_8_mag_2025_17_10_55_1",
-    "enableBody": false,
-    "textureBody": "",
-    "enableLeggings": false,
-    "textureLeggings": "",
-    "enableBoots": false,
-    "textureBoots": "",
+    "enableBody": true,
+    "textureBody": "tactical_suit_base_body",
+    "enableLeggings": true,
+    "textureLeggings": "tactical_suit_base_leggings",
+    "enableBoots": true,
+    "textureBoots": "tactical_suit_base_boots",
     "creativeTabs": [
       {
         "value": "CUSTOM:Utility"

@@ -9,7 +9,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/utility/item/NightelmetItem.java",
-          "src/main/resources/assets/utility/models/item/nightelmet_helmet.json"
+          "src/main/resources/assets/utility/models/item/nightelmet_helmet.json",
+          "src/main/resources/assets/utility/models/item/nightelmet_chestplate.json",
+          "src/main/resources/assets/utility/models/item/nightelmet_leggings.json",
+          "src/main/resources/assets/utility/models/item/nightelmet_boots.json"
         ]
       },
       "path": "~/Tactical_Suit"
@@ -776,19 +779,6 @@
       "path": "~/key/item"
     },
     {
-      "name": "TactivalSuit",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tactival_suit",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/utility/recipes/tactival_suit.json"
-        ]
-      },
-      "path": "~/Tactical_Suit"
-    },
-    {
       "name": "TheEmpytKey",
       "type": "achievement",
       "compiles": true,
@@ -802,17 +792,56 @@
       "path": "~/acivment"
     },
     {
-      "name": "Nightelmetprogress",
-      "type": "achievement",
+      "name": "Tacticalsuithelmet",
+      "type": "recipe",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "nightelmetprogress",
+      "registry_name": "tacticalsuithelmet",
       "metadata": {
         "files": [
-          "src/main/resources/data/utility/advancements/nightelmetprogress.json"
+          "src/main/resources/data/utility/recipes/tactical_suit_helmet.json"
         ]
       },
-      "path": "~/acivment"
+      "path": "~/Tactical_Suit"
+    },
+    {
+      "name": "Tacticalsuitcestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tacticalsuitcestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/recipes/tactical_suit_chestplate.json"
+        ]
+      },
+      "path": "~/Tactical_Suit"
+    },
+    {
+      "name": "Tacticalsuitleggins",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tacticalsuitleggins",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/recipes/tactical_suit_leggins.json"
+        ]
+      },
+      "path": "~/Tactical_Suit"
+    },
+    {
+      "name": "Tacticalsuitboots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tacticalsuitboots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/recipes/tactical_suit_boots.json"
+        ]
+      },
+      "path": "~/Tactical_Suit"
     }
   ],
   "variable_elements": [
@@ -981,17 +1010,18 @@
       "biome.utility.flat_biom": "Flat_biom",
       "key.utility.attivadisattivanighthelmet": "enable/disabilite night vision",
       "item.utility.liminaly_key": "Liminali Key",
+      "item.utility.nightelmet_chestplate": "Tactical Chestplate",
       "enchantment.utility.iceessence": "Ice essence",
-      "advancements.nightelmetprogress.title": "The begin of the confort",
       "advancements.poweressece.descr": "I..I.. can fell the power!!",
       "advancements.the_endkey.descr": "The end of your journery.... So easy?",
       "advancements.over_worldkey.title": "Overworld key",
       "advancements.thenetherkey.descr": "What a hell, is this a key for Hell?",
+      "item.utility.nightelmet_leggings": "Tactical Leggings",
       "advancements.over_worldkey.descr": "A way to come back home",
       "item.utility.limbokey": "Limbo key",
       "enchantment.utility.sporetouch": "Spore essence",
+      "item.utility.nightelmet_boots": "Tactical Boots",
       "item_group.utility.utility": "Utility",
-      "advancements.nightelmetprogress.descr": "From great power comes great comfort",
       "advancements.the_liminalykey.descr": "A key for what? Another dimension?",
       "item.utility.flatkey": "Flat key",
       "item.utility.power_essence": "Power Essence",

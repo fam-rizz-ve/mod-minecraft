@@ -3,7 +3,7 @@
   "category": "misc",
   "pattern": [
     "aba",
-    "c c"
+    "cdc"
   ],
   "key": {
     "a": {
@@ -13,7 +13,10 @@
       "item": "minecraft:green_dye"
     },
     "c": {
-      "item": "minecraft:emerald_block"
+      "item": "minecraft:emerald"
+    },
+    "d": {
+      "item": "minecraft:green_stained_glass"
     }
   },
   "result": {

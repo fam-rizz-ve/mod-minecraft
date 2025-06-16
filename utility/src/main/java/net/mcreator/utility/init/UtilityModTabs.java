@@ -19,6 +19,9 @@ public class UtilityModTabs {
 	public static final RegistryObject<CreativeModeTab> UTILITY = REGISTRY.register("utility",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.utility.utility")).icon(() -> new ItemStack(UtilityModItems.NIGHTELMET_HELMET.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(UtilityModItems.NIGHTELMET_HELMET.get());
+				tabData.accept(UtilityModItems.NIGHTELMET_CHESTPLATE.get());
+				tabData.accept(UtilityModItems.NIGHTELMET_LEGGINGS.get());
+				tabData.accept(UtilityModItems.NIGHTELMET_BOOTS.get());
 				tabData.accept(UtilityModItems.FLATKEY.get());
 				tabData.accept(UtilityModItems.OVERWORDKEY.get());
 				tabData.accept(UtilityModItems.NETHERKEY.get());

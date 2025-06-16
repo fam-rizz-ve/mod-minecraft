@@ -27,6 +27,9 @@ import net.mcreator.utility.UtilityMod;
 public class UtilityModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, UtilityMod.MODID);
 	public static final RegistryObject<Item> NIGHTELMET_HELMET = REGISTRY.register("nightelmet_helmet", () -> new NightelmetItem.Helmet());
+	public static final RegistryObject<Item> NIGHTELMET_CHESTPLATE = REGISTRY.register("nightelmet_chestplate", () -> new NightelmetItem.Chestplate());
+	public static final RegistryObject<Item> NIGHTELMET_LEGGINGS = REGISTRY.register("nightelmet_leggings", () -> new NightelmetItem.Leggings());
+	public static final RegistryObject<Item> NIGHTELMET_BOOTS = REGISTRY.register("nightelmet_boots", () -> new NightelmetItem.Boots());
 	public static final RegistryObject<Item> FLATKEY = REGISTRY.register("flatkey", () -> new FlatkeyItem());
 	public static final RegistryObject<Item> OVERWORDKEY = REGISTRY.register("overwordkey", () -> new OverwordkeyItem());
 	public static final RegistryObject<Item> NETHERKEY = REGISTRY.register("netherkey", () -> new NetherkeyItem());

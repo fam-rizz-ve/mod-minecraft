@@ -66,4 +66,37 @@ public abstract class NightelmetItem extends ArmorItem {
 			return "utility:textures/models/armor/night_helmet_layer_1.png";
 		}
 	}
+
+	public static class Chestplate extends NightelmetItem {
+		public Chestplate() {
+			super(ArmorItem.Type.CHESTPLATE, new Item.Properties());
+		}
+
+		@Override
+		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
+			return "utility:textures/models/armor/night_helmet_layer_1.png";
+		}
+	}
+
+	public static class Leggings extends NightelmetItem {
+		public Leggings() {
+			super(ArmorItem.Type.LEGGINGS, new Item.Properties());
+		}
+
+		@Override
+		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
+			return "utility:textures/models/armor/night_helmet_layer_2.png";
+		}
+	}
+
+	public static class Boots extends NightelmetItem {
+		public Boots() {
+			super(ArmorItem.Type.BOOTS, new Item.Properties());
+		}
+
+		@Override
+		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
+			return "utility:textures/models/armor/night_helmet_layer_1.png";
+		}
+	}
 }
