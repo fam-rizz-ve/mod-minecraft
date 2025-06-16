@@ -95,7 +95,7 @@ public class EssenctiondistilizerBlockEntity extends RandomizableContainerBlockE
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Essenctiondistilizer");
+		return Component.literal("Essenction distilizer");
 	}
 
 	@Override

@@ -16,10 +16,10 @@
       }
     ],
     "armorTextureFile": "night_helmet",
-    "helmetName": "Night Helmet",
-    "bodyName": "Nightelmet Chestplate",
-    "leggingsName": "Nightelmet Leggings",
-    "bootsName": "Nightelmet Boots",
+    "helmetName": "Tactical Helmet",
+    "bodyName": "Tactical Chestplate",
+    "leggingsName": "Tactical Leggings",
+    "bootsName": "Tactical Boots",
     "helmetSpecialInformation": {
       "fixedValue": []
     },
@@ -84,14 +84,14 @@
     "bootsPiglinNeutral": {
       "fixedValue": false
     },
-    "maxDamage": 999,
-    "damageValueHelmet": 0,
-    "damageValueBody": 0,
-    "damageValueLeggings": 0,
-    "damageValueBoots": 0,
-    "enchantability": 9,
-    "toughness": 0.0,
-    "knockbackResistance": 0.0,
+    "maxDamage": 400,
+    "damageValueHelmet": 10,
+    "damageValueBody": 50,
+    "damageValueLeggings": 20,
+    "damageValueBoots": 10,
+    "enchantability": 15,
+    "toughness": 3.0,
+    "knockbackResistance": 0.1,
     "equipSound": {
       "value": ""
     },

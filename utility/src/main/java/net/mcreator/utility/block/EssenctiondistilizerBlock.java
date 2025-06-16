@@ -60,7 +60,7 @@ public class EssenctiondistilizerBlock extends Block implements EntityBlock {
 			NetworkHooks.openScreen(player, new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
-					return Component.literal("Essenctiondistilizer");
+					return Component.literal("Essenction distilizer");
 				}
 
 				@Override
