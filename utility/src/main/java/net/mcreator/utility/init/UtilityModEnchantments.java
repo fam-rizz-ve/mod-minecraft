@@ -14,14 +14,10 @@ import net.mcreator.utility.enchantment.WindesseceEnchantment;
 import net.mcreator.utility.enchantment.WateressenceEnchantment;
 import net.mcreator.utility.enchantment.StormesseceEnchantment;
 import net.mcreator.utility.enchantment.SporetouchEnchantment;
-import net.mcreator.utility.enchantment.ProjectileEssenceEnchantment;
 import net.mcreator.utility.enchantment.LavaessenceEnchantment;
 import net.mcreator.utility.enchantment.IceessenceEnchantment;
-import net.mcreator.utility.enchantment.GodessenceEnchantment;
 import net.mcreator.utility.enchantment.FuryesseceEnchantment;
-import net.mcreator.utility.enchantment.DoomEssenceEnchantment;
 import net.mcreator.utility.enchantment.CreeperessenceEnchantment;
-import net.mcreator.utility.enchantment.CaosEssenceEnchantment;
 import net.mcreator.utility.enchantment.AshesseceEnchantment;
 import net.mcreator.utility.UtilityMod;
 
@@ -36,8 +32,4 @@ public class UtilityModEnchantments {
 	public static final RegistryObject<Enchantment> WINDESSECE = REGISTRY.register("windessece", () -> new WindesseceEnchantment());
 	public static final RegistryObject<Enchantment> SPORETOUCH = REGISTRY.register("sporetouch", () -> new SporetouchEnchantment());
 	public static final RegistryObject<Enchantment> FURYESSECE = REGISTRY.register("furyessece", () -> new FuryesseceEnchantment());
-	public static final RegistryObject<Enchantment> GODESSENCE = REGISTRY.register("godessence", () -> new GodessenceEnchantment());
-	public static final RegistryObject<Enchantment> DOOM_ESSENCE = REGISTRY.register("doom_essence", () -> new DoomEssenceEnchantment());
-	public static final RegistryObject<Enchantment> CAOS_ESSENCE = REGISTRY.register("caos_essence", () -> new CaosEssenceEnchantment());
-	public static final RegistryObject<Enchantment> PROJECTILE_ESSENCE = REGISTRY.register("projectile_essence", () -> new ProjectileEssenceEnchantment());
 }
