@@ -21,7 +21,7 @@ public abstract class NightelmetItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForType(ArmorItem.Type type) {
-				return new int[]{10, 20, 50, 10}[type.getSlot().getIndex()];
+				return new int[]{4, 7, 8, 4}[type.getSlot().getIndex()];
 			}
 
 			@Override

@@ -40,7 +40,7 @@ public class CreeeperessenceActivationProcedure {
 					_serverPlayer.connection.teleport(x, y, z, _ent.getYRot(), _ent.getXRot());
 			}
 			if (world instanceof Level _level && !_level.isClientSide())
-				_level.explode(null, x, y, z, 4, Level.ExplosionInteraction.MOB);
+				_level.explode(null, x, y, z, 2, Level.ExplosionInteraction.MOB);
 		}
 	}
 }

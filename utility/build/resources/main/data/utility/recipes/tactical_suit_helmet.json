@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "b": {
+      "item": "minecraft:green_dye"
+    },
+    "c": {
+      "item": "minecraft:emerald"
+    },
+    "d": {
+      "item": "minecraft:green_stained_glass"
+    }
+  },
+  "result": {
+    "item": "utility:nightelmet_helmet",
+    "count": 1
+  }
+}
