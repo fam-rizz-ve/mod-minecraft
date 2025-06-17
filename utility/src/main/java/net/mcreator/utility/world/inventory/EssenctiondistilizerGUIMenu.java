@@ -315,7 +315,7 @@ public class EssenctiondistilizerGUIMenu extends AbstractContainerMenu implement
 			double x = entity.getX();
 			double y = entity.getY();
 			double z = entity.getZ();
-			EssenctiondistilizerGUIOgniTickMentreQuestaGUIEApertaProcedure.execute(world, x, y, z);
+			EssenctiondistilizerGUIOgniTickMentreQuestaGUIEApertaProcedure.execute(world, x, y, z, entity);
 		}
 	}
 }
