@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.utility.item.PowerEssenceItem;
+import net.mcreator.utility.item.OverworldessenceItem;
 import net.mcreator.utility.item.OverwordkeyItem;
 import net.mcreator.utility.item.NightelmetItem;
 import net.mcreator.utility.item.NetherkeyItem;
@@ -40,6 +41,7 @@ public class UtilityModItems {
 	public static final RegistryObject<Item> LIMBO_KEY_PART_1 = REGISTRY.register("limbo_key_part_1", () -> new LimboKeyPart1Item());
 	public static final RegistryObject<Item> LIMINALY_KEY = REGISTRY.register("liminaly_key", () -> new LiminalyKeyItem());
 	public static final RegistryObject<Item> EMPTYKEY = REGISTRY.register("emptykey", () -> new EmptykeyItem());
+	public static final RegistryObject<Item> OVERWORLDESSENCE = REGISTRY.register("overworldessence", () -> new OverworldessenceItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

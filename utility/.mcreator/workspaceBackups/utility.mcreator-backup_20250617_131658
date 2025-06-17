@@ -855,6 +855,20 @@
         ]
       },
       "path": "~/acivment"
+    },
+    {
+      "name": "Overworldessence",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overworldessence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/utility/models/item/overworldessence.json",
+          "src/main/java/net/mcreator/utility/item/OverworldessenceItem.java"
+        ]
+      },
+      "path": "~/enchantment/Power_essence"
     }
   ],
   "variable_elements": [
@@ -997,8 +1011,8 @@
   "language_map": {
     "en_us": {
       "item.utility.endkey": "end key",
-      "enchantment.utility.stormessece": "Storm essece",
       "enchantment.utility.lavaessence": "Lava essence",
+      "enchantment.utility.stormessece": "Storm essece",
       "advancements.the_key.title": "The Key",
       "advancements.a_powerfullshard.descr": "The powerfull scrap I ever see",
       "advancements.the_key.descr": "A unknow key for a unknow dimension",
@@ -1006,11 +1020,11 @@
       "advancements.thelimbo.descr": "The Master of Key is waiting you.......",
       "item.utility.netherkey": "nether key",
       "enchantment.utility.windessece": "Wind essece",
-      "advancements.theflatworldkey.descr": "A world of infinite possibilities, and now?",
       "item.utility.limbokey.description_0": "When you grip it, you feel the weight of a thousand whispers that do not belong to this world. Use it only if you have the courage to face the eternal void… for those who enter the Limbo rarely find their way back.",
+      "advancements.theflatworldkey.descr": "A world of infinite possibilities, and now?",
       "item.utility.nightelmet_helmet": "Tactical Helmet",
-      "enchantment.utility.furyessece": "Fury essece ",
       "advancements.theflatworldkey.title": "The flatworld key",
+      "enchantment.utility.furyessece": "Fury essece ",
       "biome.utility.void_biom": "Void Biom",
       "advancements.the_liminalykey.title": "The dimension walker",
       "enchantment.utility.ashessece": "Ash essece",
@@ -1036,6 +1050,7 @@
       "enchantment.utility.sporetouch": "Spore essence",
       "item.utility.nightelmet_boots": "Tactical Boots",
       "item_group.utility.utility": "Utility",
+      "item.utility.overworldessence": "Overworld essence",
       "advancements.the_liminalykey.descr": "A key for what? Another dimension?",
       "item.utility.flatkey": "Flat key",
       "item.utility.power_essence": "Power Essence",

@@ -29,7 +29,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "This is the key for a world of infinit posibilites.... and a lot of grass!!"
+      ]
     },
     "glowCondition": {
       "fixedValue": false

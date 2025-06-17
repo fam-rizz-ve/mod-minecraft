@@ -29,7 +29,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "The key to return back home after a long day"
+      ]
     },
     "glowCondition": {
       "fixedValue": false

@@ -32,5 +32,6 @@ public class UtilityModTabs {
 				tabData.accept(UtilityModItems.LIMBO_KEY_PART_1.get());
 				tabData.accept(UtilityModItems.LIMINALY_KEY.get());
 				tabData.accept(UtilityModItems.EMPTYKEY.get());
+				tabData.accept(UtilityModItems.OVERWORLDESSENCE.get());
 			}).build());
 }

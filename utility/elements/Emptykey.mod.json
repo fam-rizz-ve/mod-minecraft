@@ -29,7 +29,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "this is only the shell, it is only a empty key, it dosen't do anyting? Or....."
+      ]
     },
     "glowCondition": {
       "fixedValue": false

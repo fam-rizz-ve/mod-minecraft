@@ -9,7 +9,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/utility/item/NightelmetItem.java",
-          "src/main/resources/assets/utility/models/item/nightelmet_helmet.json"
+          "src/main/resources/assets/utility/models/item/nightelmet_helmet.json",
+          "src/main/resources/assets/utility/models/item/nightelmet_chestplate.json",
+          "src/main/resources/assets/utility/models/item/nightelmet_leggings.json",
+          "src/main/resources/assets/utility/models/item/nightelmet_boots.json"
         ]
       },
       "path": "~/Tactical_Suit"
@@ -66,8 +69,8 @@
       "registry_name": "overwordkey",
       "metadata": {
         "files": [
-          "src/main/resources/assets/utility/models/item/overwordkey.json",
-          "src/main/java/net/mcreator/utility/item/OverwordkeyItem.java"
+          "src/main/java/net/mcreator/utility/item/OverwordkeyItem.java",
+          "src/main/resources/assets/utility/models/item/overwordkey.json"
         ]
       },
       "path": "~/key/item"
@@ -99,8 +102,8 @@
       "registry_name": "netherkey",
       "metadata": {
         "files": [
-          "src/main/resources/assets/utility/models/item/netherkey.json",
-          "src/main/java/net/mcreator/utility/item/NetherkeyItem.java"
+          "src/main/java/net/mcreator/utility/item/NetherkeyItem.java",
+          "src/main/resources/assets/utility/models/item/netherkey.json"
         ]
       },
       "path": "~/key/item"
@@ -313,8 +316,8 @@
       "registry_name": "power_essence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/utility/models/item/power_essence.json",
-          "src/main/java/net/mcreator/utility/item/PowerEssenceItem.java"
+          "src/main/java/net/mcreator/utility/item/PowerEssenceItem.java",
+          "src/main/resources/assets/utility/models/item/power_essence.json"
         ]
       },
       "path": "~/enchantment/Power_essence"
@@ -756,8 +759,8 @@
       "registry_name": "emptykey",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/utility/item/EmptykeyItem.java",
-          "src/main/resources/assets/utility/models/item/emptykey.json"
+          "src/main/resources/assets/utility/models/item/emptykey.json",
+          "src/main/java/net/mcreator/utility/item/EmptykeyItem.java"
         ]
       },
       "path": "~/key/item"
@@ -776,19 +779,6 @@
       "path": "~/key/item"
     },
     {
-      "name": "TactivalSuit",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tactival_suit",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/utility/recipes/tactival_suit.json"
-        ]
-      },
-      "path": "~/Tactical_Suit"
-    },
-    {
       "name": "TheEmpytKey",
       "type": "achievement",
       "compiles": true,
@@ -802,17 +792,83 @@
       "path": "~/acivment"
     },
     {
-      "name": "Nightelmetprogress",
+      "name": "Tacticalsuithelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tacticalsuithelmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/recipes/tactical_suit_helmet.json"
+        ]
+      },
+      "path": "~/Tactical_Suit"
+    },
+    {
+      "name": "Tacticalsuitcestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tacticalsuitcestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/recipes/tactical_suit_chestplate.json"
+        ]
+      },
+      "path": "~/Tactical_Suit"
+    },
+    {
+      "name": "Tacticalsuitleggins",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tacticalsuitleggins",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/recipes/tactical_suit_leggins.json"
+        ]
+      },
+      "path": "~/Tactical_Suit"
+    },
+    {
+      "name": "Tacticalsuitboots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tacticalsuitboots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/recipes/tactical_suit_boots.json"
+        ]
+      },
+      "path": "~/Tactical_Suit"
+    },
+    {
+      "name": "Tacticalsuit",
       "type": "achievement",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "nightelmetprogress",
+      "registry_name": "tacticalsuit",
       "metadata": {
         "files": [
-          "src/main/resources/data/utility/advancements/nightelmetprogress.json"
+          "src/main/resources/data/utility/advancements/tacticalsuit.json"
         ]
       },
       "path": "~/acivment"
+    },
+    {
+      "name": "Overworldessence",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overworldessence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/utility/models/item/overworldessence.json",
+          "src/main/java/net/mcreator/utility/item/OverworldessenceItem.java"
+        ]
+      },
+      "path": "~/enchantment/Power_essence"
     }
   ],
   "variable_elements": [
@@ -958,17 +1014,21 @@
       "enchantment.utility.lavaessence": "Lava essence",
       "enchantment.utility.stormessece": "Storm essece",
       "advancements.the_key.title": "The Key",
+      "item.utility.nightelmet_helmet.description_0": "The perfect helmet for how want a easy life",
       "advancements.a_powerfullshard.descr": "The powerfull scrap I ever see",
       "advancements.the_key.descr": "A unknow key for a unknow dimension",
       "advancements.thelimbo.title": "The limbo",
       "advancements.thelimbo.descr": "The Master of Key is waiting you.......",
       "item.utility.netherkey": "nether key",
       "enchantment.utility.windessece": "Wind essece",
+      "item.utility.endkey.description_0": "A endless word called the End.... what? it is called end but is endless?",
       "item.utility.limbokey.description_0": "When you grip it, you feel the weight of a thousand whispers that do not belong to this world. Use it only if you have the courage to face the eternal void… for those who enter the Limbo rarely find their way back.",
       "advancements.theflatworldkey.descr": "A world of infinite possibilities, and now?",
+      "item.utility.flatkey.description_0": "This is the key for a world of infinit posibilites.... and a lot of grass!!",
       "item.utility.nightelmet_helmet": "Tactical Helmet",
       "advancements.theflatworldkey.title": "The flatworld key",
       "enchantment.utility.furyessece": "Fury essece ",
+      "item.utility.liminaly_key.description_0": "!!WORKING PROGRESS!! For now it dosen\u0027t do anything",
       "biome.utility.void_biom": "Void Biom",
       "advancements.the_liminalykey.title": "The dimension walker",
       "enchantment.utility.ashessece": "Ash essece",
@@ -976,29 +1036,42 @@
       "item.utility.limbo_key_part_1": "Limbo key shard",
       "advancements.a_powerfullshard.title": "A Powerfull Shard",
       "item.utility.overwordkey": "Overword key",
+      "item.utility.power_essence.description_0": "You can fell the power, You can fell the power!, You can fell the power!!, You can fell the power!!!,",
       "advancements.the_empyt_key.descr": "Only the shell of a incredible power....",
       "block.utility.essenctiondistilizer": "Essenction distilizer",
+      "item.utility.nightelmet_leggings.description_0": "the perfect leggins for how want a easy life",
       "biome.utility.flat_biom": "Flat_biom",
       "key.utility.attivadisattivanighthelmet": "enable/disabilite night vision",
       "item.utility.liminaly_key": "Liminali Key",
+      "item.utility.nightelmet_chestplate": "Tactical Chestplate",
       "enchantment.utility.iceessence": "Ice essence",
-      "advancements.nightelmetprogress.title": "The begin of the confort",
+      "advancements.tacticalsuit.title": "The begin of confort",
       "advancements.poweressece.descr": "I..I.. can fell the power!!",
       "advancements.the_endkey.descr": "The end of your journery.... So easy?",
       "advancements.over_worldkey.title": "Overworld key",
+      "item.utility.netherkey.description_0": "The key for the hell, the key for fire and lava, the key for a forgot world called the Nether",
+      "item.utility.overwordkey.description_0": "The key to return back home after a long day",
+      "item.utility.nightelmet_chestplate.description_0": "The perfect chestplate for how want a easy life",
       "advancements.thenetherkey.descr": "What a hell, is this a key for Hell?",
+      "item.utility.nightelmet_leggings": "Tactical Leggings",
       "advancements.over_worldkey.descr": "A way to come back home",
       "item.utility.limbokey": "Limbo key",
       "enchantment.utility.sporetouch": "Spore essence",
+      "item.utility.overworldessence.description_0": "The power in YOUR hand, but from a familliar place",
+      "item.utility.nightelmet_boots": "Tactical Boots",
       "item_group.utility.utility": "Utility",
-      "advancements.nightelmetprogress.descr": "From great power comes great comfort",
+      "item.utility.nightelmet_boots.description_0": "The perfect boots for how want a easy life",
+      "item.utility.overworldessence": "Overworld essence",
+      "item.utility.limbo_key_part_1.description_0": "A shard of a key, a shard to create the access to a distant dimension",
       "advancements.the_liminalykey.descr": "A key for what? Another dimension?",
       "item.utility.flatkey": "Flat key",
       "item.utility.power_essence": "Power Essence",
       "advancements.poweressece.title": "Power Essence",
+      "item.utility.emptykey.description_0": "this is only the shell, it is only a empty key, it dosen\u0027t do anyting? Or.....",
       "advancements.thenetherkey.title": "The nether key",
       "advancements.the_endkey.title": "The End key",
       "item.utility.emptykey": "Empty key",
+      "advancements.tacticalsuit.descr": "With great power comes great comfort",
       "advancements.the_empyt_key.title": "The Empty Key",
       "enchantment.utility.wateressence": "Water essence",
       "effect.utility.gravity": "Gravity"

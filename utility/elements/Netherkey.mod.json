@@ -29,7 +29,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "The key for the hell, the key for fire and lava, the key for a forgot world called the Nether"
+      ]
     },
     "glowCondition": {
       "fixedValue": false

@@ -36,7 +36,9 @@
     "customProperties": [],
     "name": "Essenction distilizer",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "This is the Essenction distilizer it is able to channel the power from the other dimension and creat a power essence"
+      ]
     },
     "hardness": 1.0,
     "resistance": 10.0,

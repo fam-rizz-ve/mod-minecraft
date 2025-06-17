@@ -21,16 +21,24 @@
     "leggingsName": "Tactical Leggings",
     "bootsName": "Tactical Boots",
     "helmetSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "The perfect helmet for how want a easy life"
+      ]
     },
     "bodySpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "The perfect chestplate for how want a easy life"
+      ]
     },
     "leggingsSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "the perfect leggins for how want a easy life"
+      ]
     },
     "bootsSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "The perfect boots for how want a easy life"
+      ]
     },
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",

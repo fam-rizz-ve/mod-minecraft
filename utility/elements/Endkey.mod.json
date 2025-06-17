@@ -29,7 +29,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "A endless word called the End.... what? it is called end but is endless?"
+      ]
     },
     "glowCondition": {
       "fixedValue": false
