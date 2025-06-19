@@ -33,5 +33,8 @@ public class UtilityModTabs {
 				tabData.accept(UtilityModItems.LIMINALY_KEY.get());
 				tabData.accept(UtilityModItems.EMPTYKEY.get());
 				tabData.accept(UtilityModItems.OVERWORLDESSENCE.get());
+				tabData.accept(UtilityModItems.NEHTERESSENCE.get());
+				tabData.accept(UtilityModItems.ENDESSECE.get());
+				tabData.accept(UtilityModItems.FLATESSENCE.get());
 			}).build());
 }

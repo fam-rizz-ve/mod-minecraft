@@ -3,18 +3,18 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "liminali_key_textur",
+    "texture": "flat_essence",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Liminali Key",
-    "rarity": "RARE",
+    "name": "Flat essence",
+    "rarity": "EPIC",
     "creativeTabs": [
       {
         "value": "CUSTOM:Utility"
       }
     ],
-    "stackSize": 1,
+    "stackSize": 16,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -23,15 +23,13 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": true,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": [
-        "!!WORKING PROGRESS!! For now it dosen't do anything"
-      ]
+      "fixedValue": []
     },
     "glowCondition": {
       "fixedValue": false

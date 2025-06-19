@@ -17,11 +17,13 @@ import net.mcreator.utility.item.OverworldessenceItem;
 import net.mcreator.utility.item.OverwordkeyItem;
 import net.mcreator.utility.item.NightelmetItem;
 import net.mcreator.utility.item.NetherkeyItem;
+import net.mcreator.utility.item.NehteressenceItem;
 import net.mcreator.utility.item.LiminalyKeyItem;
 import net.mcreator.utility.item.LimbokeyItem;
 import net.mcreator.utility.item.LimboKeyPart1Item;
 import net.mcreator.utility.item.FlatkeyItem;
 import net.mcreator.utility.item.EndkeyItem;
+import net.mcreator.utility.item.EndesseceItem;
 import net.mcreator.utility.item.EmptykeyItem;
 import net.mcreator.utility.UtilityMod;
 
@@ -42,6 +44,9 @@ public class UtilityModItems {
 	public static final RegistryObject<Item> LIMINALY_KEY = REGISTRY.register("liminaly_key", () -> new LiminalyKeyItem());
 	public static final RegistryObject<Item> EMPTYKEY = REGISTRY.register("emptykey", () -> new EmptykeyItem());
 	public static final RegistryObject<Item> OVERWORLDESSENCE = REGISTRY.register("overworldessence", () -> new OverworldessenceItem());
+	public static final RegistryObject<Item> NEHTERESSENCE = REGISTRY.register("nehteressence", () -> new NehteressenceItem());
+	public static final RegistryObject<Item> ENDESSECE = REGISTRY.register("endessece", () -> new EndesseceItem());
+	public static final RegistryObject<Item> FLATESSENCE = REGISTRY.register("flatessence", () -> new FlatessenceItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

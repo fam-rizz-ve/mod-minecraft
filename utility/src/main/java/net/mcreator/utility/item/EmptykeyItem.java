@@ -12,7 +12,7 @@ import java.util.List;
 
 public class EmptykeyItem extends Item {
 	public EmptykeyItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.UNCOMMON));
+		super(new Item.Properties().stacksTo(1).rarity(Rarity.UNCOMMON));
 	}
 
 	@Override

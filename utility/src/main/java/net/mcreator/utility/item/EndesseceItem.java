@@ -10,14 +10,14 @@ import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
-public class LiminalyKeyItem extends Item {
-	public LiminalyKeyItem() {
-		super(new Item.Properties().stacksTo(1).fireResistant().rarity(Rarity.RARE));
+public class EndesseceItem extends Item {
+	public EndesseceItem() {
+		super(new Item.Properties().stacksTo(16).rarity(Rarity.EPIC));
 	}
 
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component.translatable("item.utility.liminaly_key.description_0"));
+		list.add(Component.translatable("item.utility.endessece.description_0"));
 	}
 }

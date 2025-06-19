@@ -421,28 +421,15 @@
       "registry_name": "essenctiondistilizer",
       "metadata": {
         "files": [
-          "src/main/resources/data/utility/loot_tables/blocks/essenctiondistilizer.json",
+          "src/main/resources/assets/utility/models/block/essenctiondistilizer.json",
           "src/main/java/net/mcreator/utility/block/entity/EssenctiondistilizerBlockEntity.java",
           "src/main/java/net/mcreator/utility/block/EssenctiondistilizerBlock.java",
           "src/main/resources/assets/utility/blockstates/essenctiondistilizer.json",
           "src/main/resources/assets/utility/models/item/essenctiondistilizer.json",
-          "src/main/resources/assets/utility/models/block/essenctiondistilizer.json"
+          "src/main/resources/data/utility/loot_tables/blocks/essenctiondistilizer.json"
         ]
       },
       "path": "~/dimension/limbo/essenction distilizer"
-    },
-    {
-      "name": "Creeperessence",
-      "type": "enchantment",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "creeperessence",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/utility/enchantment/CreeperessenceEnchantment.java"
-        ]
-      },
-      "path": "~/enchantment/Power_essence_enchant"
     },
     {
       "name": "Poweressece",
@@ -509,41 +496,6 @@
         ]
       },
       "path": "~/acivment"
-    },
-    {
-      "name": "CreeeperessenceActivation",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "creeeperessence_activation",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/utility/procedures/CreeeperessenceActivationProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/enchantment/Power_essence_enchant"
     },
     {
       "name": "EssenctiondistilizerGUI",
@@ -727,6 +679,10 @@
           "src/main/java/net/mcreator/utility/procedures/EssenctiondistilizerGUIOgniTickMentreQuestaGUIEApertaProcedure.java"
         ],
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "x",
             "type": "number"
@@ -1022,7 +978,7 @@
       "item.utility.endkey": "end key",
       "enchantment.utility.lavaessence": "Lava essence",
       "enchantment.utility.stormessece": "Storm essece",
-      "advancements.overworldessenceprogress.title": "Overworld_essence",
+      "advancements.overworldessenceprogress.title": "Overworld essence",
       "advancements.the_key.title": "The Key",
       "item.utility.nightelmet_helmet.description_0": "The perfect helmet for how want a easy life",
       "advancements.a_powerfullshard.descr": "The powerfull scrap I ever see",
@@ -1036,13 +992,12 @@
       "advancements.theflatworldkey.descr": "A world of infinite possibilities, and now?",
       "item.utility.flatkey.description_0": "This is the key for a world of infinit posibilites.... and a lot of grass!!",
       "item.utility.nightelmet_helmet": "Tactical Helmet",
-      "advancements.theflatworldkey.title": "The flatworld key",
-      "enchantment.utility.furyessece": "Fury essece ",
       "item.utility.liminaly_key.description_0": "!!WORKING PROGRESS!! For now it dosen\u0027t do anything",
+      "enchantment.utility.furyessece": "Fury essece ",
+      "advancements.theflatworldkey.title": "The flatworld key",
       "biome.utility.void_biom": "Void Biom",
       "advancements.the_liminalykey.title": "The dimension walker",
       "enchantment.utility.ashessece": "Ash essece",
-      "enchantment.utility.creeperessence": "Creeper essence",
       "block.utility.essenctiondistilizer.description_0": "This is the Essenction distilizer it is able to channel the power from the other dimension and creat a power essence",
       "item.utility.limbo_key_part_1": "Limbo key shard",
       "advancements.a_powerfullshard.title": "A Powerfull Shard",

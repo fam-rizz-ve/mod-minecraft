@@ -3,18 +3,18 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "liminali_key_textur",
+    "texture": "end_essecne",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Liminali Key",
-    "rarity": "RARE",
+    "name": "End essece",
+    "rarity": "EPIC",
     "creativeTabs": [
       {
         "value": "CUSTOM:Utility"
       }
     ],
-    "stackSize": 1,
+    "stackSize": 16,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -23,14 +23,14 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": true,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "!!WORKING PROGRESS!! For now it dosen't do anything"
+        "A glowing relic of spatial energy, humming with the pull of the void — vital to unlock the path to the End."
       ]
     },
     "glowCondition": {

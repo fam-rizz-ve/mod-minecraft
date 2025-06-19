@@ -12,7 +12,7 @@ import java.util.List;
 
 public class OverworldessenceItem extends Item {
 	public OverworldessenceItem() {
-		super(new Item.Properties().stacksTo(1).fireResistant().rarity(Rarity.EPIC));
+		super(new Item.Properties().stacksTo(16).fireResistant().rarity(Rarity.EPIC));
 	}
 
 	@Override
