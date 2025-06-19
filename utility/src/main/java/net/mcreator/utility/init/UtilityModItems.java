@@ -22,6 +22,7 @@ import net.mcreator.utility.item.LiminalyKeyItem;
 import net.mcreator.utility.item.LimbokeyItem;
 import net.mcreator.utility.item.LimboKeyPart1Item;
 import net.mcreator.utility.item.FlatkeyItem;
+import net.mcreator.utility.item.FlatessenceItem;
 import net.mcreator.utility.item.EndkeyItem;
 import net.mcreator.utility.item.EndesseceItem;
 import net.mcreator.utility.item.EmptykeyItem;
