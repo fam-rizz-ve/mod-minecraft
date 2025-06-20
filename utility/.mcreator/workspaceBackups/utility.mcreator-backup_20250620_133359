@@ -8,11 +8,11 @@
       "registry_name": "nightelmet",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/utility/item/NightelmetItem.java",
+          "src/main/resources/assets/utility/models/item/nightelmet_boots.json",
           "src/main/resources/assets/utility/models/item/nightelmet_helmet.json",
-          "src/main/resources/assets/utility/models/item/nightelmet_chestplate.json",
           "src/main/resources/assets/utility/models/item/nightelmet_leggings.json",
-          "src/main/resources/assets/utility/models/item/nightelmet_boots.json"
+          "src/main/java/net/mcreator/utility/item/NightelmetItem.java",
+          "src/main/resources/assets/utility/models/item/nightelmet_chestplate.json"
         ]
       },
       "path": "~/Tactical_Suit"
@@ -834,6 +834,113 @@
         ]
       },
       "path": "~/acivment"
+    },
+    {
+      "name": "Nehteressence",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nehteressence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/item/NehteressenceItem.java",
+          "src/main/resources/assets/utility/models/item/nehteressence.json"
+        ]
+      },
+      "path": "~/enchantment/Power_essence"
+    },
+    {
+      "name": "Endessece",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endessece",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/item/EndesseceItem.java",
+          "src/main/resources/assets/utility/models/item/endessece.json"
+        ]
+      },
+      "path": "~/enchantment/Power_essence"
+    },
+    {
+      "name": "Flatessence",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flatessence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/utility/item/FlatessenceItem.java",
+          "src/main/resources/assets/utility/models/item/flatessence.json"
+        ]
+      },
+      "path": "~/enchantment/Power_essence"
+    },
+    {
+      "name": "Flatkeyrecipes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flatkeyrecipes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/recipes/flat_key_recipes.json"
+        ]
+      },
+      "path": "~/key/item"
+    },
+    {
+      "name": "Overworldkeyrecipes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overworldkeyrecipes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/recipes/overworld_key_recipes.json"
+        ]
+      },
+      "path": "~/key/item"
+    },
+    {
+      "name": "Netherkeyrecipes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherkeyrecipes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/recipes/nether_key_recipes.json"
+        ]
+      },
+      "path": "~/key/item"
+    },
+    {
+      "name": "Endkeyrecipes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endkeyrecipes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/recipes/end_key_recipes.json"
+        ]
+      },
+      "path": "~/key/item"
+    },
+    {
+      "name": "Flatessenceprogress",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flatessenceprogress",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/advancements/flatessenceprogress.json"
+        ]
+      },
+      "path": "~/acivment"
     }
   ],
   "variable_elements": [
@@ -987,15 +1094,20 @@
       "advancements.thelimbo.descr": "The Master of Key is waiting you.......",
       "item.utility.netherkey": "nether key",
       "enchantment.utility.windessece": "Wind essece",
+      "item.utility.endessece.description_0": "A glowing relic of spatial energy, humming with the pull of the void — vital to unlock the path to the End.",
       "item.utility.endkey.description_0": "A endless word called the End.... what? it is called end but is endless?",
+      "item.utility.nehteressence.description_0": "A blazing, arcane core pulsing with infernal energy — essential for forging the Nether Key.",
       "item.utility.limbokey.description_0": "When you grip it, you feel the weight of a thousand whispers that do not belong to this world. Use it only if you have the courage to face the eternal void… for those who enter the Limbo rarely find their way back.",
       "advancements.theflatworldkey.descr": "A world of infinite possibilities, and now?",
       "item.utility.flatkey.description_0": "This is the key for a world of infinit posibilites.... and a lot of grass!!",
       "item.utility.nightelmet_helmet": "Tactical Helmet",
-      "item.utility.liminaly_key.description_0": "!!WORKING PROGRESS!! For now it dosen\u0027t do anything",
-      "enchantment.utility.furyessece": "Fury essece ",
       "advancements.theflatworldkey.title": "The flatworld key",
+      "enchantment.utility.furyessece": "Fury essece ",
+      "item.utility.liminaly_key.description_0": "!!WORKING PROGRESS!! For now it dosen\u0027t do anything",
+      "item.utility.flatessence": "Flat essence",
+      "advancements.flatessenceprogress.title": "The Flat essence",
       "biome.utility.void_biom": "Void Biom",
+      "advancements.flatessenceprogress.descr": "A strange essence, only a piece of another one... ",
       "advancements.the_liminalykey.title": "The dimension walker",
       "enchantment.utility.ashessece": "Ash essece",
       "block.utility.essenctiondistilizer.description_0": "This is the Essenction distilizer it is able to channel the power from the other dimension and creat a power essence",
@@ -1012,11 +1124,13 @@
       "item.utility.nightelmet_chestplate": "Tactical Chestplate",
       "enchantment.utility.iceessence": "Ice essence",
       "advancements.tacticalsuit.title": "The begin of confort",
+      "item.utility.flatessence.description_0": "A fragmented core of raw geometry and stability — crucial for shaping the path to the Flatlands Dimension.",
       "advancements.poweressece.descr": "I..I.. can fell the power!!",
       "advancements.the_endkey.descr": "The end of your journery.... So easy?",
       "advancements.over_worldkey.title": "Overworld key",
       "item.utility.netherkey.description_0": "The key for the hell, the key for fire and lava, the key for a forgot world called the Nether",
       "item.utility.overwordkey.description_0": "The key to return back home after a long day",
+      "item.utility.endessece": "End essece",
       "item.utility.nightelmet_chestplate.description_0": "The perfect chestplate for how want a easy life",
       "advancements.thenetherkey.descr": "What a hell, is this a key for Hell?",
       "item.utility.nightelmet_leggings": "Tactical Leggings",
@@ -1035,6 +1149,7 @@
       "item.utility.power_essence": "Power Essence",
       "advancements.poweressece.title": "Power Essence",
       "item.utility.emptykey.description_0": "this is only the shell, it is only a empty key, it dosen\u0027t do anyting? Or.....",
+      "item.utility.nehteressence": "Nehter essence",
       "advancements.thenetherkey.title": "The nether key",
       "advancements.the_endkey.title": "The End key",
       "item.utility.emptykey": "Empty key",

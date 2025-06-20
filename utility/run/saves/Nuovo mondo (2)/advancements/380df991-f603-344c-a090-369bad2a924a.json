@@ -333,6 +333,7 @@
       "minecraft:skeleton": "2025-06-15 18:12:30 +0200",
       "minecraft:spider": "2025-06-15 18:12:18 +0200",
       "minecraft:zombified_piglin": "2025-06-14 18:57:55 +0200",
+      "minecraft:wither_skeleton": "2025-06-20 13:37:27 +0200",
       "minecraft:zombie": "2025-06-14 18:59:24 +0200"
     },
     "done": false
@@ -877,6 +878,24 @@
   "utility:overworldessenceprogress": {
     "criteria": {
       "overworldessenceprogress_0": "2025-06-17 13:49:38 +0200"
+    },
+    "done": true
+  },
+  "utility:endessenceprogress": {
+    "criteria": {
+      "endessenceprogress_0": "2025-06-20 13:37:55 +0200"
+    },
+    "done": true
+  },
+  "utility:flatessenceprogress": {
+    "criteria": {
+      "flatessenceprogress_0": "2025-06-20 13:37:56 +0200"
+    },
+    "done": true
+  },
+  "utility:netheressenceprogress": {
+    "criteria": {
+      "netheressenceprogress_0": "2025-06-20 13:37:53 +0200"
     },
     "done": true
   },

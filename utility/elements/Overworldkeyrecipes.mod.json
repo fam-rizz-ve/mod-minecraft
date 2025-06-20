@@ -1,0 +1,48 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.LAPIS_BLOCK"
+      },
+      {
+        "value": "CUSTOM:Overworldessence"
+      },
+      {
+        "value": "Blocks.LAPIS_BLOCK"
+      },
+      {
+        "value": "Blocks.LOG"
+      },
+      {
+        "value": "CUSTOM:Emptykey"
+      },
+      {
+        "value": "Blocks.LOG"
+      },
+      {
+        "value": "Blocks.EMERALD_BLOCK"
+      },
+      {
+        "value": "Blocks.AMETHYST_CLUSTER"
+      },
+      {
+        "value": "Blocks.EMERALD_BLOCK"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Overwordkey"
+    },
+    "name": "overworld_key_recipes",
+    "namespace": "mod"
+  }
+}

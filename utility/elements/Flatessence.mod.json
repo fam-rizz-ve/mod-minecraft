@@ -29,7 +29,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "A fragmented core of raw geometry and stability — crucial for shaping the path to the Flatlands Dimension."
+      ]
     },
     "glowCondition": {
       "fixedValue": false
