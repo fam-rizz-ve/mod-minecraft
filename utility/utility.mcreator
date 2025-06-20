@@ -744,58 +744,6 @@
       "path": "~/acivment"
     },
     {
-      "name": "Tacticalsuithelmet",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tacticalsuithelmet",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/utility/recipes/tactical_suit_helmet.json"
-        ]
-      },
-      "path": "~/Tactical_Suit"
-    },
-    {
-      "name": "Tacticalsuitcestplate",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tacticalsuitcestplate",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/utility/recipes/tactical_suit_chestplate.json"
-        ]
-      },
-      "path": "~/Tactical_Suit"
-    },
-    {
-      "name": "Tacticalsuitleggins",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tacticalsuitleggins",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/utility/recipes/tactical_suit_leggins.json"
-        ]
-      },
-      "path": "~/Tactical_Suit"
-    },
-    {
-      "name": "Tacticalsuitboots",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tacticalsuitboots",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/utility/recipes/tactical_suit_boots.json"
-        ]
-      },
-      "path": "~/Tactical_Suit"
-    },
-    {
       "name": "Tacticalsuit",
       "type": "achievement",
       "compiles": true,
