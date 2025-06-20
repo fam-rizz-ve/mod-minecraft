@@ -3,19 +3,19 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "chatgpt_image_8_mag_2025_17_10_55_1",
+    "textureHelmet": "chatgpt_image_20_giu_2025_21_51_52_1",
     "enableBody": true,
-    "textureBody": "tactical_suit_base_body",
+    "textureBody": "chatgpt_image_20_giu_2025_21_54_57_1",
     "enableLeggings": true,
-    "textureLeggings": "tactical_suit_base_leggings",
+    "textureLeggings": "chatgpt_image_20_giu_2025_22_04_35_1",
     "enableBoots": true,
-    "textureBoots": "tactical_suit_base_boots",
+    "textureBoots": "chatgpt_image_20_giu_2025_22_06_29_1",
     "creativeTabs": [
       {
         "value": "CUSTOM:Utility"
       }
     ],
-    "armorTextureFile": "tactical_suit_base",
+    "armorTextureFile": "tattical_suit",
     "helmetName": "Tactical Helmet",
     "bodyName": "Tactical Chestplate",
     "leggingsName": "Tactical Leggings",

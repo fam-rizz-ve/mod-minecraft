@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "utility:overwordkey"
+    },
+    "title": {
+      "translate": "advancements.over_worldkey.title"
+    },
+    "description": {
+      "translate": "advancements.over_worldkey.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "over_worldkey_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "utility:overwordkey"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "utility:thelimbo"
+}

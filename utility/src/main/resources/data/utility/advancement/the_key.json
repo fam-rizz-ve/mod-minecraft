@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "utility:limbokey"
+    },
+    "title": {
+      "translate": "advancements.the_key.title"
+    },
+    "description": {
+      "translate": "advancements.the_key.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_key_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "utility:limbokey"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "utility:a_powerfullshard"
+}

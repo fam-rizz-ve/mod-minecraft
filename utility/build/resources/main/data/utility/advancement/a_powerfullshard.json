@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "utility:limbo_key_part_1"
+    },
+    "title": {
+      "translate": "advancements.a_powerfullshard.title"
+    },
+    "description": {
+      "translate": "advancements.a_powerfullshard.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_powerfullshard_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "utility:liminaly_key"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "utility:the_liminalykey"
+}

@@ -1,0 +1,21 @@
+{
+  "description": {
+    "translate": "enchantment.utility.windessece"
+  },
+  "supported_items": "#minecraft:enchantable/armor",
+  "weight": 3,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 6,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 20,
+  "slots": [
+    "mainhand"
+  ],
+  "exclusive_set": "#utility:custom_enchantemnt"
+}

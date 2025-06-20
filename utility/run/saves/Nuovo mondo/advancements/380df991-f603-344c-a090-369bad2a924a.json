@@ -1,0 +1,51 @@
+{
+  "utility:over_worldkey": {
+    "criteria": {
+      "over_worldkey_0": "2025-06-20 23:10:59 +0200"
+    },
+    "done": true
+  },
+  "utility:theendkey": {
+    "criteria": {
+      "theendkey_0": "2025-06-20 23:11:12 +0200"
+    },
+    "done": true
+  },
+  "utility:the_netherkey": {
+    "criteria": {
+      "the_netherkey_0": "2025-06-20 23:11:25 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-06-20 23:10:47 +0200"
+    },
+    "done": true
+  },
+  "utility:the_overworldkey": {
+    "criteria": {
+      "the_overworldkey_0": "2025-06-20 23:10:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga": "2025-06-20 23:10:48 +0200"
+    },
+    "done": false
+  },
+  "utility:thenetherkey": {
+    "criteria": {
+      "thenetherkey_0": "2025-06-20 23:11:25 +0200"
+    },
+    "done": true
+  },
+  "utility:the_end_key": {
+    "criteria": {
+      "the_end_key_0": "2025-06-20 23:11:12 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

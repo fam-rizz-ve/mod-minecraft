@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "utility:flatessence"
+    },
+    "title": {
+      "translate": "advancements.flatessenceprogress.title"
+    },
+    "description": {
+      "translate": "advancements.flatessenceprogress.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "flatessenceprogress_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "utility:flatessence"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "utility:poweressece"
+}

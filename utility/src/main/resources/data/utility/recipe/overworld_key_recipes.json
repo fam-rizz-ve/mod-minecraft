@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "efe"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:lapis_block"
+    },
+    "b": {
+      "item": "utility:overworldessence"
+    },
+    "c": {
+      "tag": "minecraft:logs"
+    },
+    "d": {
+      "item": "utility:emptykey"
+    },
+    "e": {
+      "item": "minecraft:emerald_block"
+    },
+    "f": {
+      "item": "minecraft:amethyst_cluster"
+    }
+  },
+  "result": {
+    "id": "utility:overwordkey",
+    "count": 1
+  }
+}

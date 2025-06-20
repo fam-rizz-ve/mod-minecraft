@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "utility:power_essence"
+    },
+    "title": {
+      "translate": "advancements.poweressece.title"
+    },
+    "description": {
+      "translate": "advancements.poweressece.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "poweressece_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "utility:power_essence"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "utility:thelimbo"
+}

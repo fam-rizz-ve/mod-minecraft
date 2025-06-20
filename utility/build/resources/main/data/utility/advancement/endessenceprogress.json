@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "utility:endessece"
+    },
+    "title": {
+      "translate": "advancements.endessenceprogress.title"
+    },
+    "description": {
+      "translate": "advancements.endessenceprogress.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "endessenceprogress_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "utility:endessece"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "utility:netheressenceprogress"
+}

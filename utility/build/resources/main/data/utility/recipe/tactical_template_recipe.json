@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "efg"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:diamond"
+    },
+    "b": {
+      "item": "minecraft:vine"
+    },
+    "c": {
+      "item": "minecraft:redstone"
+    },
+    "d": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "e": {
+      "item": "minecraft:lime_dye"
+    },
+    "f": {
+      "tag": "minecraft:leaves"
+    },
+    "g": {
+      "item": "minecraft:green_dye"
+    }
+  },
+  "result": {
+    "id": "utility:tactical_template",
+    "count": 1
+  }
+}

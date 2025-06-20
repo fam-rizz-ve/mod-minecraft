@@ -2,7 +2,7 @@
   "_fv": 77,
   "_type": "achievement",
   "definition": {
-    "achievementName": "The End key",
+    "achievementName": "The End Key",
     "achievementDescription": "The end of your journery.... So easy?",
     "achievementIcon": {
       "value": "CUSTOM:Endkey"

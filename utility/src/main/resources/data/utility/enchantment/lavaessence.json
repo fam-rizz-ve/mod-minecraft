@@ -1,0 +1,21 @@
+{
+  "description": {
+    "translate": "enchantment.utility.lavaessence"
+  },
+  "supported_items": "#forge:sword",
+  "weight": 5,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 6,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 5,
+  "slots": [
+    "hand"
+  ],
+  "exclusive_set": "#utility:custom_enchantemnt"
+}

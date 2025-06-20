@@ -8,11 +8,11 @@
       "registry_name": "nightelmet",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/utility/item/NightelmetItem.java",
+          "src/main/resources/assets/utility/models/item/nightelmet_boots.json",
           "src/main/resources/assets/utility/models/item/nightelmet_helmet.json",
-          "src/main/resources/assets/utility/models/item/nightelmet_chestplate.json",
           "src/main/resources/assets/utility/models/item/nightelmet_leggings.json",
-          "src/main/resources/assets/utility/models/item/nightelmet_boots.json"
+          "src/main/java/net/mcreator/utility/item/NightelmetItem.java",
+          "src/main/resources/assets/utility/models/item/nightelmet_chestplate.json"
         ]
       },
       "path": "~/Tactical_Suit"
@@ -69,8 +69,8 @@
       "registry_name": "overwordkey",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/utility/item/OverwordkeyItem.java",
-          "src/main/resources/assets/utility/models/item/overwordkey.json"
+          "src/main/resources/assets/utility/models/item/overwordkey.json",
+          "src/main/java/net/mcreator/utility/item/OverwordkeyItem.java"
         ]
       },
       "path": "~/key/item"
@@ -102,8 +102,8 @@
       "registry_name": "netherkey",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/utility/item/NetherkeyItem.java",
-          "src/main/resources/assets/utility/models/item/netherkey.json"
+          "src/main/resources/assets/utility/models/item/netherkey.json",
+          "src/main/java/net/mcreator/utility/item/NetherkeyItem.java"
         ]
       },
       "path": "~/key/item"
@@ -316,8 +316,8 @@
       "registry_name": "power_essence",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/utility/item/PowerEssenceItem.java",
-          "src/main/resources/assets/utility/models/item/power_essence.json"
+          "src/main/resources/assets/utility/models/item/power_essence.json",
+          "src/main/java/net/mcreator/utility/item/PowerEssenceItem.java"
         ]
       },
       "path": "~/enchantment/Power_essence"
@@ -578,19 +578,6 @@
       "path": "~/acivment"
     },
     {
-      "name": "TheEndkey",
-      "type": "achievement",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "the_endkey",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/utility/advancements/the_endkey.json"
-        ]
-      },
-      "path": "~/acivment"
-    },
-    {
       "name": "Iceessence",
       "type": "enchantment",
       "compiles": true,
@@ -711,8 +698,8 @@
       "registry_name": "emptykey",
       "metadata": {
         "files": [
-          "src/main/resources/assets/utility/models/item/emptykey.json",
-          "src/main/java/net/mcreator/utility/item/EmptykeyItem.java"
+          "src/main/java/net/mcreator/utility/item/EmptykeyItem.java",
+          "src/main/resources/assets/utility/models/item/emptykey.json"
         ]
       },
       "path": "~/key/item"
@@ -819,8 +806,8 @@
       "registry_name": "flatessence",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/utility/item/FlatessenceItem.java",
-          "src/main/resources/assets/utility/models/item/flatessence.json"
+          "src/main/resources/assets/utility/models/item/flatessence.json",
+          "src/main/java/net/mcreator/utility/item/FlatessenceItem.java"
         ]
       },
       "path": "~/enchantment/Power_essence"
@@ -924,8 +911,8 @@
       "registry_name": "tactical_template",
       "metadata": {
         "files": [
-          "src/main/resources/assets/utility/models/item/tactical_template.json",
-          "src/main/java/net/mcreator/utility/item/TacticalTemplateItem.java"
+          "src/main/java/net/mcreator/utility/item/TacticalTemplateItem.java",
+          "src/main/resources/assets/utility/models/item/tactical_template.json"
         ]
       },
       "path": "~/Tactical_Suit"
@@ -994,6 +981,19 @@
         ]
       },
       "path": "~/Tactical_Suit"
+    },
+    {
+      "name": "TheEndKey",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_end_key",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/advancements/the_end_key.json"
+        ]
+      },
+      "path": "~/acivment"
     }
   ],
   "variable_elements": [
@@ -1163,6 +1163,7 @@
       "biome.utility.void_biom": "Void Biom",
       "advancements.flatessenceprogress.descr": "A strange essence, only a piece of another one... ",
       "advancements.the_liminalykey.title": "The dimension walker",
+      "advancements.the_end_key.title": "The End Key",
       "enchantment.utility.ashessece": "Ash essece",
       "block.utility.essenctiondistilizer.description_0": "This is the Essenction distilizer it is able to channel the power from the other dimension and creat a power essence",
       "advancements.netheressenceprogress.descr": "The essence of the hell.... What a f**k it\u0027s scalding",
@@ -1182,7 +1183,6 @@
       "advancements.tacticalsuit.title": "The begin of confort",
       "item.utility.flatessence.description_0": "A fragmented core of raw geometry and stability — crucial for shaping the path to the Flatlands Dimension.",
       "advancements.poweressece.descr": "I..I.. can fell the power!!",
-      "advancements.the_endkey.descr": "The end of your journery.... So easy?",
       "advancements.over_worldkey.title": "Overworld key",
       "item.utility.netherkey.description_0": "The key for the hell, the key for fire and lava, the key for a forgot world called the Nether",
       "item.utility.overwordkey.description_0": "The key to return back home after a long day",
@@ -1195,6 +1195,7 @@
       "enchantment.utility.sporetouch": "Spore essence",
       "item.utility.overworldessence.description_0": "The power in YOUR hand, but from a familliar place",
       "item.utility.nightelmet_boots": "Tactical Boots",
+      "advancements.the_end_key.descr": "The end of your journery.... So easy?",
       "item_group.utility.utility": "Utility",
       "item.utility.nightelmet_boots.description_0": "The perfect boots for how want a easy life - use H to active it",
       "advancements.netheressenceprogress.title": "The Nether essence",
@@ -1209,7 +1210,6 @@
       "item.utility.emptykey.description_0": "this is only the shell, it is only a empty key, it dosen\u0027t do anyting? Or.....",
       "item.utility.nehteressence": "Nehter essence",
       "advancements.thenetherkey.title": "The nether key",
-      "advancements.the_endkey.title": "The End key",
       "item.utility.emptykey": "Empty key",
       "advancements.tacticalsuit.descr": "With great power comes great comfort",
       "advancements.the_empyt_key.title": "The Empty Key",
@@ -1291,10 +1291,10 @@
   "workspaceSettings": {
     "modid": "utility",
     "modName": "utility",
-    "version": "0.0.4",
-    "author": "Andrea, MCreator",
+    "version": "0.0.5",
+    "author": "Caos group, MCreator",
     "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
+    "license": "GNU General Public License version 3 (GPLv3)",
     "serverSideOnly": false,
     "modPicture": "chatgpt_image_8_mag_2025_17_10_55_1",
     "requiredMods": [],

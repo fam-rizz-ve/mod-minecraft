@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "utility:flatkey"
+    },
+    "title": {
+      "translate": "advancements.theflatworldkey.title"
+    },
+    "description": {
+      "translate": "advancements.theflatworldkey.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "theflatworldkey_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "utility:flatkey"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "utility:over_worldkey"
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:quartz_pillar"
+    },
+    "title": {
+      "translate": "advancements.thelimbo.title"
+    },
+    "description": {
+      "translate": "advancements.thelimbo.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "thelimbo_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "utility:limbo_dimension"
+      }
+    }
+  },
+  "parent": "utility:the_key"
+}
