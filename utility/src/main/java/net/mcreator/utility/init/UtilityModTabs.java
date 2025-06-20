@@ -36,5 +36,6 @@ public class UtilityModTabs {
 				tabData.accept(UtilityModItems.NEHTERESSENCE.get());
 				tabData.accept(UtilityModItems.ENDESSECE.get());
 				tabData.accept(UtilityModItems.FLATESSENCE.get());
+				tabData.accept(UtilityModItems.TACTICAL_TEMPLATE.get());
 			}).build());
 }

@@ -1,0 +1,28 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Items.NETHERITE_LEGGINGS"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Items.PHANTOM_MEMBRANE"
+    },
+    "smithingInputTemplateStack": {
+      "value": "CUSTOM:TacticalTemplate"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:Nightelmet.legs"
+    },
+    "name": "tactical_leggins_recipe",
+    "namespace": "mod"
+  }
+}

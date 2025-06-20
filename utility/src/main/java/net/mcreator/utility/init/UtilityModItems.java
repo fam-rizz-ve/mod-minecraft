@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.utility.item.TacticalTemplateItem;
 import net.mcreator.utility.item.PowerEssenceItem;
 import net.mcreator.utility.item.OverworldessenceItem;
 import net.mcreator.utility.item.OverwordkeyItem;
@@ -48,6 +49,7 @@ public class UtilityModItems {
 	public static final RegistryObject<Item> NEHTERESSENCE = REGISTRY.register("nehteressence", () -> new NehteressenceItem());
 	public static final RegistryObject<Item> ENDESSECE = REGISTRY.register("endessece", () -> new EndesseceItem());
 	public static final RegistryObject<Item> FLATESSENCE = REGISTRY.register("flatessence", () -> new FlatessenceItem());
+	public static final RegistryObject<Item> TACTICAL_TEMPLATE = REGISTRY.register("tactical_template", () -> new TacticalTemplateItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

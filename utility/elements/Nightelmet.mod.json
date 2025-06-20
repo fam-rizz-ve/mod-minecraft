@@ -22,22 +22,22 @@
     "bootsName": "Tactical Boots",
     "helmetSpecialInformation": {
       "fixedValue": [
-        "The perfect helmet for how want a easy life"
+        "The perfect helmet for how want a easy life - use H to active it"
       ]
     },
     "bodySpecialInformation": {
       "fixedValue": [
-        "The perfect chestplate for how want a easy life"
+        "The perfect chestplate for how want a easy life - use H to active it"
       ]
     },
     "leggingsSpecialInformation": {
       "fixedValue": [
-        "the perfect leggins for how want a easy life"
+        "the perfect leggins for how want a easy life - use H to active it"
       ]
     },
     "bootsSpecialInformation": {
       "fixedValue": [
-        "The perfect boots for how want a easy life"
+        "The perfect boots for how want a easy life - use H to active it"
       ]
     },
     "helmetModelName": "Default",

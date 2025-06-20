@@ -8,11 +8,11 @@
       "registry_name": "nightelmet",
       "metadata": {
         "files": [
-          "src/main/resources/assets/utility/models/item/nightelmet_boots.json",
-          "src/main/resources/assets/utility/models/item/nightelmet_helmet.json",
-          "src/main/resources/assets/utility/models/item/nightelmet_leggings.json",
           "src/main/java/net/mcreator/utility/item/NightelmetItem.java",
-          "src/main/resources/assets/utility/models/item/nightelmet_chestplate.json"
+          "src/main/resources/assets/utility/models/item/nightelmet_helmet.json",
+          "src/main/resources/assets/utility/models/item/nightelmet_chestplate.json",
+          "src/main/resources/assets/utility/models/item/nightelmet_leggings.json",
+          "src/main/resources/assets/utility/models/item/nightelmet_boots.json"
         ]
       },
       "path": "~/Tactical_Suit"
@@ -915,6 +915,85 @@
         ]
       },
       "path": "~/acivment"
+    },
+    {
+      "name": "TacticalTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tactical_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/utility/models/item/tactical_template.json",
+          "src/main/java/net/mcreator/utility/item/TacticalTemplateItem.java"
+        ]
+      },
+      "path": "~/Tactical_Suit"
+    },
+    {
+      "name": "Tacticaltemplaterecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tacticaltemplaterecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/recipes/tactical_template_recipe.json"
+        ]
+      },
+      "path": "~/Tactical_Suit"
+    },
+    {
+      "name": "Tacticalhelmetrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tacticalhelmetrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/recipes/tactical_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Tactical_Suit"
+    },
+    {
+      "name": "Tacticalchestplaterecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tacticalchestplaterecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/recipes/tactical_chestpla_terecipe.json"
+        ]
+      },
+      "path": "~/Tactical_Suit"
+    },
+    {
+      "name": "Tacticallegginsrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tacticallegginsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/recipes/tactical_leggins_recipe.json"
+        ]
+      },
+      "path": "~/Tactical_Suit"
+    },
+    {
+      "name": "Tacticalbootsrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tacticalbootsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/utility/recipes/tactical_boots_recipe.json"
+        ]
+      },
+      "path": "~/Tactical_Suit"
     }
   ],
   "variable_elements": [
@@ -1061,10 +1140,11 @@
       "enchantment.utility.stormessece": "Storm essece",
       "advancements.overworldessenceprogress.title": "The Overworld essence",
       "advancements.the_key.title": "The Key",
-      "item.utility.nightelmet_helmet.description_0": "The perfect helmet for how want a easy life",
+      "item.utility.nightelmet_helmet.description_0": "The perfect helmet for how want a easy life - use H to active it",
       "advancements.a_powerfullshard.descr": "The powerfull scrap I ever see",
       "advancements.the_key.descr": "A unknow key for a unknow dimension",
       "advancements.thelimbo.title": "The limbo",
+      "item.utility.tactical_template": "Tactical Template",
       "advancements.thelimbo.descr": "The Master of Key is waiting you.......",
       "item.utility.netherkey": "nether key",
       "enchantment.utility.windessece": "Wind essece",
@@ -1093,7 +1173,7 @@
       "item.utility.power_essence.description_0": "You can fell the power, You can fell the power!, You can fell the power!!, You can fell the power!!!,",
       "advancements.the_empyt_key.descr": "Only the shell of a incredible power....",
       "block.utility.essenctiondistilizer": "Essenction distilizer",
-      "item.utility.nightelmet_leggings.description_0": "the perfect leggins for how want a easy life",
+      "item.utility.nightelmet_leggings.description_0": "the perfect leggins for how want a easy life - use H to active it",
       "biome.utility.flat_biom": "Flat_biom",
       "key.utility.attivadisattivanighthelmet": "enable/disabilite night vision",
       "item.utility.liminaly_key": "Liminali Key",
@@ -1107,7 +1187,7 @@
       "item.utility.netherkey.description_0": "The key for the hell, the key for fire and lava, the key for a forgot world called the Nether",
       "item.utility.overwordkey.description_0": "The key to return back home after a long day",
       "item.utility.endessece": "End essece",
-      "item.utility.nightelmet_chestplate.description_0": "The perfect chestplate for how want a easy life",
+      "item.utility.nightelmet_chestplate.description_0": "The perfect chestplate for how want a easy life - use H to active it",
       "advancements.thenetherkey.descr": "What a hell, is this a key for Hell?",
       "item.utility.nightelmet_leggings": "Tactical Leggings",
       "advancements.over_worldkey.descr": "A way to come back home",
@@ -1116,9 +1196,10 @@
       "item.utility.overworldessence.description_0": "The power in YOUR hand, but from a familliar place",
       "item.utility.nightelmet_boots": "Tactical Boots",
       "item_group.utility.utility": "Utility",
-      "item.utility.nightelmet_boots.description_0": "The perfect boots for how want a easy life",
+      "item.utility.nightelmet_boots.description_0": "The perfect boots for how want a easy life - use H to active it",
       "advancements.netheressenceprogress.title": "The Nether essence",
       "item.utility.overworldessence": "Overworld essence",
+      "item.utility.tactical_template.description_0": "A precision-forged schematic infused with advanced strategy — essential for crafting the Tactical Suit.",
       "item.utility.limbo_key_part_1.description_0": "A shard of a key, a shard to create the access to a distant dimension",
       "advancements.overworldessenceprogress.descr": "THE POWER OF THE OVERWORLD!!",
       "advancements.the_liminalykey.descr": "A key for what? Another dimension?",
