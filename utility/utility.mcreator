@@ -8,11 +8,11 @@
       "registry_name": "nightelmet",
       "metadata": {
         "files": [
-          "src/main/resources/assets/utility/models/item/nightelmet_boots.json",
-          "src/main/resources/assets/utility/models/item/nightelmet_helmet.json",
-          "src/main/resources/assets/utility/models/item/nightelmet_leggings.json",
           "src/main/java/net/mcreator/utility/item/NightelmetItem.java",
-          "src/main/resources/assets/utility/models/item/nightelmet_chestplate.json"
+          "src/main/resources/assets/utility/models/item/nightelmet_helmet.json",
+          "src/main/resources/assets/utility/models/item/nightelmet_chestplate.json",
+          "src/main/resources/assets/utility/models/item/nightelmet_leggings.json",
+          "src/main/resources/assets/utility/models/item/nightelmet_boots.json"
         ]
       },
       "path": "~/Tactical_Suit"
@@ -526,19 +526,6 @@
       "path": "~/key/item"
     },
     {
-      "name": "TheLiminalykey",
-      "type": "achievement",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "the_liminalykey",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/utility/advancements/the_liminalykey.json"
-        ]
-      },
-      "path": "~/acivment"
-    },
-    {
       "name": "OverWorldkey",
       "type": "achievement",
       "compiles": true,
@@ -911,8 +898,8 @@
       "registry_name": "tactical_template",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/utility/item/TacticalTemplateItem.java",
-          "src/main/resources/assets/utility/models/item/tactical_template.json"
+          "src/main/resources/assets/utility/models/item/tactical_template.json",
+          "src/main/java/net/mcreator/utility/item/TacticalTemplateItem.java"
         ]
       },
       "path": "~/Tactical_Suit"
@@ -1151,7 +1138,7 @@
       "item.utility.endessece.description_0": "A glowing relic of spatial energy, humming with the pull of the void — vital to unlock the path to the End.",
       "item.utility.endkey.description_0": "A endless word called the End.... what? it is called end but is endless?",
       "item.utility.nehteressence.description_0": "A blazing, arcane core pulsing with infernal energy — essential for forging the Nether Key.",
-      "item.utility.limbokey.description_0": "When you grip it, you feel the weight of a thousand whispers that do not belong to this world. Use it only if you have the courage to face the eternal void… for those who enter the Limbo rarely find their way back.",
+      "item.utility.limbokey.description_0": "When you grip it, you feel the weight of a thousand whispers that do not belong to this world. Use it only if you have the courage to face the eternal void…",
       "advancements.theflatworldkey.descr": "A world of infinite possibilities, and now?",
       "item.utility.flatkey.description_0": "This is the key for a world of infinit posibilites.... and a lot of grass!!",
       "item.utility.nightelmet_helmet": "Tactical Helmet",
@@ -1162,7 +1149,6 @@
       "advancements.flatessenceprogress.title": "The Flat essence",
       "biome.utility.void_biom": "Void Biom",
       "advancements.flatessenceprogress.descr": "A strange essence, only a piece of another one... ",
-      "advancements.the_liminalykey.title": "The dimension walker",
       "advancements.the_end_key.title": "The End Key",
       "enchantment.utility.ashessece": "Ash essece",
       "block.utility.essenctiondistilizer.description_0": "This is the Essenction distilizer it is able to channel the power from the other dimension and creat a power essence",
@@ -1203,7 +1189,6 @@
       "item.utility.tactical_template.description_0": "A precision-forged schematic infused with advanced strategy — essential for crafting the Tactical Suit.",
       "item.utility.limbo_key_part_1.description_0": "A shard of a key, a shard to create the access to a distant dimension",
       "advancements.overworldessenceprogress.descr": "THE POWER OF THE OVERWORLD!!",
-      "advancements.the_liminalykey.descr": "A key for what? Another dimension?",
       "item.utility.flatkey": "Flat key",
       "item.utility.power_essence": "Power Essence",
       "advancements.poweressece.title": "Power Essence",

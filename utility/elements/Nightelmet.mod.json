@@ -101,8 +101,12 @@
     "toughness": 3.0,
     "knockbackResistance": 0.1,
     "equipSound": {
-      "value": ""
+      "value": "item.armor.equip_generic"
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "Items.PHANTOM_MEMBRANE"
+      }
+    ]
   }
 }
